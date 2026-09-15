@@ -460,6 +460,7 @@
 "Assets/Script/PlayerHealth.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PlayerShoot.cs"
+"Assets/Script/UIMamager.cs"
 "Assets/Script/WaveManager.cs"
 "Assets/Script/ZombieAI.cs"
 "Assets/Script/ZombieHealth.cs"

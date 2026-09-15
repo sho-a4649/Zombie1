@@ -4,12 +4,13 @@ public class ZombieHealth : MonoBehaviour
 {
     public float health = 100f;
 
+    [HideInInspector]
     public WaveManager waveManager;
 
-    private void Start()
+    /*private void Start()
     {
         waveManager = FindFirstObjectByType<WaveManager>();
-    }
+    }*/
 
     public void TakeDamage(float damage)
     {
@@ -17,9 +18,19 @@ public class ZombieHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            waveManager.ZombieKilled();
+            //waveManager.ZombieKilled();
 
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    void Die()
+    {
+        if (waveManager != null)
+        {
+            waveManager.zombiesAlive--;
+        }
+
+        Destroy(gameObject); // ƒ]ƒ“ƒríœ
     }
 }

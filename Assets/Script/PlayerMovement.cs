@@ -4,16 +4,16 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Move")]
-    public float moveSpeed = 5f;
-    public float sprintSpeed = 8f;
+    public float moveSpeed = 5f; // 通常速度
+    public float sprintSpeed = 8f; // ダッシュ速度
 
     [Header("Jump")]
-    public float jumpHeight = 2f;
-    public float gravity = -20f;
+    public float jumpHeight = 2f; // ジャンプの高さ
+    public float gravity = -20f; // 重力
 
     [Header("Ground Check")]
     public Transform groundCheck;
-    public float groundDistance = 0.2f;
+    public float groundDistance = 0.2f; // 接地当たり判定
     public LayerMask groundMask;
 
     private CharacterController controller;

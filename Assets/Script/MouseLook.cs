@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    public float Sensitivity = 200f;
+    public float Sensitivity = 200f; // マウス感度
 
     float xRotation = 0f;
 
@@ -20,7 +20,7 @@ public class MouseLook : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * Sensitivity * Time.deltaTime;
 
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -80, 80f);
+        xRotation = Mathf.Clamp(xRotation, -70, 70f);　// 上下の角度制限
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
