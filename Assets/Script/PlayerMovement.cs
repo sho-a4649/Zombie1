@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.2f; // ê⁄ínìñÇΩÇËîªíË
     public LayerMask groundMask;
 
+    public CrosshairController crosshair;
+
     private CharacterController controller;
     private Vector3 velocity;
     bool isGrounded;
@@ -36,6 +38,19 @@ public class PlayerMovement : MonoBehaviour
     void GroundCheck()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        float targetJumpSpread = !isGrounded ? 30f : 0f;
+
+        crosshair.jumpSpread = Mathf.MoveTowards(crosshair.jumpSpread, targetJumpSpread, 40f * Time.deltaTime);
+
+        /*if (!isGrounded)
+        {
+            crosshair.jumpSpread = 30f;
+        }
+        else
+        {
+            crosshair.jumpSpread = 0f;
+        }*/
     }
 
     private void Move()

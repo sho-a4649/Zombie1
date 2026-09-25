@@ -5,10 +5,11 @@ public class UIMamager : MonoBehaviour
 {
     public TextMeshProUGUI hpText;
     public TextMeshProUGUI waveText;
-    public TextMeshProUGUI enemyText;
+    public TextMeshProUGUI moneyText;
 
     public PlayerHealth playerHealth;
     public WaveManager waveManager;
+    public PlayerMoney playerMoney;
 
     private void Update()
     {
@@ -16,6 +17,6 @@ public class UIMamager : MonoBehaviour
 
         waveText.text = "Wave : " + waveManager.CurrentPhase;
 
-        enemyText.text = "Enemy : " + waveManager.ZombiesAlive;
+        moneyText.text = "$ " + playerMoney.money;
     }
 }

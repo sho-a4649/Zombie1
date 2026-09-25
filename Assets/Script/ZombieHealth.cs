@@ -4,6 +4,8 @@ public class ZombieHealth : MonoBehaviour
 {
     public float health = 100f;
 
+    public int reward = 50;
+
     [HideInInspector]
     public WaveManager waveManager;
 
@@ -19,6 +21,13 @@ public class ZombieHealth : MonoBehaviour
         if (health <= 0)
         {
             //waveManager.ZombieKilled();
+
+            PlayerMoney money = FindFirstObjectByType<PlayerMoney>();
+
+            if (money != null)
+            {
+                money.AddMoney(reward);
+            }
 
             Die();
         }

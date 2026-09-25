@@ -64,10 +64,12 @@
     <Compile Include="Assets\Script\ZombieHealth.cs" />
     <Compile Include="Assets\Script\UIMamager.cs" />
     <Compile Include="Assets\Script\MouseLook.cs" />
+    <Compile Include="Assets\Script\PlayerMoney.cs" />
     <Compile Include="Assets\Script\PlayerShoot.cs" />
     <Compile Include="Assets\Script\WaveManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\ZombieAI.cs" />
+    <Compile Include="Assets\Script\CrosshairController.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
   </ItemGroup>
