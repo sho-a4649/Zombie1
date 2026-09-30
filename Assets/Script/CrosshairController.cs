@@ -7,12 +7,23 @@ public class CrosshairController : MonoBehaviour
     public RectTransform left;
     public RectTransform right;
 
-    public float baseSpread = 30f;
+    public bool isAiming;
+
+    public float normalSpread = 30f;
+    public float aimSpread = 5f;
+
+    //public float baseSpread = 30f;
 
     public float shootSpread;
     public float jumpSpread;
+    public float currentSpread;
 
     public float shootRecoverSpeed = 25f;
+
+    private void Start()
+    {
+        currentSpread = normalSpread;
+    }
 
     void Update()
     {
@@ -22,8 +33,14 @@ public class CrosshairController : MonoBehaviour
             shootRecoverSpeed * Time.deltaTime
         );
 
+        float targetSpread = isAiming ? aimSpread : normalSpread;
+
+        float spreadSpeed = isAiming ? 100f : 30f;
+
+        currentSpread = Mathf.MoveTowards(currentSpread, targetSpread, spreadSpeed * Time.deltaTime);
+
         float totalSpread =
-            baseSpread +
+            currentSpread +
             shootSpread +
             jumpSpread;
 
@@ -49,5 +66,21 @@ public class CrosshairController : MonoBehaviour
             0,
             70f
         );
+    }
+
+    public float CurrentSpread
+    {
+        get
+        {
+            return normalSpread + shootSpread + jumpSpread;
+        }
+    }
+
+    public float MaxPossibleSpread
+    {
+        get
+        {
+            return normalSpread + 25f + 15f;
+        }
     }
 }

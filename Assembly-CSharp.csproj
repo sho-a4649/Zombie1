@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\ZombieHealth.cs" />
     <Compile Include="Assets\Script\UIMamager.cs" />
     <Compile Include="Assets\Script\MouseLook.cs" />
+    <Compile Include="Assets\Script\TPSCamera.cs" />
     <Compile Include="Assets\Script\PlayerMoney.cs" />
     <Compile Include="Assets\Script\PlayerShoot.cs" />
     <Compile Include="Assets\Script\WaveManager.cs" />

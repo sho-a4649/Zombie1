@@ -462,6 +462,7 @@
 "Assets/Script/PlayerMoney.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PlayerShoot.cs"
+"Assets/Script/TPSCamera.cs"
 "Assets/Script/UIMamager.cs"
 "Assets/Script/WaveManager.cs"
 "Assets/Script/ZombieAI.cs"
