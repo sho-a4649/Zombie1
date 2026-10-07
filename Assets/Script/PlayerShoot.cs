@@ -18,6 +18,8 @@ public class PlayerShoot : MonoBehaviour
     public float fireRate = 0.1f; // 連射速度(1=1秒1発, 0.1=1秒10発)
     public float maxSpreadAngle = 5f; // 精度
 
+    //public Animator animator;
+
     public LineRenderer bulletTracer; // 弾道
     public ParticleSystem muzzleFlash; // マズルフラッシュ
     public TextMeshProUGUI ammoText; // 残弾数UI
@@ -36,9 +38,10 @@ public class PlayerShoot : MonoBehaviour
         if (isReloading)
             return;
 
-        crosshair.isAiming = Input.GetMouseButton(1);
+        bool isAiming = Input.GetMouseButton(1);
 
-        if (isReloading) return;
+        crosshair.isAiming = isAiming;
+        //animator.SetBool("IsAiming", isAiming);
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -71,9 +74,14 @@ public class PlayerShoot : MonoBehaviour
     void Shoot()
     {
         muzzleFlash.Play();
-        Debug.Log("muzzleflash.Play");
 
-        Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
+        //Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
+
+        float randomX = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
+
+        float randomY = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
+
+        Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2 + randomX, Screen.height / 2 + randomY));
 
         Vector3 targetPoint;
 
@@ -88,19 +96,19 @@ public class PlayerShoot : MonoBehaviour
 
         Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
 
-        float spreadPercent = crosshair.currentSpread / crosshair.MaxPossibleSpread;
+        /*float spreadPercent = crosshair.currentSpread / crosshair.MaxPossibleSpread;
 
         float currentSpreadAngle = spreadPercent * maxSpreadAngle;
 
         shootDirection = Quaternion.Euler(Random.Range(-currentSpreadAngle, currentSpreadAngle),
-            Random.Range(-currentSpreadAngle, currentSpreadAngle), 0) * shootDirection;
+            Random.Range(-currentSpreadAngle, currentSpreadAngle), 0) * shootDirection;*/
 
-        Vector3 hitPoint;
+        //Vector3 hitPoint;
         Vector3 tracerEndPoint;
 
         if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, 100f))
         {
-            hitPoint = hit.point;
+            //hitPoint = hit.point;
             tracerEndPoint = hit.point;
 
             ZombieHealth zombie = hit.collider.GetComponent<ZombieHealth>();
@@ -112,11 +120,11 @@ public class PlayerShoot : MonoBehaviour
         }
         else
         {
-            hitPoint = firePoint.position + shootDirection * 100f;
+            //hitPoint = firePoint.position + shootDirection * 100f;
             tracerEndPoint = firePoint.position + shootDirection * 100f;
         }
 
-        StartCoroutine(ShowTracer(firePoint.position, hitPoint));
+        //StartCoroutine(ShowTracer(firePoint.position, hitPoint));
         StartCoroutine(ShowTracer(firePoint.position, tracerEndPoint));
 
         Debug.DrawRay(firePoint.position, shootDirection * 100f, Color.red, 1f);
@@ -138,14 +146,12 @@ public class PlayerShoot : MonoBehaviour
     {
         LineRenderer tracer = Instantiate(bulletTracer);
 
-        tracer.enabled = true;
-
         tracer.SetPosition(0, start);
         tracer.SetPosition(1, end);
 
         yield return new WaitForSeconds(0.05f);
 
-        tracer.enabled = false;
+        Destroy(tracer.gameObject);
     }
 
     IEnumerator Reload()

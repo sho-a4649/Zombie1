@@ -39,10 +39,7 @@ public class CrosshairController : MonoBehaviour
 
         currentSpread = Mathf.MoveTowards(currentSpread, targetSpread, spreadSpeed * Time.deltaTime);
 
-        float totalSpread =
-            currentSpread +
-            shootSpread +
-            jumpSpread;
+        float totalSpread = VisualSpread;
 
         top.anchoredPosition =
             new Vector2(0, totalSpread);
@@ -68,19 +65,24 @@ public class CrosshairController : MonoBehaviour
         );
     }
 
-    public float CurrentSpread
+    public float VisualSpread
     {
         get
         {
-            return normalSpread + shootSpread + jumpSpread;
+            return currentSpread + shootSpread + jumpSpread;
         }
     }
 
-    public float MaxPossibleSpread
+    public float AccuracySpread
     {
         get
         {
-            return normalSpread + 25f + 15f;
+            float spread = shootSpread /** 0.5f*/ + jumpSpread;
+
+            if (isAiming)
+                spread *= 0.2f;
+
+            return spread;
         }
     }
 }

@@ -17,6 +17,8 @@ public class WaveManager : MonoBehaviour
 
     public int zombiesAlive = 0;
 
+    public GameObject clearpanel;
+
     public int CurrentPhase => currentPhase;
     public int ZombiesAlive => zombiesAlive;
 
@@ -63,6 +65,12 @@ public class WaveManager : MonoBehaviour
 
     void StartPhase()
     {
+        if (currentPhase >= 5)
+        {
+            GameClear();
+            return;
+        }
+
         currentPhase++; // 次のフェーズ
 
         int index = Mathf.Min(currentPhase - 1, phaseTimes.Length - 1);
@@ -165,6 +173,17 @@ public class WaveManager : MonoBehaviour
     public bool IsBreakTime() // フェーズ状態
     {
         return isBreakTime;
+    }
+
+    void GameClear()
+    {
+        clearpanel.SetActive(true);
+
+        Time.timeScale = 0f;
+
+        Cursor.lockState = CursorLockMode.None;
+
+        Cursor.visible = true;
     }
 
 }

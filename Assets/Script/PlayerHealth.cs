@@ -22,6 +22,13 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
+
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.None;
+
+            Cursor.visible = true;
+
+            FindFirstObjectByType<GameOverManager>().ShowGameOver();
             Debug.Log("Game Over");
         }
     }

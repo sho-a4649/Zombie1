@@ -457,6 +457,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/CrosshairController.cs"
+"Assets/Script/GameOverManager.cs"
 "Assets/Script/MouseLook.cs"
 "Assets/Script/PlayerHealth.cs"
 "Assets/Script/PlayerMoney.cs"
