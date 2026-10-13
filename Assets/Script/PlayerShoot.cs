@@ -6,17 +6,18 @@ public class PlayerShoot : MonoBehaviour
 {
     public Camera playerCamera;
     public CrosshairController crosshair;
+    public WeaponData currentWeapon;
 
-    public float range = 100f; // 射程距離
-    public float damage = 25f; // 与ダメージ量
+    //public float range = 100f; // 射程距離
+    //public float damage = 25f; // 与ダメージ量
     public Transform firePoint; // 銃口
 
-    public int maxAmmo = 30; // ワンマガ
+    //public int maxAmmo = 30; // ワンマガ
     public int currentAmmo;
 
-    public float reloadTime = 2f; // リロード時間
-    public float fireRate = 0.1f; // 連射速度(1=1秒1発, 0.1=1秒10発)
-    public float maxSpreadAngle = 5f; // 精度
+    //public float reloadTime = 2f; // リロード時間
+    //public float fireRate = 0.1f; // 連射速度(1=1秒1発, 0.1=1秒10発)
+    //public float maxSpreadAngle = 5f; // 精度
 
     //public Animator animator;
 
@@ -28,9 +29,13 @@ public class PlayerShoot : MonoBehaviour
 
     private bool isReloading;
 
+    private AudioSource audioSource;
+
     private void Start()
     {
-        currentAmmo = maxAmmo;
+        currentAmmo = currentWeapon.maxAmmo;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -51,11 +56,11 @@ public class PlayerShoot : MonoBehaviour
         if (Input.GetMouseButton(0) && Time.time >= nextFireTime && currentAmmo > 0)
         {
             //crosshair.ShootEffect();
-            crosshair.AddShootSpread(30f);
+            crosshair.AddShootSpread(currentWeapon.shootSpread);
             Shoot();
             currentAmmo--;
 
-            nextFireTime = Time.time + fireRate;
+            nextFireTime = Time.time + currentWeapon.fireRate;
 
             if (currentAmmo <= 0)
             {
@@ -68,12 +73,17 @@ public class PlayerShoot : MonoBehaviour
             }
         }
 
-        ammoText.text = currentAmmo + " / " + maxAmmo;
+        ammoText.text = currentAmmo + " / " + currentWeapon.maxAmmo;
     }
 
     void Shoot()
     {
         muzzleFlash.Play();
+
+        if (currentWeapon.shootSound != null)
+        {
+            audioSource.PlayOneShot(currentWeapon.shootSound);
+        }
         
         GameStats.Instance.shotsFired++;
 
@@ -87,13 +97,13 @@ public class PlayerShoot : MonoBehaviour
 
         Vector3 targetPoint;
 
-        if (Physics.Raycast(centerRay, out RaycastHit centerHit, 100f))
+        if (Physics.Raycast(centerRay, out RaycastHit centerHit, currentWeapon.range))
         {
             targetPoint = centerHit.point;
         }
         else
         {
-            targetPoint = centerRay.origin + centerRay.direction * 100f;
+            targetPoint = centerRay.origin + centerRay.direction * currentWeapon.range;
         }
 
         Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
@@ -108,7 +118,7 @@ public class PlayerShoot : MonoBehaviour
         //Vector3 hitPoint;
         Vector3 tracerEndPoint;
 
-        if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, 100f))
+        if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, currentWeapon.range))
         {
             //hitPoint = hit.point;
             tracerEndPoint = hit.point;
@@ -119,19 +129,19 @@ public class PlayerShoot : MonoBehaviour
             {
                 GameStats.Instance.shotsHit++;
 
-                zombie.TakeDamage(damage);
+                zombie.TakeDamage(currentWeapon.damage);
             }
         }
         else
         {
             //hitPoint = firePoint.position + shootDirection * 100f;
-            tracerEndPoint = firePoint.position + shootDirection * 100f;
+            tracerEndPoint = firePoint.position + shootDirection * currentWeapon.range;
         }
 
         //StartCoroutine(ShowTracer(firePoint.position, hitPoint));
         StartCoroutine(ShowTracer(firePoint.position, tracerEndPoint));
 
-        Debug.DrawRay(firePoint.position, shootDirection * 100f, Color.red, 1f);
+        Debug.DrawRay(firePoint.position, shootDirection * currentWeapon.range, Color.red, 1f);
 
         /*if (Physics.Raycast(ray, out RaycastHit hit, range))
         {
@@ -165,11 +175,11 @@ public class PlayerShoot : MonoBehaviour
 
         isReloading = true;
 
-        Debug.Log("Reloading...");
+        //Debug.Log("Reloading...");
 
-        yield return new WaitForSeconds(reloadTime);
+        yield return new WaitForSeconds(currentWeapon.reloadTime);
 
-        currentAmmo = maxAmmo;
+        currentAmmo = currentWeapon.maxAmmo;
 
         isReloading = false;
 
