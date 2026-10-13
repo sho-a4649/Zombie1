@@ -74,6 +74,8 @@ public class PlayerShoot : MonoBehaviour
     void Shoot()
     {
         muzzleFlash.Play();
+        
+        GameStats.Instance.shotsFired++;
 
         //Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
 
@@ -115,6 +117,8 @@ public class PlayerShoot : MonoBehaviour
 
             if (zombie != null)
             {
+                GameStats.Instance.shotsHit++;
+
                 zombie.TakeDamage(damage);
             }
         }

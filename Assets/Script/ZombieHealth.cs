@@ -22,6 +22,8 @@ public class ZombieHealth : MonoBehaviour
         {
             //waveManager.ZombieKilled();
 
+            GameStats.Instance.zombiesKilled++;
+
             PlayerMoney money = FindFirstObjectByType<PlayerMoney>();
 
             if (money != null)

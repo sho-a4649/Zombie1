@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
   m_PixelRect:
     serializedVersion: 2
-    x: 298
-    y: -704
+    x: 737
+    y: -689
     width: 1193
     height: 640
   m_ShowMode: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 388}
   m_MaxSize: {x: 10000, y: 10000}
@@ -403,8 +403,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 298
-    y: -704
+    x: 737
+    y: -689
     width: 1193
     height: 614
   m_SerializedDataModeController:
@@ -513,7 +513,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 0
+  m_LastSelectedObjectID: -21122
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -926,16 +926,24 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 46434
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 46434
       m_ExpandedIDs:
+      - m_Data: -7324
+      - m_Data: -1966
       - m_Data: -1296
+      - m_Data: 46098
       - m_Data: 46120
+      - m_Data: 46162
+      - m_Data: 46300
+      - m_Data: 46336
+      - m_Data: 46390
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: KillsText
+        m_OriginalName: KillsText
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -943,10 +951,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: -20962
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 12}
@@ -1496,9 +1504,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 960, y: 540, z: 0}
+    m_Target: {x: 1.6560135, y: 2.0346987, z: -6.738932}
     speed: 2
-    m_Value: {x: 960, y: 540, z: 0}
+    m_Value: {x: 1.6560135, y: 2.0346987, z: -6.738932}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1544,13 +1552,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.009292254, y: -0.008035392, z: 0.0012904555, w: 0.9995233}
+    m_Target: {x: -0.09311787, y: -0.037481092, z: 0.002132495, w: -0.99452895}
     speed: 2
-    m_Value: {x: 0.009295976, y: -0.00803861, z: 0.0012909723, w: 0.9999236}
+    m_Value: {x: -0.0916641, y: -0.03749984, z: 0.0020772284, w: -0.9950815}
   m_Size:
-    m_Target: 1101.4536
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 1101.4536
+    m_Value: 0.86603504
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1768,9 +1776,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 46434
+    m_LastClickedInstanceID: 46434
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 127264
     - m_Data: 195284
