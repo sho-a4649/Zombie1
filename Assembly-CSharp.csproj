@@ -63,17 +63,22 @@
   <ItemGroup>
     <Compile Include="Assets\Script\ZombieHealth.cs" />
     <Compile Include="Assets\Script\UIMamager.cs" />
+    <Compile Include="Assets\Script\AmmoType.cs" />
     <Compile Include="Assets\Script\MouseLook.cs" />
+    <Compile Include="Assets\Script\MoneyPickup.cs" />
     <Compile Include="Assets\Script\GameStats.cs" />
     <Compile Include="Assets\Script\TPSCamera.cs" />
     <Compile Include="Assets\Script\PlayerMoney.cs" />
     <Compile Include="Assets\Script\GameOverManager.cs" />
     <Compile Include="Assets\Script\PlayerShoot.cs" />
     <Compile Include="Assets\Script\TitleManager.cs" />
+    <Compile Include="Assets\Script\WeaponObject.cs" />
     <Compile Include="Assets\Script\WaveManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Script\AmmoPickup.cs" />
     <Compile Include="Assets\Script\WeaponManager.cs" />
     <Compile Include="Assets\Script\ZombieAI.cs" />
+    <Compile Include="Assets\Script\PlayerAmmo.cs" />
     <Compile Include="Assets\Script\CrosshairController.cs" />
     <Compile Include="Assets\Script\WeaponData.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />

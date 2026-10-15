@@ -185,4 +185,11 @@ public class PlayerShoot : MonoBehaviour
 
         ammoText.color = Color.white;
     }
+
+    public void SetWeapon(WeaponData weapon)
+    {
+        currentWeapon = weapon;
+
+        currentAmmo = weapon.maxAmmo;
+    }
 }

@@ -21,4 +21,5 @@ MonoBehaviour:
   hipSpread: 0
   shootSpread: 0
   range: 0
+  ammoType: 2
   shootSound: {fileID: 0}

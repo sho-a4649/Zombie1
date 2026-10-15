@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMoney : MonoBehaviour
 {
-    public int money = 0;
+    public int money;
 
     public void AddMoney(int amount)
     {

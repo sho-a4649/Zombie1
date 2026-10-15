@@ -4,7 +4,9 @@ public class WeaponManager : MonoBehaviour
 {
     public GameObject[] weapons;
 
-    int currentIndex;
+    public PlayerShoot playerShoot;
+
+    int currentWeapon;
 
     private void Start()
     {
@@ -42,6 +44,10 @@ public class WeaponManager : MonoBehaviour
             weapons[i].SetActive(i == index);
         }
 
-        currentIndex = index;
+        currentWeapon = index;
+
+        WeaponObject weapon = weapons[index].GetComponent<WeaponObject>();
+
+        playerShoot.SetWeapon(weapon.weaponData);
     }
 }

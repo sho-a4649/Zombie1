@@ -161,6 +161,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieAI
   player: {fileID: 0}
+  attackRange: 2
+  damage: 10
+  attackCooldown: 1
 --- !u!114 &6826191864853520353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   health: 100
+  reward: 50
+  moneyPickup: {fileID: 3768895642345527018, guid: 18309c2a9036d5a42902c6bf6e8a15d3, type: 3}
+  smallAmmoPickup: {fileID: 8269734627022712823, guid: d7b85f672cb70d140ace91e5fb310bc5, type: 3}
+  mediumAmmoPickup: {fileID: 5495321218001517097, guid: ecd33a1099c14ca4db8a9b54ed21cbd2, type: 3}
+  shellPickup: {fileID: 7827994652465729703, guid: 5624396b6d55cdf4d9c37abaf1c39065, type: 3}
+  explosivePickup: {fileID: 1585074515426826913, guid: e460704e6214c594fab867cfe29abfc6, type: 3}
   waveManager: {fileID: 0}
 --- !u!136 &1870915187808045121
 CapsuleCollider:

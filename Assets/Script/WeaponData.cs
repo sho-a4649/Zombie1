@@ -16,5 +16,7 @@ public class WeaponData : ScriptableObject
 
     public float range;
 
+    public AmmoType ammoType;
+
     public AudioClip shootSound;
 }

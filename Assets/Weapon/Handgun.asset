@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Handgun
   damage: 30
-  fireRate: 0.4
+  fireRate: 0.15
   maxAmmo: 12
   reloadTime: 1.5
   aimSpread: 0
   hipSpread: 5
   shootSpread: 8
-  range: 100
+  range: 25
+  ammoType: 0
   shootSound: {fileID: 0}

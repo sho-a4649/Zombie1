@@ -19,6 +19,7 @@ MonoBehaviour:
   reloadTime: 2
   aimSpread: 1
   hipSpread: 8
-  shootSpread: 15
-  range: 80
+  shootSpread: 10
+  range: 20
+  ammoType: 0
   shootSound: {fileID: 0}

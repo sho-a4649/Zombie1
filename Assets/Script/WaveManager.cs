@@ -24,7 +24,7 @@ public class WaveManager : MonoBehaviour
 
     private int[] phaseTimes = // 各フェーズ時間(秒)
     {
-        30,
+        300,
         60,
         90,
         120,
