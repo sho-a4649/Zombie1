@@ -24,7 +24,7 @@ public class WaveManager : MonoBehaviour
 
     private int[] phaseTimes = // 各フェーズ時間(秒)
     {
-        300,
+        3,
         60,
         90,
         120,
@@ -149,7 +149,7 @@ public class WaveManager : MonoBehaviour
     {
         isBreakTime = true;
 
-        Debug.Log("Break Time");
+        //Debug.Log("Break Time");
 
         ZombieHealth[] zombies = FindObjectsByType<ZombieHealth>(FindObjectsSortMode.None);
 

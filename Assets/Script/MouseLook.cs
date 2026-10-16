@@ -15,6 +15,9 @@ public class MouseLook : MonoBehaviour
 
     private void Update()
     {
+        if (ShopManager.IsShopOpen)
+            return;
+
         float mouseX = Input.GetAxis("Mouse X") * Sensitivity * Time.deltaTime;
 
         float mouseY = Input.GetAxis("Mouse Y") * Sensitivity * Time.deltaTime;

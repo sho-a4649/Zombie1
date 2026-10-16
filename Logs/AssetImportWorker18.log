@@ -1,0 +1,332 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ja' Physical Memory: 32486 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-16T02:42:41.4838642Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-16T02:42:41Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+D:/Unity/Zombie/Zombie1
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+53170
+-licensingIpc
+LicenseClient-student
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/Zombie/Zombie1
+D:/Unity/Zombie/Zombie1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [19068]  Target information:
+
+Player connection [19068]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 247532996 [EditorId] 247532996 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19068] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19068] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Zombie/Zombie1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001007 seconds.
+- Loaded All Assemblies, in  0.362 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (130ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
+[Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-16T02:42:43.2192643Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              fefdd24786df4956952a1aef3747d581
+  Correlation Id:          5784ad699a0df6cf46b08a266c3c12a2
+  External correlation Id: 4028444986139473966
+  Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.40s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-16T02:42:44.6244812Z"
+[Licensing::Module] Licensing Background thread has ended after 3.14s
+[Licensing::Module] Licensing is initialized (took 1.63s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-07-07T21:45:02Z
+[Licensing::Module] License group:
+  Id: 15669557604337-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.154 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 2644ms
+	BeginReloadAssembly (1752ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6207 unused Assets / (4.1 MB). Loaded Objects now: 7046.
+Memory consumption went from 169.2 MB to 165.2 MB.
+Total: 6.079400 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.228900 ms MarkObjects: 4.302000 ms  DeleteObjects: 1.172300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95066.915999 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_AOR.tga
+  artifactKey: Guid(c6d6fe6eaff186f40b587b47b68e1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_AOR.tga using Guid(c6d6fe6eaff186f40b587b47b68e1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '647158923c9464a6ebd7344de3e04ea4') in 0.2941552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_01_Main_BC.tga
+  artifactKey: Guid(803f4914f422efa48b0784974f1c3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_01_Main_BC.tga using Guid(803f4914f422efa48b0784974f1c3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f4047da13341b1de86078e66fe26b8') in 0.0131369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_E.tga
+  artifactKey: Guid(b2178d2710b8ad743bf8e3703d181cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_E.tga using Guid(b2178d2710b8ad743bf8e3703d181cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f04d3fdcc609326f69473afe97cd4a4') in 0.0114751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_E.tga
+  artifactKey: Guid(1bb3108ce82967d4d8ed92f647396d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_E.tga using Guid(1bb3108ce82967d4d8ed92f647396d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68555a130e9763597875b5fd7a568944') in 0.012625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_Lightbox_01_N.tga
+  artifactKey: Guid(1f28b89a72c1ab04fa80d667f2fc6911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_Lightbox_01_N.tga using Guid(1f28b89a72c1ab04fa80d667f2fc6911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '614431cb012dc96af527bab510f54da9') in 0.0225682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_Lightbox_03_E.tga
+  artifactKey: Guid(bd45f6b52a859d749b5a2aa3d0525827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_Lightbox_03_E.tga using Guid(bd45f6b52a859d749b5a2aa3d0525827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '971243759e35fbdfecafea73a14bfc51') in 0.0127879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607491 seconds.
+  path: Assets/NY_Subway/Base/Models/SM_RSG_Subway_Ticket_Vending_01.fbx
+  artifactKey: Guid(47df70fcd5d650147b36af3f9f71a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Models/SM_RSG_Subway_Ticket_Vending_01.fbx using Guid(47df70fcd5d650147b36af3f9f71a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0224367ca8fbb6cc0fc00e162126fe91') in 0.3357258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.635626 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Ticket_Vending_01.prefab
+  artifactKey: Guid(838ac59d3ce146e4ea2957c75463668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Ticket_Vending_01.prefab using Guid(838ac59d3ce146e4ea2957c75463668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981e0baaa2d9f867e4c417a490141245') in 0.029354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Vending_Machine_Water.prefab
+  artifactKey: Guid(0706d9967bceb8d43a8524b9da7a7073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Vending_Machine_Water.prefab using Guid(0706d9967bceb8d43a8524b9da7a7073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3dc2c2a9c50aee5fcde2fcc4012c87f') in 0.0141566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.564073 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Information_Stand_01.mat
+  artifactKey: Guid(f124c5af360c9344490c45874010368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Information_Stand_01.mat using Guid(f124c5af360c9344490c45874010368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7623c6478869bf968bc950ae17271b45') in 0.0427998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Lightbox_02.mat
+  artifactKey: Guid(c93d7ed8dbae00d40b060c924cf5ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Lightbox_02.mat using Guid(c93d7ed8dbae00d40b060c924cf5ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8a902ce266a103ff0d4414148e9a8c1') in 0.0284655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Turnstile_Separate_01.mat
+  artifactKey: Guid(d1b836fb8d0ae724abd0fa3df1305663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Turnstile_Separate_01.mat using Guid(d1b836fb8d0ae724abd0fa3df1305663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4e762510e4945fe3fb1addf88744cb7') in 0.0186681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,732 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-16T02:28:54.2996119Z"
+Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ja' Physical Memory: 32486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-16T02:28:54Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+D:/Unity/Zombie/Zombie1
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+53170
+-licensingIpc
+LicenseClient-student
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/Zombie/Zombie1
+D:/Unity/Zombie/Zombie1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [38700]  Target information:
+
+Player connection [38700]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 1302012276 [EditorId] 1302012276 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Zombie/Zombie1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000883 seconds.
+- Loaded All Assemblies, in  0.272 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.272 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
+[Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-16T02:28:55.781506Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              ecf889df780e4807857c7fcda6407265
+  Correlation Id:          5784ad699a0df6cf46b08a266c3c12a2
+  External correlation Id: 2991325332931258552
+  Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.39s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-16T02:28:57.1728476Z"
+[Licensing::Module] Licensing Background thread has ended after 2.87s
+[Licensing::Module] Licensing is initialized (took 1.48s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-07-07T21:45:02Z
+[Licensing::Module] License group:
+  Id: 15669557604337-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.985 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 2462ms
+	BeginReloadAssembly (1593ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6207 unused Assets / (4.1 MB). Loaded Objects now: 7046.
+Memory consumption went from 167.4 MB to 163.3 MB.
+Total: 5.400600 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.528500 ms MarkObjects: 3.296100 ms  DeleteObjects: 1.144400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95057.511232 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Information_Stand_01_AOR.tga
+  artifactKey: Guid(b8dd73ecffac3c4409664f8b988e009e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Information_Stand_01_AOR.tga using Guid(b8dd73ecffac3c4409664f8b988e009e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4d80f8d7a4a27a526ce0646ff38bdd8') in 0.0985461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Charging_01_N.tga
+  artifactKey: Guid(06c86217bdee49c45b02b09822c7f826) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Charging_01_N.tga using Guid(06c86217bdee49c45b02b09822c7f826) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4750fec649bdc3291d780417f879bef') in 0.0156441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Train_Glass_Black_AOR.tga
+  artifactKey: Guid(24573cc1c90e28444b0b61e8b66649b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Train_Glass_Black_AOR.tga using Guid(24573cc1c90e28444b0b61e8b66649b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3c6f0560b734f2e75cc0d48cc81b0c1') in 0.0127772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs
+  artifactKey: Guid(0c5daf5eeff9e1b428d095329f85184f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs using Guid(0c5daf5eeff9e1b428d095329f85184f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3de8b24b5a5d5f39af1a18d08a97edf2') in 0.0106899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Charging_01.prefab
+  artifactKey: Guid(c7486b36d670fc74ba0e4dcbd2aca5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Charging_01.prefab using Guid(c7486b36d670fc74ba0e4dcbd2aca5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c7af60f724550a39906db01c418bb1a') in 0.0334416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_snacks_AOR.tga
+  artifactKey: Guid(e776071d543ebe8498a2af067ae13d9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_snacks_AOR.tga using Guid(e776071d543ebe8498a2af067ae13d9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3244334d6a8cc7856204cc15c0b50626') in 0.0156496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Charging_01_BC.tga
+  artifactKey: Guid(152905debe1b1734894ced33f9c74efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Charging_01_BC.tga using Guid(152905debe1b1734894ced33f9c74efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '775ae8d458bdaeab21390685611e1300') in 0.0130632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_AOR.tga
+  artifactKey: Guid(d4131976f9d5dad4bb263b0eb84a9fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_AOR.tga using Guid(d4131976f9d5dad4bb263b0eb84a9fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e51804fb9a6fde1971fcc4e48475ac5a') in 0.014309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Ticket_Vending_01.mat
+  artifactKey: Guid(8713305861c3c5746895f74230019179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Ticket_Vending_01.mat using Guid(8713305861c3c5746895f74230019179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b42a96593ef29ce1ce68731317a47e9') in 0.0136737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Help_Point_01.prefab
+  artifactKey: Guid(7b31da97b885d1e49a002acfe3abcbe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Help_Point_01.prefab using Guid(7b31da97b885d1e49a002acfe3abcbe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcc1f4666de639a59ff3de446c56b35d') in 0.0127576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NY_Subway/HDRP/Materials
+  artifactKey: Guid(d500590f6cfd1f04798ca6eeed035c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials using Guid(d500590f6cfd1f04798ca6eeed035c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a58313530453fb4abea8ca0dcb9176bb') in 0.0106793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NY_Subway/HDRP/Scene
+  artifactKey: Guid(81e3e278d5108f04daa9acc7f22e5db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Scene using Guid(81e3e278d5108f04daa9acc7f22e5db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fef387b126aa68d42aeaa911393cc1a2') in 0.0117762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks 1.mat
+  artifactKey: Guid(7923de75459b3ef4eab87322eb2953f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks 1.mat using Guid(7923de75459b3ef4eab87322eb2953f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d136a636ee5d7007f5565a8f838fec3') in 0.0103712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Lightbox_02.mat
+  artifactKey: Guid(c93d7ed8dbae00d40b060c924cf5ebbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Lightbox_02.mat using Guid(c93d7ed8dbae00d40b060c924cf5ebbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '045b058c48c5b3c324eebad4d3be614a') in 0.0111587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_Water_N.tga
+  artifactKey: Guid(7c9c2105f517dca4db91fc2f306accc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_Water_N.tga using Guid(7c9c2105f517dca4db91fc2f306accc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31b9f5d6d6c3d3d0edcc217761ff57a7') in 0.0497502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NY_Subway/HDRP
+  artifactKey: Guid(44694b372fe067943be791e3d74656d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP using Guid(44694b372fe067943be791e3d74656d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5971ebfae712f9e1037f340189b3cbcd') in 0.0094498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Charging_01.mat
+  artifactKey: Guid(43f48adc2de555d4c940267d3812ca3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Charging_01.mat using Guid(43f48adc2de555d4c940267d3812ca3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a0f4a19d20d8f3889f50188eb246471') in 0.0098889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Turnstile_Separate_01.prefab
+  artifactKey: Guid(0ec0f26eeab812a4ea769d2ccf077527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Turnstile_Separate_01.prefab using Guid(0ec0f26eeab812a4ea769d2ccf077527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcbd3a9e9afb48ee9eabc9f4c6c60518') in 0.0118408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props
+  artifactKey: Guid(7d53b4eae9587ad4e94a829dca9d0868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props using Guid(7d53b4eae9587ad4e94a829dca9d0868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a2b7b47a4b92419465660ceec4a347f') in 0.010104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks.mat
+  artifactKey: Guid(d098456a9210e0c4b9a66c3115c6e9cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks.mat using Guid(d098456a9210e0c4b9a66c3115c6e9cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '263f7ac30bcb57e48ae044d20aaf297b') in 0.0099198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Information_Stand_01.prefab
+  artifactKey: Guid(535588060a76c3241a48549e7e600178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Information_Stand_01.prefab using Guid(535588060a76c3241a48549e7e600178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b7178abf8bde23215dec8b130160c7') in 0.0125461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Lightbox_01.prefab
+  artifactKey: Guid(ceb35363be0bebb47aca508c20c0ea39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Lightbox_01.prefab using Guid(ceb35363be0bebb47aca508c20c0ea39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b691aac906602cbd93f4707cb694c4d7') in 0.0227208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_E.tga
+  artifactKey: Guid(270b4c1e4801c334088f9eabbb69294f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_E.tga using Guid(270b4c1e4801c334088f9eabbb69294f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b59693b5b72f5a4d7bf68d51015321e8') in 0.0166591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Train_Glass_BC.tga
+  artifactKey: Guid(48b27808ca9352041b05b4fb9944f38a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Train_Glass_BC.tga using Guid(48b27808ca9352041b05b4fb9944f38a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d6cfdbaf1f894a5922758f5c157917e') in 0.0124607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_AOR.tga
+  artifactKey: Guid(1abad708f9ece2a4b91cfa98f15c4ea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_AOR.tga using Guid(1abad708f9ece2a4b91cfa98f15c4ea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '601770190f9d56c5b1f72a809556c904') in 0.0127003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_02.mat
+  artifactKey: Guid(34b870cf405b9d249b579bbf710f8f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_02.mat using Guid(34b870cf405b9d249b579bbf710f8f85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4205cc4b2c8d96f0da802bb3233756d') in 0.0102745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Ticket_Vending_02.mat
+  artifactKey: Guid(dbf02f481bf7c974fa8c6e9ba5be557d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Ticket_Vending_02.mat using Guid(dbf02f481bf7c974fa8c6e9ba5be557d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2692cddd7056fad0622f4f92bab9a047') in 0.0101883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_N.tga
+  artifactKey: Guid(66117446516b44d4c90045dbb2172288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_N.tga using Guid(66117446516b44d4c90045dbb2172288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0216fe42d5afb87aeb7323275571aa4') in 0.0148813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NY_Subway/Base/Models/SM_RSG_Subway_Vending_Machine_Snacks.fbx
+  artifactKey: Guid(1bc4141ad1a1b02428f9a3e9ac179fbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Models/SM_RSG_Subway_Vending_Machine_Snacks.fbx using Guid(1bc4141ad1a1b02428f9a3e9ac179fbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c168fa3a395d34adee4a90b6f5cf145') in 0.0273786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_AOR.tga
+  artifactKey: Guid(c6d6fe6eaff186f40b587b47b68e1a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_AOR.tga using Guid(c6d6fe6eaff186f40b587b47b68e1a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62b6abe8b0f486efe9e95776b70ad50a') in 0.0126957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Scene/Gates & Vending.unity
+  artifactKey: Guid(cd42fd1cbe8968f41988736af9bee1d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Scene/Gates & Vending.unity using Guid(cd42fd1cbe8968f41988736af9bee1d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fde798fc196b3d7bad9b33e1e6ce1dce') in 0.0096229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_01.mat
+  artifactKey: Guid(185fdbc5477347f418d98e02a29d17ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_01.mat using Guid(185fdbc5477347f418d98e02a29d17ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a5115854729abeb55ad4bc61b8a9de7') in 0.010944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_snacks_N.tga
+  artifactKey: Guid(d62dba4eafb084b47b5617f7a15f7e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_snacks_N.tga using Guid(d62dba4eafb084b47b5617f7a15f7e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eb6628a96999d8e09519af626b63832') in 0.0129537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/Base/Models/SM_RSG_Subway_Turnstile_Separate_01.fbx
+  artifactKey: Guid(d684c73ea11656a45920a05d2fc1f4ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Models/SM_RSG_Subway_Turnstile_Separate_01.fbx using Guid(d684c73ea11656a45920a05d2fc1f4ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2edfd19f8f03fc38256a369691a317b4') in 0.0160558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_Machine_Snacks_E.tga
+  artifactKey: Guid(d204765da9fd8ba4197f76b928a207bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_Machine_Snacks_E.tga using Guid(d204765da9fd8ba4197f76b928a207bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '034fd30929966236d245ae0170283a3b') in 0.0139105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_N.tga
+  artifactKey: Guid(2d934b5ddbefd4a4a9db9762ff2753b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_N.tga using Guid(2d934b5ddbefd4a4a9db9762ff2753b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '735575e49ad30dde8c8c6048c45d27e7') in 0.0131867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_01_Main_BC.tga
+  artifactKey: Guid(803f4914f422efa48b0784974f1c3c9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Lightbox_01_Main_BC.tga using Guid(803f4914f422efa48b0784974f1c3c9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '592f6bb2d9eb825c09bb60afd69763ee') in 0.0140344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Charging_01 1.mat
+  artifactKey: Guid(a03f6b87357a5ba4491a23bb119df482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Charging_01 1.mat using Guid(a03f6b87357a5ba4491a23bb119df482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4507df159e4de692b7c4ac8502445c39') in 0.011905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/Base/Models/SM_RSG_Subway_Lightbox_01.fbx
+  artifactKey: Guid(851a51bc870e9fb4cafec707e71fe04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Models/SM_RSG_Subway_Lightbox_01.fbx using Guid(851a51bc870e9fb4cafec707e71fe04c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '327933f8649e9e4236f99af781cc7b38') in 0.0149852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.661595 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_BC.tga
+  artifactKey: Guid(058982972f3972f4ebea5e1dfe91eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Help_Point_BC.tga using Guid(058982972f3972f4ebea5e1dfe91eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59145330d49ae61f87a8cec22bad3178') in 0.1794361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_Machine_Snacks_E.tga
+  artifactKey: Guid(d204765da9fd8ba4197f76b928a207bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_Machine_Snacks_E.tga using Guid(d204765da9fd8ba4197f76b928a207bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b96fe0db8003cd0a39ef7a20a17f2b0') in 0.0958009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_AOR.tga
+  artifactKey: Guid(d4131976f9d5dad4bb263b0eb84a9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Turnstil_01_AOR.tga using Guid(d4131976f9d5dad4bb263b0eb84a9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e58ded198d6a30bf68a25273f30f016') in 0.0119399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_AOR.tga
+  artifactKey: Guid(1abad708f9ece2a4b91cfa98f15c4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_AOR.tga using Guid(1abad708f9ece2a4b91cfa98f15c4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0741ae502ff9e6bace5dbfaf7867b184') in 0.0135931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_Water_BC.tga
+  artifactKey: Guid(f1ccc9e98241b6a42a44d419628a9e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Vending_machine_Water_BC.tga using Guid(f1ccc9e98241b6a42a44d419628a9e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b74e27bb540bad40dd74341caaabd7') in 0.0133776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_N.tga
+  artifactKey: Guid(66117446516b44d4c90045dbb2172288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Textures/T_RSG_Subway_Ticket_Vending_01_N.tga using Guid(66117446516b44d4c90045dbb2172288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a1a9e2f99f749f59c915d75a8ebfd5d') in 0.0223361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.636498 seconds.
+  path: Assets/NY_Subway/Base/Models/SM_RSG_Subway_Turnstile_Separate_01.fbx
+  artifactKey: Guid(d684c73ea11656a45920a05d2fc1f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/Base/Models/SM_RSG_Subway_Turnstile_Separate_01.fbx using Guid(d684c73ea11656a45920a05d2fc1f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc52bea2036c9569f299a93a477fcb79') in 0.3557391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.618355 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Turnstile_Separate_01.prefab
+  artifactKey: Guid(0ec0f26eeab812a4ea769d2ccf077527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Turnstile_Separate_01.prefab using Guid(0ec0f26eeab812a4ea769d2ccf077527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7694cc7463b909f857b385291b6cf892') in 0.0287591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Vending_Machine_Snacks.prefab
+  artifactKey: Guid(b6f04b5c89364374aa2f94764f02c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Prefabs/P_HDRP_RSG_Subway_Vending_Machine_Snacks.prefab using Guid(b6f04b5c89364374aa2f94764f02c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaaaf29e7dd2062b70f040c74f596559') in 0.0145736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.566558 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Information_Stand_02.mat
+  artifactKey: Guid(4685fdc8b43c1684ba77316c06ecd49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Information_Stand_02.mat using Guid(4685fdc8b43c1684ba77316c06ecd49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6150f3cc338e91061ce30ad1233eb92f') in 0.0235864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks.mat
+  artifactKey: Guid(d098456a9210e0c4b9a66c3115c6e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Snacks.mat using Guid(d098456a9210e0c4b9a66c3115c6e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd20d53adca5ca8b621ff15c69200eba7') in 0.057136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_02.mat
+  artifactKey: Guid(34b870cf405b9d249b579bbf710f8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NY_Subway/HDRP/Materials/Props/M_HDRP_RSG_Subway_Vending_Machine_Water_02.mat using Guid(34b870cf405b9d249b579bbf710f8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d00e8e94e903ffcda778b58f79f5fc') in 0.0202278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.200666 seconds.
+  path: Assets/NY_Subway/Base/Materials/T_RSG_Subway_Ticket_Vending_01_AOR.mat
+  artifactKey: Guid(384ba4a147cd1044d904cf3cb219f64b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NY_Subway/Base/Materials/T_RSG_Subway_Ticket_Vending_01_AOR.mat using Guid(384ba4a147cd1044d904cf3cb219f64b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92739c3b7a7f7fbd68491ed82f81808a') in 0.0186965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.834361 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx
+  artifactKey: Guid(4a2371edfce86e946a1d4718611f07ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx using Guid(4a2371edfce86e946a1d4718611f07ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d8136bd3bc3bf20916283ec843db0ba') in 0.0204316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_15.fbx
+  artifactKey: Guid(7b6d35f81526a944b9149f24fd036036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_15.fbx using Guid(7b6d35f81526a944b9149f24fd036036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '607c0ad2a3f4e511f088c0dc343d60b3') in 0.0102931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_3.fbx
+  artifactKey: Guid(8f95934fcb9e57a46aa97c9c3453e9a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_3.fbx using Guid(8f95934fcb9e57a46aa97c9c3453e9a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfc817831f68b83f098f50785c1892d3') in 0.0108709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_3.prefab
+  artifactKey: Guid(b9dd581be99d7b84ab71e4e9b6acda89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_3.prefab using Guid(b9dd581be99d7b84ab71e4e9b6acda89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f995a127633aa953e7ad2aad8ee96173') in 0.0115081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs
+  artifactKey: Guid(144cd576363b96d46aa6de043906e522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs using Guid(144cd576363b96d46aa6de043906e522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1e527f1f13d9bdab2eb0a6cab60d817') in 0.0100584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene
+  artifactKey: Guid(6fbeee0fc1388704da3053c23d4e6ca7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene using Guid(6fbeee0fc1388704da3053c23d4e6ca7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a0a07f0a6f8eb8b30d94942c6d6dca7') in 0.0095867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_14.prefab
+  artifactKey: Guid(ee8f9569bc459a14aa267f7f23d0df4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_14.prefab using Guid(ee8f9569bc459a14aa267f7f23d0df4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b847b7fb96ffb165ed30ef30beb9de6f') in 0.0120791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene/New Scene
+  artifactKey: Guid(14d8f6d4ace0fd34baadd53a09b7fa42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene/New Scene using Guid(14d8f6d4ace0fd34baadd53a09b7fa42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e928fc5b7b30a15301c58fb0d2ba9a1') in 0.0089588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_15.prefab
+  artifactKey: Guid(f736c66fc1ed5e24087a827825e4c6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_15.prefab using Guid(f736c66fc1ed5e24087a827825e4c6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7825bb02e8f5bbb8e8fc10c9fd22808') in 0.0121696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene/Cosmic_Retro_Computer_1_FREE.unity
+  artifactKey: Guid(0ceb5a053a7acc749887818c069355d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Demo_Scene/Cosmic_Retro_Computer_1_FREE.unity using Guid(0ceb5a053a7acc749887818c069355d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2604cbcaaf6c40271a846b31d3df8ab2') in 0.0126734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

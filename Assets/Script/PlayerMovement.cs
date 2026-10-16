@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (ShopManager.IsShopOpen)
+            return;
+
         GroundCheck();
         Move();
         Jump();

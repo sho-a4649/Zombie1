@@ -7,6 +7,7 @@ public class PlayerShoot : MonoBehaviour
     public Camera playerCamera;
     public CrosshairController crosshair;
     public WeaponData currentWeapon;
+    public PlayerAmmo playerAmmo;
 
     //public float range = 100f; // éÀíˆãóó£
     //public float damage = 25f; // ó^É_ÉÅÅ[ÉWó 
@@ -33,13 +34,18 @@ public class PlayerShoot : MonoBehaviour
 
     private void Start()
     {
-        currentAmmo = currentWeapon.maxAmmo;
+        //currentAmmo = currentWeapon.maxAmmo;
 
         audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
+        if (ShopManager.IsShopOpen)
+            return;
+        /*if (currentWeapon == null)
+            return;*/
+
         if (isReloading)
             return;
 
@@ -48,7 +54,12 @@ public class PlayerShoot : MonoBehaviour
         crosshair.isAiming = isAiming;
         //animator.SetBool("IsAiming", isAiming);
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && currentAmmo < currentWeapon.maxAmmo && GetReserveAmmo() > 0)
+        {
+            StartCoroutine(Reload());
+        }
+
+        if (currentAmmo <= 0 && GetReserveAmmo() > 0)
         {
             StartCoroutine(Reload());
         }
@@ -73,7 +84,7 @@ public class PlayerShoot : MonoBehaviour
             }
         }
 
-        ammoText.text = currentAmmo + " / " + currentWeapon.maxAmmo;
+        ammoText.text = currentWeapon.weaponName + "\n" +  currentAmmo + " / " + GetReserveAmmo();
     }
 
     void Shoot()
@@ -179,7 +190,16 @@ public class PlayerShoot : MonoBehaviour
 
         yield return new WaitForSeconds(currentWeapon.reloadTime);
 
-        currentAmmo = currentWeapon.maxAmmo;
+        //currentAmmo = currentWeapon.maxAmmo;
+        int reserveAmmo = GetReserveAmmo();
+
+        int neededAmmo = currentWeapon.maxAmmo - currentAmmo;
+
+        int reloadAmount = Mathf.Min(neededAmmo, reserveAmmo);
+
+        currentAmmo += reloadAmount;
+
+        RemoveReserveAmmo(reloadAmount);
 
         isReloading = false;
 
@@ -191,5 +211,50 @@ public class PlayerShoot : MonoBehaviour
         currentWeapon = weapon;
 
         currentAmmo = weapon.maxAmmo;
+    }
+
+    int GetReserveAmmo()
+    {
+        if (currentWeapon == null)
+            return 0;
+
+        switch(currentWeapon.ammoType)
+        {
+            case AmmoType.Small:
+                return playerAmmo.smallAmmo;
+
+            case AmmoType.Medium:
+                return playerAmmo.mediumAmmo;
+
+            case AmmoType.Shell:
+                return playerAmmo.shellAmmo;
+
+            case AmmoType.Explosive:
+                return playerAmmo.explosiveAmmo;
+        }
+
+        return 0;
+    }
+
+    void RemoveReserveAmmo(int amount)
+    {
+        switch (currentWeapon.ammoType)
+        {
+            case AmmoType.Small:
+                playerAmmo.smallAmmo -= amount;
+                break;
+
+            case AmmoType.Medium:
+                playerAmmo.mediumAmmo -= amount;
+                break;
+
+            case AmmoType.Shell:
+                playerAmmo.shellAmmo -= amount;
+                break;
+
+                case AmmoType.Explosive:
+                playerAmmo.explosiveAmmo -= amount;
+                break;
+        }
     }
 }

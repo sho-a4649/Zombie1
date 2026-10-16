@@ -85,7 +85,7 @@ public class ZombieHealth : MonoBehaviour
 
         if (drop != null)
         {
-            GameObject pickup = Instantiate(drop, transform.position + Vector3.up * 0.2f, Quaternion.identity);
+            GameObject pickup = Instantiate(drop, transform.position + Vector3.up * 0.25f, Quaternion.identity);
 
             Destroy(pickup, 20f);
         }

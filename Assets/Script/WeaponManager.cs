@@ -39,6 +39,14 @@ public class WeaponManager : MonoBehaviour
 
     void SelectWeapon(int index)
     {
+        WeaponObject weapon = weapons[index].GetComponent<WeaponObject>();
+
+        if (!weapon.purchased)
+        {
+            Debug.Log("–¢w“ü‚Ì•Ší");
+            return;
+        }
+
         for (int i = 0; i < weapons.Length; i++)
         {
             weapons[i].SetActive(i == index);
@@ -46,7 +54,7 @@ public class WeaponManager : MonoBehaviour
 
         currentWeapon = index;
 
-        WeaponObject weapon = weapons[index].GetComponent<WeaponObject>();
+        //WeaponObject weapon = weapons[index].GetComponent<WeaponObject>();
 
         playerShoot.SetWeapon(weapon.weaponData);
     }

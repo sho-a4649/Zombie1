@@ -20,6 +20,7 @@ MonoBehaviour:
   aimSpread: 0
   hipSpread: 5
   shootSpread: 8
-  range: 25
+  range: 20
   ammoType: 0
+  price: 150
   shootSound: {fileID: 0}

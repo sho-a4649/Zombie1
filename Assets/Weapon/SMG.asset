@@ -22,4 +22,5 @@ MonoBehaviour:
   shootSpread: 10
   range: 20
   ammoType: 0
+  price: 1000
   shootSound: {fileID: 0}
