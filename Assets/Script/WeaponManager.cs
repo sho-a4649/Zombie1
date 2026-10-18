@@ -58,4 +58,16 @@ public class WeaponManager : MonoBehaviour
 
         playerShoot.SetWeapon(weapon.weaponData);
     }
+
+    public void UnlockWeapon(int index)
+    {
+        WeaponObject weapon = weapons[index].GetComponent<WeaponObject>();
+
+        if (weapon.purchased)
+            return;
+
+        weapon.purchased = true;
+
+        Debug.Log(weapon.weaponData.weaponName + " ‚ğw“ü‚µ‚Ü‚µ‚½");
+    }
 }

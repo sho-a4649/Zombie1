@@ -125,7 +125,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -458,6 +457,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/AmmoPickup.cs"
+"Assets/Script/AmmoShopButton.cs"
 "Assets/Script/AmmoType.cs"
 "Assets/Script/CrosshairController.cs"
 "Assets/Script/GameOverManager.cs"
@@ -472,6 +472,7 @@
 "Assets/Script/ShopInteract.cs"
 "Assets/Script/ShopManager.cs"
 "Assets/Script/ShopPrompt.cs"
+"Assets/Script/ShopWeaponButton.cs"
 "Assets/Script/TPSCamera.cs"
 "Assets/Script/TitleManager.cs"
 "Assets/Script/UIMamager.cs"
