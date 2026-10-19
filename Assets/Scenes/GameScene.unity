@@ -27666,7 +27666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopManager
   playerMoney: {fileID: 288860704}
   weaponManager: {fileID: 1170013865}
-  playerAmmo: {fileID: 0}
+  playerAmmo: {fileID: 288860706}
   shopUI: {fileID: 152017175}
 --- !u!1 &1114765591
 GameObject:
