@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
   m_PixelRect:
     serializedVersion: 2
-    x: 737
-    y: -691
+    x: 330
+    y: -881
     width: 1193
     height: 640
   m_ShowMode: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 388}
   m_MaxSize: {x: 10000, y: 10000}
@@ -292,8 +292,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 675
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -513,7 +513,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 53400
+  m_LastSelectedObjectID: 47338
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -801,8 +801,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 737
-    y: -691
+    x: 330
+    y: -881
     width: 1193
     height: 614
   m_SerializedDataModeController:
@@ -926,17 +926,26 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 119856
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -76410
-      - m_Data: 69164
-      - m_Data: 69512
+      - m_Data: -97608
+      - m_Data: -1296
+      - m_Data: 46340
+      - m_Data: 46426
+      - m_Data: 46480
+      - m_Data: 46502
+      - m_Data: 46518
+      - m_Data: 46590
+      - m_Data: 46828
+      - m_Data: 47038
+      - m_Data: 47046
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Cosmic_Retro_Computer_3
-        m_OriginalName: Cosmic_Retro_Computer_3
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -944,10 +953,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 69186
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 12}
@@ -1497,9 +1506,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.9437013, y: 2.8693433, z: -4.5529914}
+    m_Target: {x: 992.4541, y: 185.2918, z: 1219.4589}
     speed: 2
-    m_Value: {x: -1.9437013, y: 2.8693433, z: -4.5529914}
+    m_Value: {x: 992.4541, y: 185.2918, z: 1219.4589}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1545,13 +1554,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06553775, y: -0.34093615, z: 0.022273207, w: -0.9367777}
+    m_Target: {x: -0.16885199, y: -0.030743632, z: 0.003361353, w: -0.984446}
     speed: 2
-    m_Value: {x: -0.06558429, y: -0.34117824, z: 0.022289023, w: -0.9374429}
+    m_Value: {x: -0.1689702, y: -0.030765155, z: 0.0033637062, w: -0.9851352}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 1101.4536
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 1101.4536
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1672,7 +1681,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Script
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1682,27 +1691,27 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets
+  - Assets/Script
   m_LastFoldersGridSize: 69
   m_LastProjectPath: D:\Unity\Zombie\Zombie1
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
+    scrollPos: {x: 0, y: 688}
     m_SelectedIDs:
-    - m_Data: 70868
+    - m_Data: 49506
     m_LastClickedID:
-      m_Data: 70868
+      m_Data: 49506
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 70868
-    - m_Data: 70870
-    - m_Data: 70872
-    - m_Data: 70874
-    - m_Data: 70876
-    - m_Data: 70878
-    - m_Data: 70880
+    - m_Data: 49254
+    - m_Data: 49256
+    - m_Data: 49258
+    - m_Data: 49260
+    - m_Data: 49262
+    - m_Data: 49264
+    - m_Data: 49266
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1736,13 +1745,13 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 70868
-    - m_Data: 70870
-    - m_Data: 70872
-    - m_Data: 70874
-    - m_Data: 70876
-    - m_Data: 70878
-    - m_Data: 70880
+    - m_Data: 49254
+    - m_Data: 49256
+    - m_Data: 49258
+    - m_Data: 49260
+    - m_Data: 49262
+    - m_Data: 49264
+    - m_Data: 49266
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1769,9 +1778,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 119856
+    m_LastClickedInstanceID: 119856
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 127264
     - m_Data: 195284
@@ -1811,6 +1821,8 @@ MonoBehaviour:
     - m_Data: 50848
     - m_Data: 75932
     - m_Data: 122646
+    - m_Data: 47854
+    - m_Data: 115888
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1828,7 +1840,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 15}
+      m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1951,13 +1963,13 @@ MonoBehaviour:
       m_Data: 69988
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 70868
-    - m_Data: 70870
-    - m_Data: 70872
-    - m_Data: 70874
-    - m_Data: 70876
-    - m_Data: 70878
-    - m_Data: 70880
+    - m_Data: 49254
+    - m_Data: 49256
+    - m_Data: 49258
+    - m_Data: 49260
+    - m_Data: 49262
+    - m_Data: 49264
+    - m_Data: 49266
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1990,13 +2002,13 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 70868
-    - m_Data: 70870
-    - m_Data: 70872
-    - m_Data: 70874
-    - m_Data: 70876
-    - m_Data: 70878
-    - m_Data: 70880
+    - m_Data: 49254
+    - m_Data: 49256
+    - m_Data: 49258
+    - m_Data: 49260
+    - m_Data: 49262
+    - m_Data: 49264
+    - m_Data: 49266
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Script\PlayerMoney.cs" />
     <Compile Include="Assets\Script\GameOverManager.cs" />
     <Compile Include="Assets\Script\PlayerShoot.cs" />
+    <Compile Include="Assets\Script\ArmorShopButton.cs" />
     <Compile Include="Assets\Script\TitleManager.cs" />
     <Compile Include="Assets\Script\WeaponObject.cs" />
     <Compile Include="Assets\Script\WaveManager.cs" />
@@ -86,6 +87,8 @@
     <Compile Include="Assets\Script\CrosshairController.cs" />
     <Compile Include="Assets\Script\WeaponData.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
+    <Compile Include="Assets\Script\GameClearManager.cs" />
+    <Compile Include="Assets\Script\HealShopButton.cs" />
     <Compile Include="Assets\Script\ShopManager.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
   </ItemGroup>

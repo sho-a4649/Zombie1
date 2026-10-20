@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
     public float currentHealth; // Œ»Ý‚ÌHP
 
     public int armor;
+    public int maxArmor = 100;
 
     private void Start()
     {
@@ -16,7 +17,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (armor > 0)
         {
-            armor -= Mathf.RoundToInt(damage);
+            int armorDamage = Mathf.RoundToInt(damage);
+
+            armor -= armorDamage;
 
             if (armor < 0)
             {
@@ -54,5 +57,15 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth > maxHealth)
             currentHealth = maxHealth;
+    }
+
+    public void AddArmor(int amount)
+    {
+        armor += amount;
+
+        if (armor > maxArmor)
+        {
+            armor = maxArmor;
+        }
     }
 }

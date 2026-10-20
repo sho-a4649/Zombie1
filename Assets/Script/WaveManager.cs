@@ -24,11 +24,7 @@ public class WaveManager : MonoBehaviour
 
     private int[] phaseTimes = // 各フェーズ時間(秒)
     {
-        3,
-        60,
-        90,
-        120,
-        180
+        3,3,3,3,3
     };
 
     private int[] maxZombieCounts = // 各フェーズ最大ゾンビ数
@@ -44,7 +40,8 @@ public class WaveManager : MonoBehaviour
 
     private void Start()
     {
-        StartPhase();
+        //StartPhase();
+        StartCoroutine(StartBreak());
 
         // 毎秒スポーン状況確認
         StartCoroutine(SpawnCheckRoutine());
@@ -52,12 +49,12 @@ public class WaveManager : MonoBehaviour
 
     private void Update()
     {
+        timer -= Time.deltaTime;
+
         if (isBreakTime)
             return;
 
-        timer -= Time.deltaTime;
-
-            if (timer <= 0)
+        if (timer <= 0)
             {
                 StartCoroutine(StartBreak());
             }
@@ -67,7 +64,8 @@ public class WaveManager : MonoBehaviour
     {
         if (currentPhase >= 5)
         {
-            GameClear();
+            FindFirstObjectByType<GameClearManager>().ShowClear();
+            //GameClear();
             return;
         }
 
@@ -149,7 +147,7 @@ public class WaveManager : MonoBehaviour
     {
         isBreakTime = true;
 
-        //Debug.Log("Break Time");
+        timer = 30f;
 
         ZombieHealth[] zombies = FindObjectsByType<ZombieHealth>(FindObjectsSortMode.None);
 
@@ -175,7 +173,7 @@ public class WaveManager : MonoBehaviour
         return isBreakTime;
     }
 
-    void GameClear()
+    /*void GameClear()
     {
         clearpanel.SetActive(true);
 
@@ -184,6 +182,6 @@ public class WaveManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
 
         Cursor.visible = true;
-    }
+    }*/
 
 }
