@@ -11,6 +11,11 @@ public class PlayerHealth : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+
+        if (CommandManager.fullArmor)
+        {
+            armor = maxArmor;
+        }
     }
 
     public void TakeDamage(float damage) // ƒ_ƒ[ƒW‚ğó‚¯‚é

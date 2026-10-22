@@ -1,0 +1,596 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'ja' Physical Memory: 32486 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-22T02:27:19.4893974Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T02:27:19Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity/Zombie/Zombie1
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50425
+-licensingIpc
+LicenseClient-student
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/Zombie/Zombie1
+D:/Unity/Zombie/Zombie1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [12264]  Target information:
+
+Player connection [12264]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 2026829887 [EditorId] 2026829887 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Zombie/Zombie1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001176 seconds.
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 798ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
+[Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-22T02:27:21.2761225Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d3d7426aaab74da1b8fb778b72c15a5a
+  Correlation Id:          5e0dff90417f8873b82cc9ae9992bf30
+  External correlation Id: 4119945671573988979
+  Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.52s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-22T02:27:22.7951479Z"
+[Licensing::Module] Licensing Background thread has ended after 3.31s
+[Licensing::Module] Licensing is initialized (took 1.73s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-07-07T21:45:02Z
+[Licensing::Module] License group:
+  Id: 15669557604337-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.264 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 2808ms
+	BeginReloadAssembly (1854ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (116ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6271 unused Assets / (3.9 MB). Loaded Objects now: 7086.
+Memory consumption went from 157.7 MB to 153.8 MB.
+Total: 5.622900 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.290900 ms MarkObjects: 3.467200 ms  DeleteObjects: 1.400000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 498659.295302 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_1.obj
+  artifactKey: Guid(8bbf6eab4a249074b9d39a4d3592cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_1.obj using Guid(8bbf6eab4a249074b9d39a4d3592cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc3f3d6e3c6d4227d170157373b58a5') in 0.5530773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_window_1.obj
+  artifactKey: Guid(98fd5bf074b783b4893a7fbe4853d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_window_1.obj using Guid(98fd5bf074b783b4893a7fbe4853d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16dc652c4e2a0445d865c3dbaa78ae47') in 0.101073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_L.obj
+  artifactKey: Guid(4ebbd8c690d8176439a9ce34f9d27ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_L.obj using Guid(4ebbd8c690d8176439a9ce34f9d27ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e146ac0232883afdc7bc71f0d5f47cf4') in 0.0708732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_window_2.obj
+  artifactKey: Guid(784c31f1d3bc8fa4db9d0c38addb78d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_window_2.obj using Guid(784c31f1d3bc8fa4db9d0c38addb78d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43ffc306175c716fd8c9714498439b04') in 0.0434531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.obj
+  artifactKey: Guid(7cea05473864275409553ee9e8052516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.obj using Guid(7cea05473864275409553ee9e8052516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1aac5cba58e72467d895eb6e027fb9a') in 0.0232005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.201457 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_1.fbx
+  artifactKey: Guid(e519ff32358e35a499349d0b68a68503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_1.fbx using Guid(e519ff32358e35a499349d0b68a68503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4357b3f60984076de2ff2e4d3d3603') in 0.1759898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_wall.fbx
+  artifactKey: Guid(4fd728a107b9c7543b66b4f44bb82071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_wall.fbx using Guid(4fd728a107b9c7543b66b4f44bb82071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c680be9bd6c268ce3e0a33411775d4fe') in 0.1293795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_1_L.fbx
+  artifactKey: Guid(0051a797323b06b4da205bb084f446dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_1_L.fbx using Guid(0051a797323b06b4da205bb084f446dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '561e00e43e44697ed41793d63f7a23d6') in 0.0198923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_spike_barricade.fbx
+  artifactKey: Guid(75cfc2b74c6937246b67dca57a63d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_spike_barricade.fbx using Guid(75cfc2b74c6937246b67dca57a63d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60790f1d9860c317fed0cdd8b53cede7') in 0.0713777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx
+  artifactKey: Guid(12d39b35a7b00654fb77dafe998adb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx using Guid(12d39b35a7b00654fb77dafe998adb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81e647e37600b647496ffdbe0c91d48') in 0.019894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.948139 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_1.fbx
+  artifactKey: Guid(77cc63d1ab0d72348afd10ec2f2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_1.fbx using Guid(77cc63d1ab0d72348afd10ec2f2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6284924de4aee2acd5eae9def2aa94c0') in 0.0424311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_brick.fbx
+  artifactKey: Guid(0e2daa9ee1916cd4b9e7dddc44b1867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_brick.fbx using Guid(0e2daa9ee1916cd4b9e7dddc44b1867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5788dd1a00ff55b231517d9d0b735bc') in 0.2258802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_1_R.fbx
+  artifactKey: Guid(97aab015198d07f49b570444c3cdae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_1_R.fbx using Guid(97aab015198d07f49b570444c3cdae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628620983c265f5f09913dbe79589f1f') in 0.0227338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_window_1.fbx
+  artifactKey: Guid(291de934ed7900744a53c5c01905fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_window_1.fbx using Guid(291de934ed7900744a53c5c01905fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05516e86290b277315d59a1583012958') in 0.0182469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.979581 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_1.dae
+  artifactKey: Guid(e6e0901aefdf1164eb9d287c09e2e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_1.dae using Guid(e6e0901aefdf1164eb9d287c09e2e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe1979b422b9ed0e436c33f5914425f') in 0.1219063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_wall.dae
+  artifactKey: Guid(8b838473d49592942ab656898ba49502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_wall.dae using Guid(8b838473d49592942ab656898ba49502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '196b8130092dddc831953b290ba20253') in 0.1271944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_window_2.dae
+  artifactKey: Guid(e69560c334aab5546bbdd24d038d2467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_window_2.dae using Guid(e69560c334aab5546bbdd24d038d2467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5bc37f2c02cfd4ca39923c77dc10f29') in 0.0642872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_hole.dae
+  artifactKey: Guid(5a608d50e6fc80640b7417328d81bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_hole.dae using Guid(5a608d50e6fc80640b7417328d81bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd94170aa4daefb3d16f1a32aa391f04f') in 0.1082029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/metal_board_2.dae
+  artifactKey: Guid(6e3467a75f0cb584ca102319a3f2037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/metal_board_2.dae using Guid(6e3467a75f0cb584ca102319a3f2037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4914a723e30dd22151f900d37b72d8e') in 0.0202272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.265167 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.obj
+  artifactKey: Guid(4ebca9677861e994a9da2d3ee07700cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.obj using Guid(4ebca9677861e994a9da2d3ee07700cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2de22eccd937b57664ce3ac869840b') in 0.2272562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.032283 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/backgorund_1.png
+  artifactKey: Guid(239e40fc38defb542ad8bc8a66859cd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/backgorund_1.png using Guid(239e40fc38defb542ad8bc8a66859cd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb3639550d76be2ce9c125cfe4cfc9d0') in 0.1029976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/bush_1.mtl
+  artifactKey: Guid(336801c8b02c0a249a9fdaae92c3ee8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/bush_1.mtl using Guid(336801c8b02c0a249a9fdaae92c3ee8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd5e691d536ceddf621557ad6bc2a348') in 0.0106688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sharpened_stick.fbx
+  artifactKey: Guid(62702e083af0fa54f917ef494034b7e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sharpened_stick.fbx using Guid(62702e083af0fa54f917ef494034b7e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b19d5b745ca4f9d200cc447ff21780c') in 0.055689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/sharpened_stick.fbx
+  artifactKey: Guid(d87f1eb7c55c7bb4d9d8ab656639e401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/sharpened_stick.fbx using Guid(d87f1eb7c55c7bb4d9d8ab656639e401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e41ff61b52be13de3e90bbcd2e293e5') in 0.0178839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/0. Welcome.png
+  artifactKey: Guid(a6dcd3b1d2260674fa03ea6bf18c339c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/0. Welcome.png using Guid(a6dcd3b1d2260674fa03ea6bf18c339c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '036408cf6035fc4ac51021594b7a55a4') in 0.0154399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/mg 4.png
+  artifactKey: Guid(abcc5580194545642ba62adadf6ae450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/mg 4.png using Guid(abcc5580194545642ba62adadf6ae450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16ace071f2aba7ac9083354eacc025df') in 0.0141767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)
+  artifactKey: Guid(842a3b3704e5388409b67877d7a6e8da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated) using Guid(842a3b3704e5388409b67877d7a6e8da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '566fe7c260fe240062808b177178d943') in 0.0102064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sleeping_bag.fbx
+  artifactKey: Guid(b2086100e42636b429e1ca7d7ea537e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sleeping_bag.fbx using Guid(b2086100e42636b429e1ca7d7ea537e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41b28ac37edbc8018884ed5732c66790') in 0.0176928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/Thumbnail.png
+  artifactKey: Guid(00d25ab5cbd00b84f9b01f0c2cb984d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/Thumbnail.png using Guid(00d25ab5cbd00b84f9b01f0c2cb984d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f21707a7985f08ced841417e85a2f5b6') in 0.0180969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/gltf/bush_1.glb
+  artifactKey: Guid(1bc80baa9e24e7440af586819e68e6a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/gltf/bush_1.glb using Guid(1bc80baa9e24e7440af586819e68e6a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcf2fcc44f78054e8f164cb8fba26409') in 0.0106852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/bush_1.fbx
+  artifactKey: Guid(905f0035f2736be4cab5517547b75db9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/bush_1.fbx using Guid(905f0035f2736be4cab5517547b75db9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8f8f2770ac74c3b07e88978fad99ede') in 0.0195171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild
+  artifactKey: Guid(54dc05b35e62acd4892ca3b18f440da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild using Guid(54dc05b35e62acd4892ca3b18f440da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1376e6df10d34ee76403440a68d0975') in 0.00057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/dae/sharpened_stick.dae
+  artifactKey: Guid(cf684b81d6398e94fae6313cc270f139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/dae/sharpened_stick.dae using Guid(cf684b81d6398e94fae6313cc270f139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66c30094619ba0d51089bfc715eacc02') in 0.0175879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/bush_1.fbx
+  artifactKey: Guid(a94be82b639e9aa408e957b2214e96c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/bush_1.fbx using Guid(a94be82b639e9aa408e957b2214e96c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cd2728d7c011738430ab527c7c2f8a2') in 0.0163725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/2. License.png
+  artifactKey: Guid(0ce24c8f3e2fb254fb6b4c72c0e37266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/2. License.png using Guid(0ce24c8f3e2fb254fb6b4c72c0e37266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f38af88cf8edd12ba27561dfd583068a') in 0.0134824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 5.png
+  artifactKey: Guid(1e75725481475c44d8bb7348b0fe0065) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 5.png using Guid(1e75725481475c44d8bb7348b0fe0065) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6de5befbf7d600f35d77eb77b8b9f79') in 0.0155496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/0. Welcome.png
+  artifactKey: Guid(6dfc8b0c4ff1c14468a1811a1f2c5a15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/0. Welcome.png using Guid(6dfc8b0c4ff1c14468a1811a1f2c5a15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd065fd2535d874c1c16079b69110f71') in 0.014537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 1.png
+  artifactKey: Guid(1092538f3beb21a4ca2576910f6ea965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 1.png using Guid(1092538f3beb21a4ca2576910f6ea965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63efb5b78b41c6839894c113acfb8bb2') in 0.0158607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/UV.png
+  artifactKey: Guid(b68aa2ec8ab114147a9bb500844ad141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/UV.png using Guid(b68aa2ec8ab114147a9bb500844ad141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7db643ad84c73d94a1e276a3dd166d7e') in 0.0156776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/bush_1.obj
+  artifactKey: Guid(bed89aa1624b2f646aa416e3e79d523e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/bush_1.obj using Guid(bed89aa1624b2f646aa416e3e79d523e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cd0d1aa339d10615c68f46c72747e8a') in 0.0227777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE
+  artifactKey: Guid(db78a7d6e2cbeb4409d56e59d0ace0ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE using Guid(db78a7d6e2cbeb4409d56e59d0ace0ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2df587347bb852470cb6f32ca04f457c') in 0.011186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.863785 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE
+  artifactKey: Guid(db78a7d6e2cbeb4409d56e59d0ace0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE using Guid(db78a7d6e2cbeb4409d56e59d0ace0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab0cee109104d388b5e5ed69f19099d') in 0.0005925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.573110 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/UV.png
+  artifactKey: Guid(b68aa2ec8ab114147a9bb500844ad141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/UV.png using Guid(b68aa2ec8ab114147a9bb500844ad141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3221545b96ac39e2909b36c0d8d6b6f1') in 0.0436701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.477773 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 2.png
+  artifactKey: Guid(48e2c5a9d8eae9d4fbc19460202b37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 2.png using Guid(48e2c5a9d8eae9d4fbc19460202b37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e1d7380da9e82a229317b65cd89ed9') in 0.0691267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/TITLE 4.png
+  artifactKey: Guid(19018168c47888348ae05a9ce17f371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/TITLE 4.png using Guid(19018168c47888348ae05a9ce17f371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04f30178617a5dc175645cf83f912b46') in 0.0681719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

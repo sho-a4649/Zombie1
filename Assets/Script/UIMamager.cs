@@ -37,7 +37,7 @@ public class UIMamager : MonoBehaviour
         }
         else
         {
-            timerText.text = "Wave : " + waveManager.CurrentPhase + " : " + time;
+            timerText.text = "Wave " + waveManager.CurrentPhase + " : " + time;
         }
 
         if (playerHealth.armor <= 0)

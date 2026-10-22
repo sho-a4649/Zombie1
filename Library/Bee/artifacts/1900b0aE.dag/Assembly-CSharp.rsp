@@ -461,6 +461,7 @@
 "Assets/Script/AmmoShopButton.cs"
 "Assets/Script/AmmoType.cs"
 "Assets/Script/ArmorShopButton.cs"
+"Assets/Script/CommandManager.cs"
 "Assets/Script/CrosshairController.cs"
 "Assets/Script/GameClearManager.cs"
 "Assets/Script/GameOverManager.cs"

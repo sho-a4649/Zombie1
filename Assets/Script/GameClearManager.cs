@@ -30,6 +30,10 @@ public class GameClearManager : MonoBehaviour
 
         Time.timeScale = 0;
 
+        Cursor.lockState = CursorLockMode.None;
+
+        Cursor.visible = true;
+
         yield return FadeBackground();
 
         yield return FadeText(clearText);
