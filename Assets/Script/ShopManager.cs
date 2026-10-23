@@ -66,6 +66,8 @@ public class ShopManager : MonoBehaviour
         playerMoney.money -= price;
 
         weaponManager.UnlockWeapon(weaponIndex);
+
+        weaponManager.EquipWeapon(weaponIndex);
     }
 
     public void BuyAmmo(AmmoType ammoType, int price, int amount)

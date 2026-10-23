@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf449994768fa684cb67f204bdb2e080, type: 3}
   m_Name: GrenadeLauncher
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: 
+  weaponName: GL
   damage: 0
   fireRate: 0
   maxAmmo: 0
@@ -23,4 +23,11 @@ MonoBehaviour:
   range: 0
   ammoType: 3
   price: 5000
+  isShotgun: 0
+  pelletCount: 8
+  isRocketLauncher: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 0
+  explosionRadius: 0
+  explosionDamage: 0
   shootSound: {fileID: 0}

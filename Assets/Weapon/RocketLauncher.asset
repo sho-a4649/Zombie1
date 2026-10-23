@@ -12,15 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf449994768fa684cb67f204bdb2e080, type: 3}
   m_Name: RocketLauncher
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: 
+  weaponName: RPG
   damage: 0
-  fireRate: 0
-  maxAmmo: 0
-  reloadTime: 0
-  aimSpread: 0
-  hipSpread: 0
-  shootSpread: 0
-  range: 0
+  fireRate: 1
+  maxAmmo: 1
+  reloadTime: 3
+  aimSpread: 10
+  hipSpread: 10
+  shootSpread: 1
+  range: 50
   ammoType: 3
   price: 5000
+  isShotgun: 0
+  pelletCount: 8
+  isRocketLauncher: 1
+  projectilePrefab: {fileID: 1585074515426826913, guid: e460704e6214c594fab867cfe29abfc6, type: 3}
+  projectileSpeed: 30
+  explosionRadius: 5
+  explosionDamage: 150
   shootSound: {fileID: 0}

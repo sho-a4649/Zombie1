@@ -6,11 +6,16 @@ public class WeaponManager : MonoBehaviour
 
     public PlayerShoot playerShoot;
 
+    public int curentWeapon = -1;
+
     int currentWeapon;
 
     private void Start()
     {
-        SelectWeapon(0);
+        foreach (GameObject weapon in weapons)
+        {
+            weapon.SetActive(false);
+        }
     }
 
     private void Update()
@@ -69,5 +74,10 @@ public class WeaponManager : MonoBehaviour
         weapon.purchased = true;
 
         Debug.Log(weapon.weaponData.weaponName + " Ççwì¸ÇµÇ‹ÇµÇΩ");
+    }
+
+    public void EquipWeapon(int index)
+    {
+        SelectWeapon(index);
     }
 }

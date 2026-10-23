@@ -16,8 +16,15 @@ public class GameClearManager : MonoBehaviour
 
     public GameObject titleButton;
 
+    private bool isClearShown = false;
+
     public void ShowClear()
     {
+        if (isClearShown)
+            return;
+
+        isClearShown = true;
+
         StartCoroutine(ClearSequence());
 
         /*Debug.Log("Kills : " + GameStats.Instance.zombiesKilled);
@@ -38,7 +45,11 @@ public class GameClearManager : MonoBehaviour
 
         yield return FadeText(clearText);
 
+        yield return FadeResultText(killsText, "Zombies Killed : 0");
+
         yield return CountKills();
+
+        yield return FadeResultText(accuracyText, "Accuracy : 0%");
 
         yield return CountAccuracy();
 
@@ -121,5 +132,26 @@ public class GameClearManager : MonoBehaviour
         Time.timeScale = 1;
 
         SceneManager.LoadScene("TitleScene");
+    }
+
+    IEnumerator FadeResultText(TextMeshProUGUI text, string content)
+    {
+        text.text = content;
+
+        Color color = text.color;
+        color.a = 0;
+        text.color = color;
+
+        float alpha = 0;
+
+        while(alpha < 1)
+        {
+            alpha += Time.unscaledDeltaTime * 2f;
+
+            color.a = alpha;
+            text.color = color;
+
+            yield return null;
+        }
     }
 }

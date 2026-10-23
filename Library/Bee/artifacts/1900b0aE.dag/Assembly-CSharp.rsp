@@ -474,6 +474,7 @@
 "Assets/Script/PlayerMoney.cs"
 "Assets/Script/PlayerMovement.cs"
 "Assets/Script/PlayerShoot.cs"
+"Assets/Script/RocketProjectile.cs"
 "Assets/Script/ShopInteract.cs"
 "Assets/Script/ShopManager.cs"
 "Assets/Script/ShopPrompt.cs"

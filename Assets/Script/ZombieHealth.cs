@@ -15,6 +15,8 @@ public class ZombieHealth : MonoBehaviour
     [HideInInspector]
     public WaveManager waveManager;
 
+    private bool isDead;
+
     /*private void Start()
     {
         waveManager = FindFirstObjectByType<WaveManager>();
@@ -22,6 +24,9 @@ public class ZombieHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isDead)
+            return;
+
         health -= damage;
 
         /*int drop = Random.Range(0, 100);
@@ -37,6 +42,8 @@ public class ZombieHealth : MonoBehaviour
 
         if (health <= 0)
         {
+            isDead = true;
+
             //waveManager.ZombieKilled();
             DropLoot();
 

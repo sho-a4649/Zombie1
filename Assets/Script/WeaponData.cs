@@ -20,5 +20,14 @@ public class WeaponData : ScriptableObject
 
     public int price;
 
+    public bool isShotgun;
+    public int pelletCount = 8;
+
+    public bool isRocketLauncher;
+    public GameObject projectilePrefab;
+    public float projectileSpeed;
+    public float explosionRadius;
+    public float explosionDamage;
+
     public AudioClip shootSound;
 }

@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: SG
   damage: 100
-  fireRate: 0
+  fireRate: 1
   maxAmmo: 5
-  reloadTime: 0
-  aimSpread: 0
-  hipSpread: 0
-  shootSpread: 0
-  range: 5
+  reloadTime: 1
+  aimSpread: 30
+  hipSpread: 40
+  shootSpread: 20
+  range: 20
   ammoType: 2
   price: 500
+  isShotgun: 1
+  pelletCount: 8
   shootSound: {fileID: 0}

@@ -85,6 +85,7 @@
     <Compile Include="Assets\Script\ZombieAI.cs" />
     <Compile Include="Assets\Script\PlayerAmmo.cs" />
     <Compile Include="Assets\Script\CrosshairController.cs" />
+    <Compile Include="Assets\Script\RocketProjectile.cs" />
     <Compile Include="Assets\Script\WeaponData.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
     <Compile Include="Assets\Script\CommandManager.cs" />

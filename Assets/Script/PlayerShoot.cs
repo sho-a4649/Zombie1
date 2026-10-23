@@ -26,6 +26,8 @@ public class PlayerShoot : MonoBehaviour
     public ParticleSystem muzzleFlash; // マズルフラッシュ
     public TextMeshProUGUI ammoText; // 残弾数UI
 
+    public GameObject crossHair;
+
     private float nextFireTime;
 
     private bool isReloading;
@@ -35,12 +37,16 @@ public class PlayerShoot : MonoBehaviour
     private void Start()
     {
         //currentAmmo = currentWeapon.maxAmmo;
+        crossHair.SetActive(false);
 
         audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
+        if (currentWeapon == null)
+            return;
+
         if (ShopManager.IsShopOpen)
             return;
         /*if (currentWeapon == null)
@@ -98,73 +104,18 @@ public class PlayerShoot : MonoBehaviour
         
         GameStats.Instance.shotsFired++;
 
-        //Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
-
-        float randomX = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
-
-        float randomY = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
-
-        Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2 + randomX, Screen.height / 2 + randomY));
-
-        Vector3 targetPoint;
-
-        if (Physics.Raycast(centerRay, out RaycastHit centerHit, currentWeapon.range))
+        if (currentWeapon.isRocketLauncher)
         {
-            targetPoint = centerHit.point;
+            FireRocket();
+        }
+        else if (currentWeapon.isShotgun)
+        {
+            FireShotgun();
         }
         else
         {
-            targetPoint = centerRay.origin + centerRay.direction * currentWeapon.range;
+            FireBullet();
         }
-
-        Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
-
-        /*float spreadPercent = crosshair.currentSpread / crosshair.MaxPossibleSpread;
-
-        float currentSpreadAngle = spreadPercent * maxSpreadAngle;
-
-        shootDirection = Quaternion.Euler(Random.Range(-currentSpreadAngle, currentSpreadAngle),
-            Random.Range(-currentSpreadAngle, currentSpreadAngle), 0) * shootDirection;*/
-
-        //Vector3 hitPoint;
-        Vector3 tracerEndPoint;
-
-        if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, currentWeapon.range))
-        {
-            //hitPoint = hit.point;
-            tracerEndPoint = hit.point;
-
-            ZombieHealth zombie = hit.collider.GetComponent<ZombieHealth>();
-
-            if (zombie != null)
-            {
-                GameStats.Instance.shotsHit++;
-
-                zombie.TakeDamage(currentWeapon.damage);
-            }
-        }
-        else
-        {
-            //hitPoint = firePoint.position + shootDirection * 100f;
-            tracerEndPoint = firePoint.position + shootDirection * currentWeapon.range;
-        }
-
-        //StartCoroutine(ShowTracer(firePoint.position, hitPoint));
-        StartCoroutine(ShowTracer(firePoint.position, tracerEndPoint));
-
-        Debug.DrawRay(firePoint.position, shootDirection * currentWeapon.range, Color.red, 1f);
-
-        /*if (Physics.Raycast(ray, out RaycastHit hit, range))
-        {
-            Debug.Log("Hit : " + hit.collider.name);
-
-            ZombieHealth zombie = hit.collider.GetComponent<ZombieHealth>();
-
-            if (zombie != null)
-            {
-                zombie.TakeDamage(damage);
-            }
-        }*/
     }
 
     IEnumerator ShowTracer(Vector3 start, Vector3 end)
@@ -211,6 +162,12 @@ public class PlayerShoot : MonoBehaviour
         currentWeapon = weapon;
 
         currentAmmo = weapon.maxAmmo;
+
+        crosshair.normalSpread = weapon.hipSpread;
+
+        crosshair.aimSpread = weapon.aimSpread;
+
+        crossHair.SetActive(true);
     }
 
     int GetReserveAmmo()
@@ -256,5 +213,126 @@ public class PlayerShoot : MonoBehaviour
                 playerAmmo.explosiveAmmo -= amount;
                 break;
         }
+    }
+
+    void FireBullet()
+    {
+        float randomX = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
+
+        float randomY = Random.Range(-crosshair.AccuracySpread, crosshair.AccuracySpread);
+
+        Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2 + randomX, Screen.height / 2 + randomY));
+
+        Vector3 targetPoint;
+
+        if (Physics.Raycast(centerRay, out RaycastHit centerHit, currentWeapon.range))
+        {
+            targetPoint = centerHit.point;
+        }
+        else
+        {
+            targetPoint = centerRay.origin + centerRay.direction * currentWeapon.range;
+        }
+
+        Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
+
+        Vector3 tracerEndPoint;
+
+        if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, currentWeapon.range))
+        {
+            tracerEndPoint = hit.point;
+
+            ZombieHealth zombie = hit.collider.GetComponent<ZombieHealth>();
+
+            if (zombie != null)
+            {
+                GameStats.Instance.shotsHit++;
+
+                zombie.TakeDamage(currentWeapon.damage);
+            }
+        }
+        else
+        {
+            tracerEndPoint = firePoint.position + shootDirection * currentWeapon.range;
+        }
+
+        StartCoroutine(ShowTracer(firePoint.position, tracerEndPoint));
+
+        Debug.DrawRay(firePoint.position, shootDirection * currentWeapon.range, Color.red, 1f);
+    }
+
+    void FireShotgun()
+    {
+        bool hitSomething = false;
+
+        Vector3 tracerEndPoint;
+
+        for (int i = 0; i < currentWeapon.pelletCount; i++)
+        {
+            float randomX = Random.Range(-crosshair.AccuracySpread * 1f, crosshair.AccuracySpread * 1f);
+
+            float randomY = Random.Range(-crosshair.AccuracySpread * 1f, crosshair.AccuracySpread * 1f);
+
+            Ray centerRay = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2 + randomX, Screen.height / 2 + randomY));
+
+            Vector3 targetPoint;
+
+            if (Physics.Raycast(centerRay, out RaycastHit centerHit, currentWeapon.range))
+            {
+                targetPoint = centerHit.point;
+            }
+            else
+            {
+                targetPoint = centerRay.origin + centerRay.direction * currentWeapon.range;
+            }
+
+            Vector3 shootDirection = (targetPoint - firePoint.position).normalized;
+
+            if (Physics.Raycast(firePoint.position, shootDirection, out RaycastHit hit, currentWeapon.range))
+            {
+                //Debug.Log("Hit Collider : " + hit.collider.name);
+
+                tracerEndPoint = hit.point;
+
+                ZombieHealth zombie = hit.collider.GetComponentInParent<ZombieHealth>();
+
+                if (zombie != null)
+                {
+                    hitSomething = true;
+
+                    zombie.TakeDamage(currentWeapon.damage);
+                }
+            }
+            else
+            {
+                tracerEndPoint = firePoint.position + shootDirection * currentWeapon.range;
+            }
+
+            StartCoroutine(ShowTracer(firePoint.position,tracerEndPoint));
+        }
+
+        if (hitSomething)
+        {
+            GameStats.Instance.shotsHit++;
+        }
+    }
+
+    void FireRocket()
+    {
+        Debug.Log("Rocket Fire");
+
+        GameObject rocket = Instantiate(currentWeapon.projectilePrefab, firePoint.position, firePoint.rotation);
+
+        Rigidbody rb = rocket.GetComponent<Rigidbody>();
+
+        Debug.Log(rb);
+
+        rb.linearVelocity = firePoint.forward * currentWeapon.projectileSpeed;
+
+        RocketProjectile rocketScript = rocket.GetComponent<RocketProjectile>();
+
+        rocketScript.damage = currentWeapon.explosionDamage;
+
+        rocketScript.radius = currentWeapon.explosionRadius;
     }
 }

@@ -1,0 +1,940 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-22T02:29:11.8550716Z"
+Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'ja' Physical Memory: 32486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-22T02:29:11Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity/Zombie/Zombie1
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+50425
+-licensingIpc
+LicenseClient-student
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/Zombie/Zombie1
+D:/Unity/Zombie/Zombie1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [296876]  Target information:
+
+Player connection [296876]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 3327549574 [EditorId] 3327549574 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [296876] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [296876] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Zombie/Zombie1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001229 seconds.
+- Loaded All Assemblies, in  0.457 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 797ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (230ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
+[Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-22T02:29:13.6235429Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              993e4a1be8f7490fa8e9fc4c0cd759b5
+  Correlation Id:          5e0dff90417f8873b82cc9ae9992bf30
+  External correlation Id: 2813118159776182513
+  Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.45s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-22T02:29:15.0728192Z"
+[Licensing::Module] Licensing Background thread has ended after 3.22s
+[Licensing::Module] Licensing is initialized (took 1.63s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-07-07T21:45:02Z
+[Licensing::Module] License group:
+  Id: 15669557604337-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.127 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.505 seconds
+Domain Reload Profiling: 2630ms
+	BeginReloadAssembly (1743ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (505ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6271 unused Assets / (3.9 MB). Loaded Objects now: 7086.
+Memory consumption went from 148.1 MB to 144.2 MB.
+Total: 5.613200 ms (FindLiveObjects: 0.447700 ms CreateObjectMapping: 0.336400 ms MarkObjects: 3.381700 ms  DeleteObjects: 1.446300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 498769.539139 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 1.png
+  artifactKey: Guid(1092538f3beb21a4ca2576910f6ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 1.png using Guid(1092538f3beb21a4ca2576910f6ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9acdfd86a52710897d971b8158231b06') in 0.1650618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.794257 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/sleeping_bag.obj
+  artifactKey: Guid(c2085195c2382a4448a84b88b59fdffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/sleeping_bag.obj using Guid(c2085195c2382a4448a84b88b59fdffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d5d65256b19c3e5e6ceb0971634952') in 0.4021692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.141360 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/sleeping_bag.fbx
+  artifactKey: Guid(24d7fb65bea0675498e4b950e0472bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx (Unity Rotated)/sleeping_bag.fbx using Guid(24d7fb65bea0675498e4b950e0472bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65b012e781f4c952b43f6fe61c332100') in 0.211481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.176498 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/dae/sleeping_bag.dae
+  artifactKey: Guid(cfb6b0918cb2ed6478ad2e36cec4c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/dae/sleeping_bag.dae using Guid(cfb6b0918cb2ed6478ad2e36cec4c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a5b73f02b0cbc2bac142381e132174') in 0.193514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581727 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sleeping_bag.fbx
+  artifactKey: Guid(b2086100e42636b429e1ca7d7ea537e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/sleeping_bag.fbx using Guid(b2086100e42636b429e1ca7d7ea537e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18f673a008215df828fb4d68c4608006') in 0.0400228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 861.421617 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures
+  artifactKey: Guid(40fa79092921ce54696bb87f6aab53f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures using Guid(40fa79092921ce54696bb87f6aab53f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c7d6154c5f6ae78265194ebdd89b0f7') in 0.0374915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Roughness.png
+  artifactKey: Guid(7aa7815560943a044ae9deccd76b28ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Roughness.png using Guid(7aa7815560943a044ae9deccd76b28ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c09be7d220e0b8dcdd4f25cc077702b') in 0.0939142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Normal.png
+  artifactKey: Guid(8a5547b38775d2c42934f92c5a230cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Normal.png using Guid(8a5547b38775d2c42934f92c5a230cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea1f1e3e6b219171c02426f767d5f13b') in 0.0199318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Normal.png
+  artifactKey: Guid(79e221dd3f201814eac8a116c6e2a1aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Normal.png using Guid(79e221dd3f201814eac8a116c6e2a1aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72af23653c2c530e7cb64b1af5eea54f') in 0.0311552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_normal.png
+  artifactKey: Guid(ac7f48192b58ba84295e62df22aa31cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_normal.png using Guid(ac7f48192b58ba84295e62df22aa31cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9754e76b10cc23992f187e98afcfba4') in 0.0214593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass
+  artifactKey: Guid(8a341b3569a9a774c95e83e4dd05776b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass using Guid(8a341b3569a9a774c95e83e4dd05776b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9feabc2edfef1d5bfd90097e96d5a3e7') in 0.0093448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials
+  artifactKey: Guid(881762510c9fa3b40b9b56c90138f630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials using Guid(881762510c9fa3b40b9b56c90138f630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47283fea58ea967d006ebd91e662fa12') in 0.0096393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_ambientOcclusion.png
+  artifactKey: Guid(9d2c6f79485ffaf4b909a9cf7fbe3fad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_ambientOcclusion.png using Guid(9d2c6f79485ffaf4b909a9cf7fbe3fad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b5b73564c9261ee059295c1f31ff23a') in 0.023808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Roughness.png
+  artifactKey: Guid(980297a86398c7343b8c20163fcd665e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Roughness.png using Guid(980297a86398c7343b8c20163fcd665e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '525a586ed5fd0cc5d1c2ca8416427cf5') in 0.0257099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Displacement.exr
+  artifactKey: Guid(0aef313cd02be41499b741b10039130e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Displacement.exr using Guid(0aef313cd02be41499b741b10039130e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7d3de01c72bf07a4f407ebf45fd6c49') in 0.0258624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Displacement.exr
+  artifactKey: Guid(374faa0510b33e34ba3afb74e7eb8767) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Displacement.exr using Guid(374faa0510b33e34ba3afb74e7eb8767) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f069dbcba581e710b5e1eb81e864f57f') in 0.0277246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Albedo.png
+  artifactKey: Guid(d08664443edba574bbda35c4a8303f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Albedo.png using Guid(d08664443edba574bbda35c4a8303f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68d4d52662af048e9ff778a4721e0e39') in 0.0253771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow/Snow+ice 2_4K_Displacement.exr
+  artifactKey: Guid(0876cbd3831761a43bf7f5d6c558822c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow/Snow+ice 2_4K_Displacement.exr using Guid(0876cbd3831761a43bf7f5d6c558822c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '639c2b23756046e67ca9250a5b854e19') in 0.0287177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Displacement.exr
+  artifactKey: Guid(036c679f9ec479749b7a323076915975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Displacement.exr using Guid(036c679f9ec479749b7a323076915975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c420918db57466dc72386dbe181079e8') in 0.0199658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Displacement.exr
+  artifactKey: Guid(c3433bcbf16afd646951df3fb6361dc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Displacement.exr using Guid(c3433bcbf16afd646951df3fb6361dc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c88a179af1d6359ef472864176fe5b32') in 0.0274957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_height.png
+  artifactKey: Guid(a383af5647b391246bb44a3081537b18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_height.png using Guid(a383af5647b391246bb44a3081537b18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '920ea8747d10da8bbfe9bb3b8416b7a7') in 0.0277146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Metalness.png
+  artifactKey: Guid(ba8cf7f69bf10dd41949c5ad74a0d7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Metalness.png using Guid(ba8cf7f69bf10dd41949c5ad74a0d7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '576934c6920412a337302f830e7c83a0') in 0.0205561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Normal.png
+  artifactKey: Guid(660919086558b2d45af1e3a456ddd395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Normal.png using Guid(660919086558b2d45af1e3a456ddd395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38c23960097cb5b99b293604346a214c') in 0.0453488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves
+  artifactKey: Guid(3b6f896b2449aed4bb359b95b26eead6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves using Guid(3b6f896b2449aed4bb359b95b26eead6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4293a9293ba2dae5631136fad3050390') in 0.0078325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Metalness.png
+  artifactKey: Guid(4e763aea56c290649a31ffe50794d179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Metalness.png using Guid(4e763aea56c290649a31ffe50794d179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d78a2a7800bf19170cf26779b71d8ec') in 0.0195654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Snow.mat
+  artifactKey: Guid(3ff666d621d0ade4ea3685d76a345ef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Snow.mat using Guid(3ff666d621d0ade4ea3685d76a345ef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05eebf8cb292b384bbe80274e46a7aae') in 0.126896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Metalness.png
+  artifactKey: Guid(3a4a3544346cf2a45b96e4da2fcaef4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Metalness.png using Guid(3a4a3544346cf2a45b96e4da2fcaef4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5351605d4153582be3c2a0ad43d9ddcf') in 0.020895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_basecolor.png
+  artifactKey: Guid(4a23257612a5f0d45954f09d482d0b27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_basecolor.png using Guid(4a23257612a5f0d45954f09d482d0b27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18bcc512d049a0c53394d058487b6052') in 0.0206157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Normal.png
+  artifactKey: Guid(07939a53b15d592458823ac8dcb44299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Normal.png using Guid(07939a53b15d592458823ac8dcb44299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7419834f25d19d4189f9e1e9423d4c6') in 0.0252772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Normal.png
+  artifactKey: Guid(8ab58bfefecfb63499bd1b6ec387f12b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Normal.png using Guid(8ab58bfefecfb63499bd1b6ec387f12b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72e3cb7daad511f1a72d569a8b15fa6b') in 0.0334664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Dirt.mat
+  artifactKey: Guid(e2293d452dae749499c99e7a59164112) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Dirt.mat using Guid(e2293d452dae749499c99e7a59164112) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fbcbc1f2a1fb12440d95a0eb4241e73') in 0.090951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Roughness.png
+  artifactKey: Guid(81de2d7b61578434e9bcfc397288cb76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Roughness.png using Guid(81de2d7b61578434e9bcfc397288cb76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd189c48289b007d5fab2d4e9b0585aa1') in 0.0275043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_AO.png
+  artifactKey: Guid(b2fd0394e1d9f10459ff5ec933284515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_AO.png using Guid(b2fd0394e1d9f10459ff5ec933284515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1201e385d618174359607eea9ed4b61f') in 0.0247188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_ambientOcclusion.png
+  artifactKey: Guid(93bb290d627750b4797ae7fe70bcd4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_ambientOcclusion.png using Guid(93bb290d627750b4797ae7fe70bcd4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88815ebc415cb8dfc32a30e51eb30fab') in 0.0300645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_AO.png
+  artifactKey: Guid(d79917d227dd93642a0dac961cc33451) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_AO.png using Guid(d79917d227dd93642a0dac961cc33451) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bf0d9f5b6148739170fc7a68fa9afee') in 0.0217902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_AO.png
+  artifactKey: Guid(a1c50b3a9943c6a498102148bd8d8dc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_AO.png using Guid(a1c50b3a9943c6a498102148bd8d8dc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a27af6b839883dcdccb1a767c0ef8d4e') in 0.020464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Yellow_tile/Tile_4K_AO.png
+  artifactKey: Guid(b3a3de46a2a7d1f468c576542260844d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Yellow_tile/Tile_4K_AO.png using Guid(b3a3de46a2a7d1f468c576542260844d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2519c787e670abd4d306c7c874788a8a') in 0.0258553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Metalness.png
+  artifactKey: Guid(d4dde5f361f6c294781a20a32171515c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Metalness.png using Guid(d4dde5f361f6c294781a20a32171515c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec30871260284e2daa2d9c35035f5adb') in 0.0205659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow
+  artifactKey: Guid(864ed6ac12e01b64fb758eece4944569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow using Guid(864ed6ac12e01b64fb758eece4944569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bce3d31da11b7ad9f76f1338cc49eb0') in 0.006922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Yellow_tile
+  artifactKey: Guid(7fbdb6112e6af8d4caa9f15b802fcb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Yellow_tile using Guid(7fbdb6112e6af8d4caa9f15b802fcb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf2f7d8b2644a3a2f8925da079b88c2b') in 0.0100451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Albedo.png
+  artifactKey: Guid(4f2ea2ffeac2c7545b33c23770bbc8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Albedo.png using Guid(4f2ea2ffeac2c7545b33c23770bbc8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a860cbe8a500995348cd23b575970a4') in 0.0199054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_AO.png
+  artifactKey: Guid(ff686004e71da43408e4147aac56099d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_AO.png using Guid(ff686004e71da43408e4147aac56099d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6091327758899a17a2074556f30724d0') in 0.0217616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Albedo.png
+  artifactKey: Guid(ed5319f6272c67949add9d39d5809efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Albedo.png using Guid(ed5319f6272c67949add9d39d5809efc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcffa81355fc4449b0524aceb5b1a132') in 0.020688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice3_Snow.mat
+  artifactKey: Guid(da92c04aa5a4f234992c0bfdbb3bf956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice3_Snow.mat using Guid(da92c04aa5a4f234992c0bfdbb3bf956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba86859b7ada5450cd8363543d3bef1c') in 0.0734086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow
+  artifactKey: Guid(95893b1fb3a78c44b8ed2f7b453bd3f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow using Guid(95893b1fb3a78c44b8ed2f7b453bd3f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd0d0875077a3a81564d6964c194c9a3') in 0.0079489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice2_Snow.mat
+  artifactKey: Guid(dc016719cff3f2b468b70329b9214464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice2_Snow.mat using Guid(dc016719cff3f2b468b70329b9214464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d7ebbe5a348febcfec4315cfb28c633') in 0.0736109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Metalness.png
+  artifactKey: Guid(cf8bac2abcb94c843a7c95d057c2394f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3/Ice + rocky_4K_Metalness.png using Guid(cf8bac2abcb94c843a7c95d057c2394f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b23cf4044cc60f41002611d25ab1a0a') in 0.0206051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_AO.png
+  artifactKey: Guid(a70b47b6cf8d7024e87b63ace792aa46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_AO.png using Guid(a70b47b6cf8d7024e87b63ace792aa46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ec903228686b0e407be94c9754a3e83') in 0.0217683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Albedo.png
+  artifactKey: Guid(96a6f1e30d2faac438dcd1cdd32d4fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice_Snow/Snow+ice1_4K_Albedo.png using Guid(96a6f1e30d2faac438dcd1cdd32d4fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42f82b6a3334cc81d07a773c8b046c05') in 0.0215982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice3.mat
+  artifactKey: Guid(0739d9045721107479a92b9efdfa772a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice3.mat using Guid(0739d9045721107479a92b9efdfa772a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '364b83d9c57ca7d76b46ebde26c29928') in 0.0611132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Metalness.png
+  artifactKey: Guid(82e455e29ca323949a6872a8a0fb7b02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice3_Snow/Snow + ice 3_4K_Metalness.png using Guid(82e455e29ca323949a6872a8a0fb7b02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74e7f4fe63823d96137f5e681d47fecd') in 0.0224444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt
+  artifactKey: Guid(ce1572e81c6220d4db64b93522b7b1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt using Guid(ce1572e81c6220d4db64b93522b7b1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '827251fbc213d4d9beb4b3dd4dd9e129') in 0.0086863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow/Snow+ice 2_4K_Albedo.png
+  artifactKey: Guid(a384f157cd546b349938491ac588e500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow/Snow+ice 2_4K_Albedo.png using Guid(a384f157cd546b349938491ac588e500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae92c47c852bff12c361c750daa21429') in 0.0201154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Roughness.png
+  artifactKey: Guid(300fa10dc1664714398d7412c9126228) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Roughness.png using Guid(300fa10dc1664714398d7412c9126228) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0878778189e8a2c979880800e5c77d79') in 0.0218913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Albedo.png
+  artifactKey: Guid(e886f5d6ad5407344af04e6f4642e429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Albedo.png using Guid(e886f5d6ad5407344af04e6f4642e429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93f1074734bba1b622cde53d772fa246') in 0.0227081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Abstract_Metal.mat
+  artifactKey: Guid(35d263f03e3b34646845cfcf29893c27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Abstract_Metal.mat using Guid(35d263f03e3b34646845cfcf29893c27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e5da023031b5e5319191819273aff4d') in 0.0667524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Metalness.png
+  artifactKey: Guid(94070c4ef1805544a97fa6a75043c480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2/Ice rocky_4K_Metalness.png using Guid(94070c4ef1805544a97fa6a75043c480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9f6b9c0ef297e1505d276e6810bc5ba') in 0.0179044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Normal.png
+  artifactKey: Guid(994b5ae8674b5874ea678ad6277cdda9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Snow/Snow_4K_Normal.png using Guid(994b5ae8674b5874ea678ad6277cdda9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef922cb86c017424a77a9f7e45c8b9f2') in 0.0191997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Normal.png
+  artifactKey: Guid(7f9bd79f8c904b74b8cb9935c17473a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Normal.png using Guid(7f9bd79f8c904b74b8cb9935c17473a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17585c03457983e5132249ef6918be5a') in 0.0212731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow
+  artifactKey: Guid(0a810b58d4fcb40458493e08c65a0983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice2_Snow using Guid(0a810b58d4fcb40458493e08c65a0983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59ea0c182552fdeaa1182fd126340d18') in 0.0089667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Albedo.png
+  artifactKey: Guid(6913adf325be29f4fbff441769e3f4af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Albedo.png using Guid(6913adf325be29f4fbff441769e3f4af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a17505a1e1fbcb772ecd3fc78af6b516') in 0.0207723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_roughness.png
+  artifactKey: Guid(b1eb2757f39e82d489a0f949ff0b910e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_roughness.png using Guid(b1eb2757f39e82d489a0f949ff0b910e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71acf7e26aaf2b599274b931c41ee166') in 0.0205742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Displacement.exr
+  artifactKey: Guid(dcbb62c18c219644cb27ba8ba8555ae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Displacement.exr using Guid(dcbb62c18c219644cb27ba8ba8555ae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2a219e3a1e45eca01e0dbe0e3ad9ff1') in 0.0222176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.427257 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx
+  artifactKey: Guid(4a2371edfce86e946a1d4718611f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx using Guid(4a2371edfce86e946a1d4718611f07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43458589b902cd36d2cad047f25dfc88') in 0.0198293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_15.fbx
+  artifactKey: Guid(7b6d35f81526a944b9149f24fd036036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_15.fbx using Guid(7b6d35f81526a944b9149f24fd036036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7c330b4dc03de140b3339a6fc95f75') in 0.0457593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.424737 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_7.prefab
+  artifactKey: Guid(522f2ed413277974f912900bd445fa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs/Cosmic_Retro_Computer_7.prefab using Guid(522f2ed413277974f912900bd445fa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7c3dfdef2e926eeddd1dfcefe9f34b4') in 0.3698635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.938570 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Abstract_Metal2.mat
+  artifactKey: Guid(317f193dd8d05324785281b5656803f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Abstract_Metal2.mat using Guid(317f193dd8d05324785281b5656803f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9060d711d37930417e1452f60ef79b79') in 0.1773613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice3.mat
+  artifactKey: Guid(0739d9045721107479a92b9efdfa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice3.mat using Guid(0739d9045721107479a92b9efdfa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40007bec41d6a5fd2089ad27e9dee6a4') in 0.0649328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Dirt.mat
+  artifactKey: Guid(e2293d452dae749499c99e7a59164112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Dirt.mat using Guid(e2293d452dae749499c99e7a59164112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69d9ada9ab1624ff1ad528f9979a6a82') in 0.0675393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice_Snow.mat
+  artifactKey: Guid(13ac8a601f5f9bc4aa72db98147b7500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice_Snow.mat using Guid(13ac8a601f5f9bc4aa72db98147b7500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39e5625dfd7c6fcebb7c6d2fcb91fcde') in 0.06582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice.mat
+  artifactKey: Guid(c264930daa0098b4e8f6a539e8072472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice.mat using Guid(c264930daa0098b4e8f6a539e8072472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e528cbaa6bd3f672f1236b804ea63c2') in 0.071876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice2_Snow.mat
+  artifactKey: Guid(dc016719cff3f2b468b70329b9214464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice2_Snow.mat using Guid(dc016719cff3f2b468b70329b9214464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '033848939de463ef139714f1c391465c') in 0.0772284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Materials/Ice3_Snow.mat
+  artifactKey: Guid(da92c04aa5a4f234992c0bfdbb3bf956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Materials/Ice3_Snow.mat using Guid(da92c04aa5a4f234992c0bfdbb3bf956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2380dc04b9cd643571f623b963814677') in 0.0625519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.482863 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_AO.png
+  artifactKey: Guid(6bbea036be4330e4db3938e19cf1264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_AO.png using Guid(6bbea036be4330e4db3938e19cf1264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3abf7975198f4df4ef92f78d6c953ef5') in 0.0769797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Roughness.png
+  artifactKey: Guid(7edbea089fc80954aa767574dcafff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Roughness.png using Guid(7edbea089fc80954aa767574dcafff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc7adf800ac17e1a991536dd8f4bc54') in 0.0836891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Normal.png
+  artifactKey: Guid(79d4f5715da54f84f9ab355a548d44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal/Abstract_4K_Normal.png using Guid(79d4f5715da54f84f9ab355a548d44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd21fb0fcdb128d952753ae8eb25a809c') in 0.0889084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109742 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_AO.png
+  artifactKey: Guid(f7cb7847bc2006c4c84a6ef1999a1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_AO.png using Guid(f7cb7847bc2006c4c84a6ef1999a1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4b8a09d4c67d3629fca7afb580878f5') in 0.0139183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Displacement.exr
+  artifactKey: Guid(3b603a32df1d0c148bde873b6316e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Displacement.exr using Guid(3b603a32df1d0c148bde873b6316e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5c5bd836ffbcf32d3407fc50d349d06') in 0.0121659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Normal.png
+  artifactKey: Guid(07939a53b15d592458823ac8dcb44299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Abstract_Metal2/Abstract 2_4K_Normal.png using Guid(07939a53b15d592458823ac8dcb44299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81f393800567fa54e6e2c06065d6cdc4') in 0.0122958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408731 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_AO.png
+  artifactKey: Guid(d79917d227dd93642a0dac961cc33451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_AO.png using Guid(d79917d227dd93642a0dac961cc33451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce3986f71bfdb4091e508ad3185cbb3') in 0.013026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Roughness.png
+  artifactKey: Guid(455363549976cc34ab6d59167a789bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Roughness.png using Guid(455363549976cc34ab6d59167a789bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6d8192897fc8b38e1b4cc242aa7d05') in 0.0189743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Normal.png
+  artifactKey: Guid(7f9bd79f8c904b74b8cb9935c17473a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Dirt_4K_Normal.png using Guid(7f9bd79f8c904b74b8cb9935c17473a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80caa694cc62006c600b764c7b73f020') in 0.0189281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436692 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_AO.png
+  artifactKey: Guid(b2fd0394e1d9f10459ff5ec933284515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_AO.png using Guid(b2fd0394e1d9f10459ff5ec933284515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be81f07900418562289b1d1124dd22d4') in 0.0127435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Displacement.exr
+  artifactKey: Guid(036c679f9ec479749b7a323076915975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Displacement.exr using Guid(036c679f9ec479749b7a323076915975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd25fe61d3dbb81290a06ecfb6ebdbb') in 0.0193635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Metalness.png
+  artifactKey: Guid(fd0aefc97a69fe144b7a74419371e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt_Puddles/Stylized Dirt with puddles_4K_Metalness.png using Guid(fd0aefc97a69fe144b7a74419371e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '558c1f6b72173c6c1131db2fcd518e3c') in 0.0127582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.968295 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Metalness.png
+  artifactKey: Guid(4e763aea56c290649a31ffe50794d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Ice/Ice_4K_Metalness.png using Guid(4e763aea56c290649a31ffe50794d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0489e7d23c585fd6b2217f513489496') in 0.0646333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.428296 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_normal.png
+  artifactKey: Guid(c602ba5b30e3c344793e1d9f69df4d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass_Leaves/Grass_1_normal.png using Guid(c602ba5b30e3c344793e1d9f69df4d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93bd2e500fdda894611267174c6bd864') in 0.2062194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329140 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_normal.png
+  artifactKey: Guid(ac7f48192b58ba84295e62df22aa31cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Grass/Grass_normal.png using Guid(ac7f48192b58ba84295e62df22aa31cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25b601c961fe9ea59a6cf40ea1574e60') in 0.0287889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -85,4 +85,9 @@ public class CrosshairController : MonoBehaviour
             return spread;
         }
     }
+
+    /*public void ShowCrosshair()
+    {
+        gameObject.SetActive(true);
+    }*/
 }
