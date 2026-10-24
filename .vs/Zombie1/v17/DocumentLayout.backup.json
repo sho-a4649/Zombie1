@@ -3,44 +3,106 @@
   "WorkspaceRootPath": "C:\\Unity\\Zombie1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|c:\\unity\\zombie1\\assets\\script\\shopweaponbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopweaponbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|c:\\unity\\zombie1\\assets\\script\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|c:\\unity\\zombie1\\assets\\script\\ammoshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ammoshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|c:\\unity\\zombie1\\assets\\script\\shopweaponbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopweaponbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\rocketprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rocketprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weaponobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weaponobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weaponholderfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weaponholderfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\gameclearmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameclearmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\uimamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uimamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\zombiehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zombiehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\shopinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\playermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\armorshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\armorshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\healshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\ammoshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ammoshopbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\weaponobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\weaponobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\shopinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shopinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\shopprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +121,6 @@
       "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ammotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|C:\\Unity\\Zombie1\\assets\\script\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7241C483-3945-1759-9D55-1BBF84EE4D4B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -78,11 +132,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+<<<<<<< Updated upstream
+              "DocumentIndex": 5,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MouseLook.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Script\\MouseLook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T03:31:50.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeaponHolderFollow.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponHolderFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WeaponHolderFollow.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponHolderFollow.cs",
+              "RelativeToolTip": "Assets\\Script\\WeaponHolderFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "AmmoShopButton.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoShopButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AmmoShopButton.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoShopButton.cs",
+              "RelativeToolTip": "Assets\\Script\\AmmoShopButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T10:50:53.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ShopWeaponButton.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopWeaponButton.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopWeaponButton.cs",
@@ -95,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WeaponManager.cs",
@@ -107,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ZombieHealth.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ZombieHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ZombieHealth.cs",
@@ -119,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerShoot.cs",
@@ -131,20 +220,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ShopManager.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopManager.cs",
               "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopManager.cs",
               "RelativeToolTip": "Assets\\Script\\ShopManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswC4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T03:08:11.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMoney.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMoney.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMoney.cs",
@@ -156,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WaveManager.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WaveManager.cs",
@@ -164,48 +253,148 @@
               "RelativeToolTip": "Assets\\Script\\WaveManager.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T01:56:29.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-15T01:56:29.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WeaponObject.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponObject.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WeaponObject.cs",
               "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponObject.cs",
               "RelativeToolTip": "Assets\\Script\\WeaponObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T00:50:35.572Z"
+              "WhenOpened": "2026-10-24T03:15:33.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RocketProjectile.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\RocketProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RocketProjectile.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\RocketProjectile.cs",
+              "RelativeToolTip": "Assets\\Script\\RocketProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T04:55:34.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeaponData.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WeaponData.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponData.cs",
+              "RelativeToolTip": "Assets\\Script\\WeaponData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T01:31:42.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrosshairController.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\CrosshairController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CrosshairController.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\CrosshairController.cs",
+              "RelativeToolTip": "Assets\\Script\\CrosshairController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T06:11:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerShoot.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerShoot.cs",
+              "ViewState": "AgIAAEMBAAAAAAAAAADwv1oBAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T04:53:04.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShopManager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ShopManager.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T03:08:11.024Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+              "Title": "ZombieHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ZombieHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ZombieHealth.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ZombieHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\ZombieHealth.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvywAAAAaAAAA",
+=======
+              "DocumentIndex": 9,
               "Title": "ShopInteract.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopInteract.cs",
               "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopInteract.cs",
               "RelativeToolTip": "Assets\\Script\\ShopInteract.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T02:53:51.043Z"
+              "WhenOpened": "2026-09-15T00:51:23.689Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+              "Title": "GameClearManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\GameClearManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameClearManager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\GameClearManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameClearManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+=======
+              "DocumentIndex": 7,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerHealth.cs",
               "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerHealth.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAwC4AAAAjAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T09:09:07.901Z"
+              "WhenOpened": "2026-10-20T04:53:13.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+<<<<<<< Updated upstream
+              "DocumentIndex": 7,
+              "Title": "UIMamager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\UIMamager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UIMamager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\UIMamager.cs",
+              "RelativeToolTip": "Assets\\Script\\UIMamager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T01:11:09.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+=======
+              "DocumentIndex": 11,
               "Title": "ShopPrompt.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopPrompt.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ShopPrompt.cs",
@@ -217,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
@@ -229,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PlayerAmmo.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerAmmo.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerAmmo.cs",
@@ -241,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AmmoType.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoType.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AmmoType.cs",
@@ -253,7 +442,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "TitleManager.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\TitleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TitleManager.cs",
@@ -265,19 +455,189 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerHealth.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+=======
+              "DocumentIndex": 15,
               "Title": "GameOverManager.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\GameOverManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameOverManager.cs",
               "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\GameOverManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameOverManager.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAuwBAAAAAlAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T05:35:55.655Z"
+              "WhenOpened": "2026-10-17T09:09:07.901Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerMoney.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMoney.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMoney.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMoney.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T02:23:51.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeaponManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WeaponManager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponManager.cs",
+              "RelativeToolTip": "Assets\\Script\\WeaponManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:14:49.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CommandManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\CommandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CommandManager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\CommandManager.cs",
+              "RelativeToolTip": "Assets\\Script\\CommandManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA6wA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T01:25:51.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WaveManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WaveManager.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WaveManager.cs",
+              "RelativeToolTip": "Assets\\Script\\WaveManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T01:55:36.906Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
+              "Title": "ArmorShopButton.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ArmorShopButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ArmorShopButton.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ArmorShopButton.cs",
+              "RelativeToolTip": "Assets\\Script\\ArmorShopButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T01:01:13.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HealShopButton.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\HealShopButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HealShopButton.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\HealShopButton.cs",
+              "RelativeToolTip": "Assets\\Script\\HealShopButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T00:59:04.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AmmoShopButton.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoShopButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AmmoShopButton.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoShopButton.cs",
+              "RelativeToolTip": "Assets\\Script\\AmmoShopButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T10:50:53.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeaponObject.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WeaponObject.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\WeaponObject.cs",
+              "RelativeToolTip": "Assets\\Script\\WeaponObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T00:50:35.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShopInteract.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShopInteract.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopInteract.cs",
+              "RelativeToolTip": "Assets\\Script\\ShopInteract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T02:53:51.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShopPrompt.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopPrompt.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShopPrompt.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\ShopPrompt.cs",
+              "RelativeToolTip": "Assets\\Script\\ShopPrompt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T03:01:22.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T03:14:32.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerAmmo.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerAmmo.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerAmmo.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\PlayerAmmo.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerAmmo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T02:50:05.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AmmoType.cs",
+              "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoType.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AmmoType.cs",
+              "ToolTip": "C:\\Unity\\Zombie1\\Assets\\Script\\AmmoType.cs",
+              "RelativeToolTip": "Assets\\Script\\AmmoType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T02:52:57.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+=======
+              "DocumentIndex": 17,
+>>>>>>> Stashed changes
               "Title": "GameStats.cs",
               "DocumentMoniker": "C:\\Unity\\Zombie1\\Assets\\Script\\GameStats.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameStats.cs",

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-22T02:27:00.538891Z"
 OS: 'Windows 11  (10.0.26300) Professional' Language: 'ja' Physical Memory: 32486 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-23T00:41:20.3228329Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-22T02:27:00Z
+Date: 2026-10-23T00:41:20Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Unity/Zombie/Zombie1
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50425
+64532
 -licensingIpc
 LicenseClient-student
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Unity/Zombie/Zombie1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [162044]  Target information:
+Player connection [208328]  Target information:
 
-Player connection [162044]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 1674948692 [EditorId] 1674948692 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [208328]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 1830860015 [EditorId] 1830860015 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [162044] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [162044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [208328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [208328] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -100,11 +100,11 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000984 seconds.
+Registered in 0.001012 seconds.
 - Loaded All Assemblies, in  0.272 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -113,9 +113,9 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.262 seconds
-Domain Reload Profiling: 533ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 527ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -123,25 +123,25 @@ Domain Reload Profiling: 533ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (86ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (100ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (262ms)
+	FinalizeReload (256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (228ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
+			BeforeProcessingInitializeOnLoad (54ms)
 			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -156,17 +156,17 @@ Begin MonoManager ReloadAssembly
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
 [Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-22T02:27:01.9348936Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-23T00:41:21.7566355Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              e6298323796845d5865f048df369235a
-  Correlation Id:          5e0dff90417f8873b82cc9ae9992bf30
-  External correlation Id: 6853748165385079180
+  Session Id:              f03d7b6f0587452fa9b1f0dfa944ae13
+  Correlation Id:          e98f252d67ab2b7666a0a2267fd9cf0d
+  External correlation Id: 5557374359867449632
   Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.34s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-22T02:27:03.2801517Z"
-[Licensing::Module] Licensing Background thread has ended after 2.74s
-[Licensing::Module] Licensing is initialized (took 1.56s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.59s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-23T00:41:23.3430684Z"
+[Licensing::Module] Licensing Background thread has ended after 3.02s
+[Licensing::Module] Licensing is initialized (took 1.83s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
@@ -178,8 +178,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.034 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.327 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -189,846 +189,125 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.481 seconds
-Domain Reload Profiling: 2513ms
-	BeginReloadAssembly (1668ms)
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 2816ms
+	BeginReloadAssembly (1943ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (209ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (222ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (104ms)
-			BuildScriptInfoCaches (38ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (39ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (481ms)
+	FinalizeReload (491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (217ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6271 unused Assets / (4.0 MB). Loaded Objects now: 7086.
-Memory consumption went from 147.1 MB to 143.2 MB.
-Total: 4.857700 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.214700 ms MarkObjects: 3.082700 ms  DeleteObjects: 1.198600 ms)
+Unloading 6271 unused Assets / (4.5 MB). Loaded Objects now: 7088.
+Memory consumption went from 152.5 MB to 148.0 MB.
+Total: 5.254200 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.361500 ms MarkObjects: 3.138500 ms  DeleteObjects: 1.289200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 498638.343831 seconds.
-  path: Assets/Add/Asset
-  artifactKey: Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset using Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ce3767d7fad5956a56ee05be3931781') in 0.0039497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 949ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6267 unused Assets / (3.6 MB). Loaded Objects now: 7104.
+Memory consumption went from 157.4 MB to 153.8 MB.
+Total: 4.911400 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.255000 ms MarkObjects: 3.052600 ms  DeleteObjects: 1.196500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.966502 seconds.
-  path: Assets/Add/Asset
-  artifactKey: Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset using Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff1d453723d66b3f5d80bd6eb12804ac') in 0.0376062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.678424 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_2.fbx
-  artifactKey: Guid(124d2f40679fe6243bd8242047f6b551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_2.fbx using Guid(124d2f40679fe6243bd8242047f6b551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7eddc92871f07cb9d2fd1f5696bc336f') in 0.0987993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_3.fbx
-  artifactKey: Guid(94021ecd33f92b34daeb7be590c79453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_3.fbx using Guid(94021ecd33f92b34daeb7be590c79453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '599f4cd803b36ddcb1fa63d861e4fb16') in 0.0154921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx
-  artifactKey: Guid(12d39b35a7b00654fb77dafe998adb53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx using Guid(12d39b35a7b00654fb77dafe998adb53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19ac71f0e48e3db6e52eeb0a3f9403ba') in 0.0165393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/title.png
-  artifactKey: Guid(77c69004542201444955848001d6cbb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/title.png using Guid(77c69004542201444955848001d6cbb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fece2bad008b6e4db61d3838705e8f8') in 0.0404391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_R.fbx
-  artifactKey: Guid(70dfc189084a99a478ac45e9f78b1a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_R.fbx using Guid(70dfc189084a99a478ac45e9f78b1a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9927a71aa791ea3ba2ebc25bd8bfea18') in 0.0170848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_door_boarded.fbx
-  artifactKey: Guid(d94bf77014d88a84d954f73bd617b02a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_door_boarded.fbx using Guid(d94bf77014d88a84d954f73bd617b02a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '541f893ad58ca74b2c7ed782c168230c') in 0.0228466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_2.mtl
-  artifactKey: Guid(0fbf38e90c888e745b6578b68dde689c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_2.mtl using Guid(0fbf38e90c888e745b6578b68dde689c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ee015fd99ff9574d69c716dc3eff8ae') in 0.0121528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_spike_barricade.dae
-  artifactKey: Guid(488554bfd14061744a972fd81b66f5c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_spike_barricade.dae using Guid(488554bfd14061744a972fd81b66f5c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcaa6aacdb22b72d1be2cb38bc526552') in 0.0637533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.mtl
-  artifactKey: Guid(93ced7accf79c404fa0f49d3850d6396) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.mtl using Guid(93ced7accf79c404fa0f49d3850d6396) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c2c7284ef06b4f174f34f8a6f46c51c') in 0.010835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_L.obj
-  artifactKey: Guid(4ebbd8c690d8176439a9ce34f9d27ddf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_L.obj using Guid(4ebbd8c690d8176439a9ce34f9d27ddf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f325822b79193bc82a3eae5b32c2611') in 0.0175355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack
-  artifactKey: Guid(a007b2642ba5e1546b2faac00c1caa84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack using Guid(a007b2642ba5e1546b2faac00c1caa84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0af77291feea4d31b7ec8131c119a72') in 0.0103184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.obj
-  artifactKey: Guid(517fc45f6b0824049914bccb23f4982f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.obj using Guid(517fc45f6b0824049914bccb23f4982f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c88fbc8527690ed0272d8478d037cff') in 0.0149667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_1.obj
-  artifactKey: Guid(8bbf6eab4a249074b9d39a4d3592cd74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_1.obj using Guid(8bbf6eab4a249074b9d39a4d3592cd74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e27a54cedbc15d26b31b971b4ae366af') in 0.0159322 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/electric_pole_1.glb
-  artifactKey: Guid(c96fa717061322e40867a1bc3f25f5c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/electric_pole_1.glb using Guid(c96fa717061322e40867a1bc3f25f5c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bedd70f5825487264223ee8a3401565') in 0.0095406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_planks.dae
-  artifactKey: Guid(b5deb7853a8e9cf438680a2cbd3ad210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_planks.dae using Guid(b5deb7853a8e9cf438680a2cbd3ad210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a728c2d624b92d3bfbf7b441fa663cb') in 0.0129405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_2.fbx
-  artifactKey: Guid(909832a629cf0e5489ae407e8105afdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_2.fbx using Guid(909832a629cf0e5489ae407e8105afdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c23d50b1032c238bbbfa752c7fa75e0') in 0.0186201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_door_boarded.mtl
-  artifactKey: Guid(087e7c4daf693334081a709706262e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_door_boarded.mtl using Guid(087e7c4daf693334081a709706262e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1002196ecd269589502646facb1848b7') in 0.0090485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/car.obj
-  artifactKey: Guid(1d0a5e0aa52504642991c5e46149330a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/car.obj using Guid(1d0a5e0aa52504642991c5e46149330a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6013f66c49db8347d89eb6b82e6910c4') in 0.0212259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/ground_road_2_L.glb
-  artifactKey: Guid(2b45b36d50befa14bace472785a5856e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/ground_road_2_L.glb using Guid(2b45b36d50befa14bace472785a5856e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b978c543d475c01bb64889bfce59f08d') in 0.0130359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_door_boarded.glb
-  artifactKey: Guid(1006615e647b5104499096c43032b1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_door_boarded.glb using Guid(1006615e647b5104499096c43032b1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2925643f5f8fc1962694f1cf040b09df') in 0.0153264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/box_1.dae
-  artifactKey: Guid(a468a421d4870bb48a120876a0d060ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/box_1.dae using Guid(a468a421d4870bb48a120876a0d060ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa897877dbbe2a08041964460a7424a9') in 0.0228367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_column.fbx
-  artifactKey: Guid(2b372c8521e23a540aa01f41b6e66059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_column.fbx using Guid(2b372c8521e23a540aa01f41b6e66059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c18c740fb018bae620609780f5f7d75c') in 0.0159925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.mtl
-  artifactKey: Guid(22f2d07ebcc3b774b807879118445f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.mtl using Guid(22f2d07ebcc3b774b807879118445f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa7e768a540af68c21cee4716a38c495') in 0.011158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/2. License.png
-  artifactKey: Guid(ceeccae71140eae45b255a4e59e60f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/2. License.png using Guid(ceeccae71140eae45b255a4e59e60f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b70d0b05aaea6cc5ca7bfb0629a920e3') in 0.041295 seconds
+  Time since last request: 578861.720667 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png
+  artifactKey: Guid(73792e4787969994bb4c97e418591c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png using Guid(73792e4787969994bb4c97e418591c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288a43bde81df58c9ebbb918eb6fba61') in 0.0594618 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/car.fbx
-  artifactKey: Guid(b504365959eb1274e90ef07206842504) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/car.fbx using Guid(b504365959eb1274e90ef07206842504) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92fcc89cfc519a1ea023de99491a5be6') in 0.0185584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wheel.obj
-  artifactKey: Guid(79abdeb02072dca419c92ce3e203a0d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wheel.obj using Guid(79abdeb02072dca419c92ce3e203a0d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b0adb31ca2314face6d7d53fedf5bd2') in 0.015423 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_brick.glb
-  artifactKey: Guid(9c54e059928b05a4192c00b8979dd642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_brick.glb using Guid(9c54e059928b05a4192c00b8979dd642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd407338d8e8dbcb2422e8f79ca5687f9') in 0.0084878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_wall.glb
-  artifactKey: Guid(6d09f84fc38cca84da1aed2d9cde7160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_wall.glb using Guid(6d09f84fc38cca84da1aed2d9cde7160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f880bc97b7fddb31596809819e72af92') in 0.0105462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_planks.fbx
-  artifactKey: Guid(9d9680fe87b79124e86c3acb21c55bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_planks.fbx using Guid(9d9680fe87b79124e86c3acb21c55bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63a840d19d8bd202390c042098e1579a') in 0.0144449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wheel.fbx
-  artifactKey: Guid(3b62142d6013aa645999b9cc11d4996b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wheel.fbx using Guid(3b62142d6013aa645999b9cc11d4996b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ef0d1783f17cf031a0e4f4869415728') in 0.0170651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_2.fbx
-  artifactKey: Guid(3a2181db5fc1b69459ee78c261e67a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_2.fbx using Guid(3a2181db5fc1b69459ee78c261e67a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3263b4905ee2fbf6651393908c34e837') in 0.0135525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.obj
-  artifactKey: Guid(50b2fc2fc30f4a845ab8f64f4dc9a004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.obj using Guid(50b2fc2fc30f4a845ab8f64f4dc9a004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b38d6ca98cec349e74b775c3b8a5c01b') in 0.0161211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_planks.mtl
-  artifactKey: Guid(abc92fbbe2eeffe498524182e20fbea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_planks.mtl using Guid(abc92fbbe2eeffe498524182e20fbea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0c809343ab6cbdf747b13ac4ebe02f9') in 0.0107187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_brick.mtl
-  artifactKey: Guid(23735c4b38ee3a24591f449e2d0bb6ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_brick.mtl using Guid(23735c4b38ee3a24591f449e2d0bb6ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a9601411d783fdbc649190c4571ebdc') in 0.0091621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/2. License.png
-  artifactKey: Guid(ceeccae71140eae45b255a4e59e60f96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/2. License.png using Guid(ceeccae71140eae45b255a4e59e60f96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '613bf46f9aede7990e7708d3f687de33') in 0.0141736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/electric_pole_1.fbx
-  artifactKey: Guid(27fc98b8d81734d4eb8d8cbc2a3b04e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/electric_pole_1.fbx using Guid(27fc98b8d81734d4eb8d8cbc2a3b04e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65b0f0801fafa595be53fe19566a8f00') in 0.0224576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.mtl
-  artifactKey: Guid(3973bec8e29b58047a39044719d210b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.mtl using Guid(3973bec8e29b58047a39044719d210b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66874240f2f2efa1bb4a1c8b59c7e852') in 0.0096741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_1_R.fbx
-  artifactKey: Guid(be1b14baf08819541a9729fbf82b5b96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_1_R.fbx using Guid(be1b14baf08819541a9729fbf82b5b96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eeb28cffe9a8fd9b6f846a02e3f429f3') in 0.0123852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_1.glb
-  artifactKey: Guid(b4d04de6193f06445813ddd283a8978a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_1.glb using Guid(b4d04de6193f06445813ddd283a8978a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ded5eadbc010d3b5c0bdaf5441b6639d') in 0.0097491 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_brick.fbx
-  artifactKey: Guid(b01659fed25174147a0650999b9b0091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_brick.fbx using Guid(b01659fed25174147a0650999b9b0091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ab92ed7904ce1bed1c3fdabc3edc3b2') in 0.0190624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_door_boarded.dae
-  artifactKey: Guid(6ad5c070ecd381442a8a5664a4f2fc0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_door_boarded.dae using Guid(6ad5c070ecd381442a8a5664a4f2fc0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab94aef0e72f72575cc9b5eee2f54573') in 0.0186811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.mtl
-  artifactKey: Guid(09c9c4e9f8fd5304384e1c8f2202516b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.mtl using Guid(09c9c4e9f8fd5304384e1c8f2202516b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '848331e965e48a9aba5ab664bbf474f4') in 0.0097958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_window_2.fbx
-  artifactKey: Guid(caddd196da821a14e81b947e16074555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_window_2.fbx using Guid(caddd196da821a14e81b947e16074555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34a41225d96374ba2915e9d07581cea6') in 0.0150061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_2.obj
-  artifactKey: Guid(e1a9a1ae47ce06c4a8b95141ac6ea5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_2.obj using Guid(e1a9a1ae47ce06c4a8b95141ac6ea5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9575d1e5c5411f773d7004100f4d8ee7') in 0.0138422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_spiked.fbx
-  artifactKey: Guid(6f896c0e5111d1d4cb9defbd00ebedaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_spiked.fbx using Guid(6f896c0e5111d1d4cb9defbd00ebedaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86988f5603036749bc563422d11e2848') in 0.015857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.mtl
-  artifactKey: Guid(8a5c98f5072651742ad45ae63f819dce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.mtl using Guid(8a5c98f5072651742ad45ae63f819dce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b7b70db2359a8311352ebf687aa0010') in 0.0086163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wheel.fbx
-  artifactKey: Guid(44a2f25719b48e94390b265318fa5eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wheel.fbx using Guid(44a2f25719b48e94390b265318fa5eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db3ea213ca58bbcc9f3dcf55798b417c') in 0.0186585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models
-  artifactKey: Guid(2121f55baf63f094c910459237249f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models using Guid(2121f55baf63f094c910459237249f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21239255f3e0b2704bf855aa0d626bac') in 0.0107151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_R.dae
-  artifactKey: Guid(c669112e805d82a4d8a3d4d7d8562b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_R.dae using Guid(c669112e805d82a4d8a3d4d7d8562b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e367d484f68621ace7abe0dfc2153239') in 0.0128997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_3.glb
-  artifactKey: Guid(e146620980c3d2c4e98582fb4769387c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_3.glb using Guid(e146620980c3d2c4e98582fb4769387c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '338a1d003eb288df0af2509682856a59') in 0.008931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.obj
-  artifactKey: Guid(7cea05473864275409553ee9e8052516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.obj using Guid(7cea05473864275409553ee9e8052516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '932dcfd89243dfdc8d0b89c5f9dc0617') in 0.0159217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_spiked.obj
-  artifactKey: Guid(98063d7d3d634ae44ab58330736c2608) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_spiked.obj using Guid(98063d7d3d634ae44ab58330736c2608) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb9c2d1f4c80a8d520f9d5dd85f1aa8e') in 0.016782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1.dae
-  artifactKey: Guid(818d0b11bae021749ac620aa1c1d5197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1.dae using Guid(818d0b11bae021749ac620aa1c1d5197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1562e85e03b9e2b57d6099a1dfdf2b46') in 0.0142535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_spike_barricade.fbx
-  artifactKey: Guid(75cfc2b74c6937246b67dca57a63d4e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wooden_spike_barricade.fbx using Guid(75cfc2b74c6937246b67dca57a63d4e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e61517b1c5e1b347e2947eb487458231') in 0.0188888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.mtl
-  artifactKey: Guid(9b3fe3a6ffb08654ba6cbd32d57cd710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.mtl using Guid(9b3fe3a6ffb08654ba6cbd32d57cd710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c750eb58b6fbc415e93a35ac889fc376') in 0.0085344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_2.obj
-  artifactKey: Guid(c81401b5cd933234d9ed81217008d32b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_2.obj using Guid(c81401b5cd933234d9ed81217008d32b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '978ec83786b0aa7d1cc7a0de21ddc849') in 0.0149539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_hole.obj
-  artifactKey: Guid(b1c36aef2545a5040841cc90e75bdd24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_hole.obj using Guid(b1c36aef2545a5040841cc90e75bdd24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3875770e58bb41759386d738dc848f26') in 0.0188339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_metal_2.dae
-  artifactKey: Guid(4995f9434f826304b8ed2178d4721883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_metal_2.dae using Guid(4995f9434f826304b8ed2178d4721883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7d56167350cd34f289897799576dae6') in 0.0161235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_concrete_metal.glb
-  artifactKey: Guid(13414329bb0fc594e9585a833ae7b737) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_concrete_metal.glb using Guid(13414329bb0fc594e9585a833ae7b737) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63309bbecdd71dd0608f4b501b89f159') in 0.0094463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_metal_1.fbx
-  artifactKey: Guid(0492d06c33fa5cc4985791e9e28e6dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_metal_1.fbx using Guid(0492d06c33fa5cc4985791e9e28e6dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6688f5d1a6701d4a0921ba06c6bab22') in 0.0249343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wheel.glb
-  artifactKey: Guid(661990b472509e04ca1cb85b4f2e7b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wheel.glb using Guid(661990b472509e04ca1cb85b4f2e7b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29b1cfd30c650752fd7addd977ea48c8') in 0.0117022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_3.mtl
-  artifactKey: Guid(a5737a585de200a448e74581e6a81db6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_3.mtl using Guid(a5737a585de200a448e74581e6a81db6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53721252e1c85ddccfbd77055c90ec59') in 0.0096644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.obj
-  artifactKey: Guid(58227c043d3b9b14f9a36d3a19522e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.obj using Guid(58227c043d3b9b14f9a36d3a19522e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acf45cfe7822b8e191cbd56c8860c480') in 0.0151959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/box_1.fbx
-  artifactKey: Guid(ac182720368ef62479d27932d7fd795e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/box_1.fbx using Guid(ac182720368ef62479d27932d7fd795e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a95c137be0d8029649696307a1f67088') in 0.0181531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.334602 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples
-  artifactKey: Guid(bd5ac937d244e10419104a8d87f2b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples using Guid(bd5ac937d244e10419104a8d87f2b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a45d3d682346d97a879fb44363281bd2') in 0.0005444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099482 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/0. Welcome.png
-  artifactKey: Guid(6540694becb6f664986ec0344583ad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/0. Welcome.png using Guid(6540694becb6f664986ec0344583ad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c17bf9ce0755e3fa81a9f17fc4d48a3a') in 0.0142682 seconds
+  path: Assets/ColorSkies/Textures/Skybox_2/Right_Tex.png
+  artifactKey: Guid(19b2b1a141020bd43b39b581f1c66dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Right_Tex.png using Guid(19b2b1a141020bd43b39b581f1c66dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58c511541c3c9b0f9c0542071eb86179') in 0.0125259 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 10.png
-  artifactKey: Guid(d570641f0197d0a43890ecb11cb79688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 10.png using Guid(d570641f0197d0a43890ecb11cb79688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b37ef1ea78a35b128b4fbefcda4d4d0c') in 0.0162568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 13.png
-  artifactKey: Guid(57f3580e7eb01f34ca9195ecd56f07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 13.png using Guid(57f3580e7eb01f34ca9195ecd56f07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1af195f49bcab0d34d139b81c9400ea') in 0.0143181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.937311 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models
-  artifactKey: Guid(2121f55baf63f094c910459237249f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models using Guid(2121f55baf63f094c910459237249f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f10646cb5fc3877a96e8dd558bcc1096') in 0.0005289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046890 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/post-apocalyptic_texture.png
-  artifactKey: Guid(66ddcc955d4ceda45ab323a92f96cb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/post-apocalyptic_texture.png using Guid(66ddcc955d4ceda45ab323a92f96cb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba31a8d7625cded83c74710c69bdafe4') in 0.0581429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.507934 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj
-  artifactKey: Guid(0ccb11a0fd5d58f44826c7acb646566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj using Guid(0ccb11a0fd5d58f44826c7acb646566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f676f3665a97c6971ec3d9e7377c2b26') in 0.000539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052298 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/barrel.obj
-  artifactKey: Guid(4bddc5c6fd838e04193847044391b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/barrel.obj using Guid(4bddc5c6fd838e04193847044391b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1be70e2238a4385e62c3bd5a0eb864') in 0.555683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1.obj
-  artifactKey: Guid(bb3fd057e6d764d4197347459cddf6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1.obj using Guid(bb3fd057e6d764d4197347459cddf6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87afe02f90e5a481103ca3c6b924bf73') in 0.0800411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.obj
-  artifactKey: Guid(afd852d2ff70d46489baaa50ca82c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.obj using Guid(afd852d2ff70d46489baaa50ca82c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84aa29ae10a39e21c67c1d0f20e50e6c') in 0.0641667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_door_boarded.obj
-  artifactKey: Guid(e64e0099554c1f6499dd324efcd827b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_door_boarded.obj using Guid(e64e0099554c1f6499dd324efcd827b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb50bacd8b4a1befbda0a3e1910d1a39') in 0.0872022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.594907 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf
-  artifactKey: Guid(9622423367d04d043af758b1a33d7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf using Guid(9622423367d04d043af758b1a33d7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58ed5ec43ce6b2528a2a03f4f8f2b03') in 0.0004972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.473988 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/car.glb
-  artifactKey: Guid(60b94a14dc9caa4418aa1ed3a1f9560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/car.glb using Guid(60b94a14dc9caa4418aa1ed3a1f9560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb36a44869505ca170d9d62f8737fc9') in 0.002819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.038278 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)
-  artifactKey: Guid(0d9e6cb989b60bf45a21e726bb1f2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated) using Guid(0d9e6cb989b60bf45a21e726bb1f2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f1eb331e151291e7bf493089c7d63f') in 0.0004757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052792 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/barrel.fbx
-  artifactKey: Guid(6c2c88243eb50944ea953ea7f20fe041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/barrel.fbx using Guid(6c2c88243eb50944ea953ea7f20fe041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '163d5ad42a3dda9bd75ad510004bb99b') in 0.1752819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_hole.fbx
-  artifactKey: Guid(a840563af0080b74dad4a4abbca35f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_hole.fbx using Guid(a840563af0080b74dad4a4abbca35f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002a1bb238ed03022fc3c9830673d5bf') in 0.2101195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_1.fbx
-  artifactKey: Guid(d6309b3a274f27540be4cf8da05f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/metal_board_1.fbx using Guid(d6309b3a274f27540be4cf8da05f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d680f51a39b54b3d1aafb59b7612ef7') in 0.0195105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_column.fbx
-  artifactKey: Guid(88a8131b885ab4f4dbeaa710b691d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_column.fbx using Guid(88a8131b885ab4f4dbeaa710b691d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dfd819762a61175133370c2ed235f7d') in 0.0209351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_2_L.fbx
-  artifactKey: Guid(c3204f5cb4e14654bad30bde49410b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_2_L.fbx using Guid(c3204f5cb4e14654bad30bde49410b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af7bf3cecadcde8d6f7efac637659cf6') in 0.0178669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.854351 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx
-  artifactKey: Guid(8fdb9f19002bb5446b309356cfa55de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx using Guid(8fdb9f19002bb5446b309356cfa55de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d4e9093fd824553596d8aecd7d4663f') in 0.0004548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046803 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/barrel.fbx
-  artifactKey: Guid(412c04710e16457498d525177e92c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/barrel.fbx using Guid(412c04710e16457498d525177e92c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd56ec7c8d67662100775b81cb047f106') in 0.0719565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wheel.fbx
-  artifactKey: Guid(44a2f25719b48e94390b265318fa5eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wheel.fbx using Guid(44a2f25719b48e94390b265318fa5eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42fe0693c6defb3c8c9b05dfda63279f') in 0.0762935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_column.fbx
-  artifactKey: Guid(2b372c8521e23a540aa01f41b6e66059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_column.fbx using Guid(2b372c8521e23a540aa01f41b6e66059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b6a79448dc588b7cd7ec813f9499e03') in 0.0203629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_door_boarded.fbx
-  artifactKey: Guid(d94bf77014d88a84d954f73bd617b02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_door_boarded.fbx using Guid(d94bf77014d88a84d954f73bd617b02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8066d5aedc4996ed092ee11a1bc54597') in 0.046318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_1.fbx
-  artifactKey: Guid(eb2571a3461d18846ba991ca1ba396bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_1.fbx using Guid(eb2571a3461d18846ba991ca1ba396bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f62a03e13e2a3f92bb55f39d356c29f') in 0.0184676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_window_2.fbx
-  artifactKey: Guid(7885c58fc5cddeb468b6292cd09dd8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_window_2.fbx using Guid(7885c58fc5cddeb468b6292cd09dd8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b27009763470ad7229364444b710934c') in 0.0183056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.907250 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae
-  artifactKey: Guid(bfcbb1d74886fc54a889e5cb4e42ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae using Guid(bfcbb1d74886fc54a889e5cb4e42ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f70416ee13d26dda5a2d1aef37f4a9d4') in 0.0005194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043473 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/barrel.dae
-  artifactKey: Guid(6e1ebc5652598ba48b2d9b0cfe70abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/barrel.dae using Guid(6e1ebc5652598ba48b2d9b0cfe70abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aab3be66103ab6080a2e16145023d80') in 0.0415385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_door_boarded.dae
-  artifactKey: Guid(6ad5c070ecd381442a8a5664a4f2fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_door_boarded.dae using Guid(6ad5c070ecd381442a8a5664a4f2fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec62e75710640d1780c0657f8726248b') in 0.2069561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_R.dae
-  artifactKey: Guid(c669112e805d82a4d8a3d4d7d8562b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_R.dae using Guid(c669112e805d82a4d8a3d4d7d8562b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da775a4ed053d862cec0b328678240d3') in 0.0675884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_spiked.dae
-  artifactKey: Guid(d285f6f7d4d81dd4db1b3e18b46ec6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_spiked.dae using Guid(d285f6f7d4d81dd4db1b3e18b46ec6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd11433fbd208fc7ade4b3c0da1224c1f') in 0.0329405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_2_R.dae
-  artifactKey: Guid(65afa5da51982ec4ca18f94ea387b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_2_R.dae using Guid(65afa5da51982ec4ca18f94ea387b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4227ec6acf441ecf2a8ed71b023d6f2') in 0.045444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_metal_1.dae
-  artifactKey: Guid(b161a336eb4c02d4ca75b89628b409cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_metal_1.dae using Guid(b161a336eb4c02d4ca75b89628b409cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b49588f17ec5d2a2d7dfac451b6fdad') in 0.0200413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.265331 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.obj
-  artifactKey: Guid(0c38daff686c46642ad3f06ede485f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.obj using Guid(0c38daff686c46642ad3f06ede485f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce027ef607ffb8f8cf22c629fdb32e8a') in 0.1866923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  path: Assets/ColorSkies/Textures/Skybox_2/Up_Tex.png
+  artifactKey: Guid(ce2c5305fe145864f9a6d953f6d091e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Up_Tex.png using Guid(ce2c5305fe145864f9a6d953f6d091e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd999ee8460780202ccda3ccdfc0c27d') in 0.0126177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

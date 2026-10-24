@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8452058049614918697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.8059967
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022126969
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.2526162
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      propertyPath: m_Name
+      value: grenade_launcher_40mm_grenade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3169550973980946593}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5370186207847267590}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4732650752651948753}
+  m_SourcePrefab: {fileID: 100100000, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+--- !u!1 &462273263738318112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bcec7dab45b0f1c4dbd7486299a483a3, type: 3}
+  m_PrefabInstance: {fileID: 8452058049614918697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &3169550973980946593
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462273263738318112}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!135 &5370186207847267590
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462273263738318112}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0.0000026649504, y: -0.00009011627, z: -0.00000073890976}
+--- !u!114 &4732650752651948753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462273263738318112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96490db3fdc0574ba8fc8d33d9fe0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrenateProjectile
+  damage: 120
+  radius: 4
+  explosionEffect: {fileID: 6026668379514458438, guid: ab6e80c52d412e94ea1f985b4bf8f9cd, type: 3}

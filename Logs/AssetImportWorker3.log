@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shanb" at "2026-10-24T01:47:56.3747035Z"
 Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-23T00:41:20.3333399Z"
-OS: 'Windows 11  (10.0.26300) Professional' Language: 'ja' Physical Memory: 32486 MB
+OS: 'Windows 11  (10.0.26300) Core' Language: 'ja' Physical Memory: 32696 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-23T00:41:20Z
+Date: 2026-10-24T01:47:56Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1644, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4af27090cc394d63b0458ad10e8fb367
+  Correlation Id:          e18fd9a939a0af3316f098d8758d539a
+  External correlation Id: 5127192371905980046
+  Machine Id:              CVSFpe/d3vEcCV52yxkvPby5fIM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-shanb" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shanb-notifications" at "2026-10-24T01:47:56.4706459Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
@@ -15,23 +26,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-D:/Unity/Zombie/Zombie1
+C:/Unity/Zombie1
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64532
+58833
 -licensingIpc
-LicenseClient-student
+LicenseClient-shanb
 -job-worker-count
-11
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Unity/Zombie/Zombie1
-D:/Unity/Zombie/Zombie1
+Successfully changed project path to: C:/Unity/Zombie1
+C:/Unity/Zombie1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +78,15 @@ D:/Unity/Zombie/Zombie1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [196976]  Target information:
+Player connection [13368]  Target information:
 
-Player connection [196976]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 316033035 [EditorId] 316033035 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13368]  * "[IP] 192.168.0.97 [Port] 0 [Flags] 2 [Guid] 1270905147 [EditorId] 1270905147 [Version] 1048832 [Id] WindowsEditor(7,a4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [196976] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [196976] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [13368]  * "[IP] 26.120.133.214 [Port] 0 [Flags] 2 [Guid] 1270905147 [EditorId] 1270905147 [Version] 1048832 [Id] WindowsEditor(7,a4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13368] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,28 +97,28 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Zombie/Zombie1/Assets
+[Subsystems] Discovering subsystems at path C:/Unity/Zombie1/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
     Vendor:   NVIDIA
-    VRAM:     7949 MB
-    Driver:   32.0.16.1060
+    VRAM:     7957 MB
+    Driver:   32.0.16.2101
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000871 seconds.
-- Loaded All Assemblies, in  0.279 seconds
+Registered in 0.002754 seconds.
+- Loaded All Assemblies, in  0.430 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -113,35 +126,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 532ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (95ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (133ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (254ms)
+	FinalizeReload (447ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (224ms)
+		SetupLoadedEditorAssemblies (392ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (87ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,36 +163,14 @@ Domain Reload Profiling: 532ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
-[Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-23T00:41:21.7719253Z"
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              84800eba4e7941d6b1b8a99f0f8b5e08
-  Correlation Id:          e98f252d67ab2b7666a0a2267fd9cf0d
-  External correlation Id: 989291234609300532
-  Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.58s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-23T00:41:23.3554232Z"
-[Licensing::Module] Licensing Background thread has ended after 3.02s
-[Licensing::Module] Licensing is initialized (took 1.83s).
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
-  Product: Unity Education
-  Type: ULF
-  Expiration: 2027-07-07T21:45:02Z
 [Licensing::Module] License group:
   Id: 15669557604337-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.322 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -189,302 +180,1294 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.488 seconds
-Domain Reload Profiling: 2809ms
-	BeginReloadAssembly (1942ms)
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 1763ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (319ms)
-		LoadAssemblies (220ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (431ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (108ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (489ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (55ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (883ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (365ms)
+		SetupLoadedEditorAssemblies (657ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (217ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6271 unused Assets / (4.4 MB). Loaded Objects now: 7088.
-Memory consumption went from 150.5 MB to 146.1 MB.
-Total: 5.061800 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.229100 ms MarkObjects: 3.179200 ms  DeleteObjects: 1.256600 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.476 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.470 seconds
-Domain Reload Profiling: 947ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (275ms)
-		LoadAssemblies (225ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (470ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6267 unused Assets / (4.0 MB). Loaded Objects now: 7104.
-Memory consumption went from 157.4 MB to 153.4 MB.
-Total: 4.917700 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.258600 ms MarkObjects: 3.019800 ms  DeleteObjects: 1.207600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 578861.727551 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png
-  artifactKey: Guid(ccf6463c9748e3641969f0675ca31557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png using Guid(ccf6463c9748e3641969f0675ca31557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73090ff96e026aad4ee0560be27866af') in 0.0591717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 6272 unused Assets / (2.0 MB). Loaded Objects now: 7108.
+Memory consumption went from 152.6 MB to 150.6 MB.
+Total: 55.107000 ms (FindLiveObjects: 3.301300 ms CreateObjectMapping: 0.877600 ms MarkObjects: 48.507700 ms  DeleteObjects: 2.418500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2/Down_Tex.png
-  artifactKey: Guid(60256e2f8227cee4ab28d230b5abbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Down_Tex.png using Guid(60256e2f8227cee4ab28d230b5abbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a3e3fdc9f6791b0f81e9bc98a7657aa') in 0.0118327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 5150.438125 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Submachine5/Submachine5.png
+  artifactKey: Guid(be8fb33081246aa4eba7cba0da41e4e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Submachine5/Submachine5.png using Guid(be8fb33081246aa4eba7cba0da41e4e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcffcf373a7bfd8727be85a2c52865d7') in 0.2169811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png
-  artifactKey: Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png using Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4db9fb82b2ce7a617ca6b4309db70b4') in 0.012437 seconds
+  path: Assets/POLYGON weapons/Assets_official/bullet_shells_assets/45acp_prefab.prefab
+  artifactKey: Guid(0035e33c1d9673a4f8a0aa7a0ed21032) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/bullet_shells_assets/45acp_prefab.prefab using Guid(0035e33c1d9673a4f8a0aa7a0ed21032) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe9894566c6755d8bd783add468b501d') in 0.0377684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Sturmgewehr46/Sturmgewehr46_a.mat
+  artifactKey: Guid(ff619c76ba105884c8f2276629a43de9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Sturmgewehr46/Sturmgewehr46_a.mat using Guid(ff619c76ba105884c8f2276629a43de9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11ac93c6a2ab095b145d338f74bd9c15') in 0.034214 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.923749 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2
-  artifactKey: Guid(1c391b338f3628d4c833ab82820cb02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColorSkies/Textures/Skybox_2 using Guid(1c391b338f3628d4c833ab82820cb02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa7905ca3a29d04e509b55b6f7ac1aa') in 0.0007446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
-  Product: Unity Education
-  Type: ULF
-  Expiration: 2027-07-07T21:45:02Z
-[Licensing::Module] License group:
-  Id: 15669557604337-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.464 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.440 seconds
-Domain Reload Profiling: 905ms
-	BeginReloadAssembly (145ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (213ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (440ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (207ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6267 unused Assets / (4.1 MB). Loaded Objects now: 7112.
-Memory consumption went from 158.2 MB to 154.1 MB.
-Total: 5.188400 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.359700 ms MarkObjects: 2.983500 ms  DeleteObjects: 1.376000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.471 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.442 seconds
-Domain Reload Profiling: 913ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (215ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (114ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (442ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6267 unused Assets / (3.9 MB). Loaded Objects now: 7115.
-Memory consumption went from 158.2 MB to 154.4 MB.
-Total: 4.975700 ms (FindLiveObjects: 0.446400 ms CreateObjectMapping: 0.215400 ms MarkObjects: 3.131600 ms  DeleteObjects: 1.180800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 205.483655 seconds.
-  path: Assets/ColorSkies/Skies
-  artifactKey: Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColorSkies/Skies using Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2384a94fe5aea5dce688b465753f27ad') in 0.0143486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Mkb16
+  artifactKey: Guid(8368fa4ab6dc2b94aabb026e0543256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Mkb16 using Guid(8368fa4ab6dc2b94aabb026e0543256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '210bba777295bb1abcf91c2e08b736fb') in 0.0097648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.758184 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png
-  artifactKey: Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png using Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a38498a9b9c994b90fab22075d7f8ce3') in 0.1098037 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/StreetSub_b.png
+  artifactKey: Guid(28c79f9f39837d247bb5d72e5f5ad0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/StreetSub_b.png using Guid(28c79f9f39837d247bb5d72e5f5ad0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7560d0470f7bbd1232b08b1a0496ea9e') in 0.0216506 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/ColorSkies/Skies/Sky_2.mat
-  artifactKey: Guid(3a8c5fa081c5a974b9fffa93e4230ece) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/ColorSkies/Skies/Sky_2.mat using Guid(3a8c5fa081c5a974b9fffa93e4230ece) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9877f2ed0413d8a86798452139dda8a') in 0.0370823 seconds
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Pistol9_a.png
+  artifactKey: Guid(995330760d7b83b47b44b6147d3f2268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Pistol9_a.png using Guid(995330760d7b83b47b44b6147d3f2268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e8bd56044cf66ce540dfaf9e2e014b2') in 0.0215121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Script/GameStats.cs
+  artifactKey: Guid(d887b25f79e942449acce95a7aaa9491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/GameStats.cs using Guid(d887b25f79e942449acce95a7aaa9491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43db60e7e42646fca827617f83f8122c') in 0.0133593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_brick.fbx
+  artifactKey: Guid(0e2daa9ee1916cd4b9e7dddc44b1867f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_1_brick.fbx using Guid(0e2daa9ee1916cd4b9e7dddc44b1867f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ceb05a4ac719489237d236fe5cb2e04b') in 0.0626405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_metal_2.fbx
+  artifactKey: Guid(faec24f7f310a384783a41a77133d742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_metal_2.fbx using Guid(faec24f7f310a384783a41a77133d742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b789d10a6e6884143de025122a98f2b8') in 0.0332692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/old_pistol
+  artifactKey: Guid(3d4e4d49f49a0664d82653d52e624692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/old_pistol using Guid(3d4e4d49f49a0664d82653d52e624692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '760b51ad11d449b88fcc4d5ff2fe3686') in 0.011714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '604ca0d101fb031a26fa129b73a6bcfa') in 0.0460094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/box_1.glb
+  artifactKey: Guid(85364d9c26d80ec4fa23fa318d045482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/box_1.glb using Guid(85364d9c26d80ec4fa23fa318d045482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7c6df6ba2c61e18f7253df7d26d5893') in 0.011467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_c/Materials/cam_5.mat
+  artifactKey: Guid(add482bed562ce94dabc4af217793bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_c/Materials/cam_5.mat using Guid(add482bed562ce94dabc4af217793bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ee61830b8016100168cc1e2f1192370') in 0.0136554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.png
+  artifactKey: Guid(15555a5c3723c0a49b39dc3cf1892711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.png using Guid(15555a5c3723c0a49b39dc3cf1892711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a16bfa19b71372171e3a5689f887b8ce') in 0.0166763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/revolver.mat
+  artifactKey: Guid(215508a3c1757e14788bfeba03e6e48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/revolver.mat using Guid(215508a3c1757e14788bfeba03e6e48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f07e4852cc24371f780d18201dd883ef') in 0.0144235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/bush_1.fbx
+  artifactKey: Guid(a94be82b639e9aa408e957b2214e96c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/fbx/bush_1.fbx using Guid(a94be82b639e9aa408e957b2214e96c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '342f69bdf5d8b3e8183f22a2aa82f846') in 0.0191446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afa82ca75f8fc3364cb2e6e219f778f7') in 0.0099975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wheel.dae
+  artifactKey: Guid(fa90c3f6326bcfd4382523670c20d4ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wheel.dae using Guid(fa90c3f6326bcfd4382523670c20d4ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a0e499024c6e45bc4abf4a317025c5a') in 0.0182988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/Equipment_assets/red_dot_d_prefab.prefab
+  artifactKey: Guid(ddb93efe74bade049bccef0ed5f14890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/Equipment_assets/red_dot_d_prefab.prefab using Guid(ddb93efe74bade049bccef0ed5f14890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '496d4b8f6372e35fa6610b091b9909bf') in 0.0129079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Materials
+  artifactKey: Guid(62ce5a0ab2d0de741970ff93407d64bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Materials using Guid(62ce5a0ab2d0de741970ff93407d64bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c23251e7fa80d43855d3357be7bb56dc') in 0.0110322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Materials/Pistol9_b.mat
+  artifactKey: Guid(92d6c044c343f3f4886770f6dc3d9db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Materials/Pistol9_b.mat using Guid(92d6c044c343f3f4886770f6dc3d9db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cf55782ec272323348cbeae1e4208cd') in 0.0204007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Add/Soldier_Body_normal.png
+  artifactKey: Guid(4ec0b51b1c981d64795808d82f18c881) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Soldier_Body_normal.png using Guid(4ec0b51b1c981d64795808d82f18c881) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab179cae1a4f5f0e5499e3f422a33eaf') in 0.0206784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Materials/Lock_c.mat
+  artifactKey: Guid(6568edfbaca4f2945b37670a7179090e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Materials/Lock_c.mat using Guid(6568edfbaca4f2945b37670a7179090e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16b507c53d0fe661c6138219cc33d7ef') in 0.0237943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_c/Scope_c.png
+  artifactKey: Guid(e7fdce1fbc60f054680e22f8a290721f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_c/Scope_c.png using Guid(e7fdce1fbc60f054680e22f8a290721f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55d4a4add22385b23523c8ff932daae8') in 0.0168724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_wall.dae
+  artifactKey: Guid(8b838473d49592942ab656898ba49502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wooden_wall.dae using Guid(8b838473d49592942ab656898ba49502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a6988c2838bb6c05d5c2af702437b5d') in 0.0179305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Dot_red.mat
+  artifactKey: Guid(f825b589726b2884aab7ef41c5257991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Dot_red.mat using Guid(f825b589726b2884aab7ef41c5257991) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12e551146e92d0cec9d89c5b6edbd93c') in 0.0139166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_2_R.fbx
+  artifactKey: Guid(1ba2e8bd99f569447860bcefd32acd3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_road_2_R.fbx using Guid(1ba2e8bd99f569447860bcefd32acd3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a9ae1fbd945dce32acf8750a6e36e02') in 0.0168146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(839eddac4d59eea43b2593471af7afb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-1_comp_light.exr using Guid(839eddac4d59eea43b2593471af7afb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c6a9af4d685f1520a00cc1f56b783fa') in 0.0227667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b.png
+  artifactKey: Guid(c821dba5eb541754b87dcc93c9dbe2cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b.png using Guid(c821dba5eb541754b87dcc93c9dbe2cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0bcb6da1a2199f8c9dadaab593777ce') in 0.0187812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_5/Front_Tex.png
+  artifactKey: Guid(0ff3184f83c61694f88e71685b7681cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_5/Front_Tex.png using Guid(0ff3184f83c61694f88e71685b7681cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b484950f5028be1f1bce22bd2adcb248') in 0.0207483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_hole.glb
+  artifactKey: Guid(b504ce9a0d212f34bbee7e8e74b0a375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_hole.glb using Guid(b504ce9a0d212f34bbee7e8e74b0a375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '100022103e7a39154ff9ae41fafafee1') in 0.0117339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/crowbar/crowbar.fbx
+  artifactKey: Guid(edc6d7d9ec5c0cf4db82a7ab20d7c3b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/crowbar/crowbar.fbx using Guid(edc6d7d9ec5c0cf4db82a7ab20d7c3b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25320df78e3d5f53fa622161bf8c0b79') in 0.0157487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Down_Tex.png
+  artifactKey: Guid(11a7be3583abbfb4887ddf650e44e7aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Down_Tex.png using Guid(11a7be3583abbfb4887ddf650e44e7aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1047946c48efd2106656518bf2825c51') in 0.022646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.obj
+  artifactKey: Guid(0c38daff686c46642ad3f06ede485f78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_metal_1.obj using Guid(0c38daff686c46642ad3f06ede485f78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b25a4fb359b4fa3b4883b8e5a95779b5') in 0.0177272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_d.png
+  artifactKey: Guid(9185ab16ea0d19f44a3197e76b1eab08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_d.png using Guid(9185ab16ea0d19f44a3197e76b1eab08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41c7db93a6e50dcbed1ee7174638b8f5') in 0.0226928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.mtl
+  artifactKey: Guid(9e3dd01fc888c6048b059bd7c69df402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_2_R.mtl using Guid(9e3dd01fc888c6048b059bd7c69df402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90ae8be2f258096a9888ddb17260c27a') in 0.0107269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_2.dae
+  artifactKey: Guid(a3988fbccb2731f49a39c4b1b174f788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_2.dae using Guid(a3988fbccb2731f49a39c4b1b174f788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '974cb4561447abdfa01a21d3ddcd8de0') in 0.0158474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat
+  artifactKey: Guid(738dca4628ebf2845a85c2b77c177e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat using Guid(738dca4628ebf2845a85c2b77c177e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c744cda8b4be03482184d6cb0993516') in 0.0110723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLYGON weapons/Assets_official/Equipment_assets/Scope_b_prefab.prefab
+  artifactKey: Guid(badec3aa581d4514daa633f9c9d5608d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/Equipment_assets/Scope_b_prefab.prefab using Guid(badec3aa581d4514daa633f9c9d5608d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '062c2b5a35ebf7956294a6c9603e12cf') in 0.0137039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/red_dot_e.fbx
+  artifactKey: Guid(c679c854d0570d842a6a0e5eb07e1c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/red_dot_e.fbx using Guid(c679c854d0570d842a6a0e5eb07e1c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd17f654376963a13a08683bffab0999') in 0.0238721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON weapons/Scenes/Show_scene
+  artifactKey: Guid(5ae6a5a2c0ed7ca48b616a86b5478df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Scenes/Show_scene using Guid(5ae6a5a2c0ed7ca48b616a86b5478df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2470c6c2bf52abf1a1629741232b8a8a') in 0.0108413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/barrel.obj
+  artifactKey: Guid(4bddc5c6fd838e04193847044391b85c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/barrel.obj using Guid(4bddc5c6fd838e04193847044391b85c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8a6a3ecb959ed90dc0662a741356242') in 0.0198468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/red_dot_e.mat
+  artifactKey: Guid(4eb20dbf855a5c544aec62625e937701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/red_dot_e.mat using Guid(4eb20dbf855a5c544aec62625e937701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf08ab11e1f43bd5cb9d53e02602821d') in 0.0136538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_brick.dae
+  artifactKey: Guid(30d4bd625e582584587ba1788c7f8a04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_brick.dae using Guid(30d4bd625e582584587ba1788c7f8a04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd98017f4330e0b0ce561e3619fe8c1c') in 0.0334479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_a
+  artifactKey: Guid(6a61b2c4b099c354cbea12866dd90086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_a using Guid(6a61b2c4b099c354cbea12866dd90086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f188e2e1e2991bc765e7ae4ae9aab00') in 0.0103295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher/grenade_launcher_b.mat
+  artifactKey: Guid(11ed02c514835574fb33160aacb5b9b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher/grenade_launcher_b.mat using Guid(11ed02c514835574fb33160aacb5b9b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e0e37a062ec2980fafac2d517c349be') in 0.0149816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock
+  artifactKey: Guid(310e2e1dfe6e31e49b5866da18408c10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock using Guid(310e2e1dfe6e31e49b5866da18408c10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28f84179ed8a3a35cd1a0936c9b5be2f') in 0.0111543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/1. Read Me.txt
+  artifactKey: Guid(2cae47b53320a5d40a970718de05b5e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/1. Read Me.txt using Guid(2cae47b53320a5d40a970718de05b5e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd4a7968ac6e6054b1942e8592557f9e') in 0.0181804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Add/Soldier_head_specular.png
+  artifactKey: Guid(a8f2a6986c347ab4ca4adfc708a9e1ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Soldier_head_specular.png using Guid(a8f2a6986c347ab4ca4adfc708a9e1ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3bd9e36c3d02fe85bc7e1133dd9cc39') in 0.0247882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/ground_road_2_L.glb
+  artifactKey: Guid(2b45b36d50befa14bace472785a5856e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/ground_road_2_L.glb using Guid(2b45b36d50befa14bace472785a5856e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2301f336f116a53bc9fa9f2e1b811648') in 0.0110818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(0007885fe1ebcc04cbed6e7f8efa43f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-4_comp_light.exr using Guid(0007885fe1ebcc04cbed6e7f8efa43f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e31020c0b9141f0d33a9cdc88a4c5fd4') in 0.0236136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_a.png
+  artifactKey: Guid(54a751072003f144faefd55f72999f95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_a.png using Guid(54a751072003f144faefd55f72999f95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74d4119d8ac1e2652aef4776c363e6bd') in 0.0218054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4/Left_Tex.png
+  artifactKey: Guid(54c85a2234eacb242b4ee561ac995f0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_4/Left_Tex.png using Guid(54c85a2234eacb242b4ee561ac995f0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b046c61b25f28d48a676c151209c185e') in 0.0167751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ColorSkies/Skies/Sky_3.mat
+  artifactKey: Guid(a93d27d74f0fb574f9bbb6a2dbc86e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Skies/Sky_3.mat using Guid(a93d27d74f0fb574f9bbb6a2dbc86e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c0fcfc24fff8fa94d91e4f8f59925b5') in 0.0470571 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png
-  artifactKey: Guid(ccf6463c9748e3641969f0675ca31557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png using Guid(ccf6463c9748e3641969f0675ca31557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc9900c329b44294a08599e16e3c4d2f') in 0.0159151 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.mtl
+  artifactKey: Guid(22f2d07ebcc3b774b807879118445f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_2.mtl using Guid(22f2d07ebcc3b774b807879118445f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ae14113b83a50f1a063821fb3034f9b') in 0.0114147 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ColorSkies
-  artifactKey: Guid(55006cd4e270c15438807e6e2a24933e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/ColorSkies using Guid(55006cd4e270c15438807e6e2a24933e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64a32ad5052ec39c24f900700f831dec') in 0.0110373 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_b/scope_b_prefab.mat
+  artifactKey: Guid(09488bbfd12db4f4bbcedba80bf43f6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_b/scope_b_prefab.mat using Guid(09488bbfd12db4f4bbcedba80bf43f6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0339c6062ab2d9d27567815436ecd8bb') in 0.013108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON weapons/Assets_official/ClusterSub_prefab.prefab
+  artifactKey: Guid(213ba61a39049b148918fe3d92013e1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/ClusterSub_prefab.prefab using Guid(213ba61a39049b148918fe3d92013e1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '441483f040ac34f71a4b1cbb7c76d566') in 0.0333748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_c
+  artifactKey: Guid(83734b8133985dd4488c20754b8e06b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_c using Guid(83734b8133985dd4488c20754b8e06b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1f09902516132cd2ebab61eb81851ac') in 0.0113956 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/Materials/StreetSub_a.mat
+  artifactKey: Guid(376de83a1f1e2cc45b18e0220b0e82dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/Materials/StreetSub_a.mat using Guid(376de83a1f1e2cc45b18e0220b0e82dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37220ea0c2f78e977b5c2591fa8e2942') in 0.021239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/Nsp_prefab.prefab
+  artifactKey: Guid(70bf8c22d809f0b4f978fae209aeeca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/Nsp_prefab.prefab using Guid(70bf8c22d809f0b4f978fae209aeeca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c83904d42152eb7fc4c81a8e0bdfefaa') in 0.0202039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46f9459c6f1f688c8741cea5caced023') in 0.049178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.obj
+  artifactKey: Guid(58227c043d3b9b14f9a36d3a19522e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_1.obj using Guid(58227c043d3b9b14f9a36d3a19522e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '190c82262b84d171d56925c85a45953b') in 0.0141332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_b.mat
+  artifactKey: Guid(20814526a2ef5c649acc73575f651f72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_b.mat using Guid(20814526a2ef5c649acc73575f651f72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dd59ad816cb9fea679bff78121fe2f0') in 0.0115961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/Thumbnail.png
+  artifactKey: Guid(00d25ab5cbd00b84f9b01f0c2cb984d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/Thumbnail.png using Guid(00d25ab5cbd00b84f9b01f0c2cb984d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5655816768ca5160b63e0320d423d92d') in 0.0183073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/AugeCam.mat
+  artifactKey: Guid(b4fefa7d88c99d24393c010f3b4b3eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/AugeCam.mat using Guid(b4fefa7d88c99d24393c010f3b4b3eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1852851a4b85c1e29fef12792d3fe37') in 0.0132638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_concrete_metal.fbx
+  artifactKey: Guid(4d6fb36a3c86c6a45b56e8c3e15a9787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/wall_concrete_metal.fbx using Guid(4d6fb36a3c86c6a45b56e8c3e15a9787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a92e022a26ace37e20a023abab453ebf') in 0.0201675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/TITLE 4.png
+  artifactKey: Guid(19018168c47888348ae05a9ce17f371e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/TITLE 4.png using Guid(19018168c47888348ae05a9ce17f371e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fb42d9506890f068ddce356eb0a8b2a') in 0.017135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/Materials
+  artifactKey: Guid(44dc8ae4184e41545b8fa77cab38fea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/Materials using Guid(44dc8ae4184e41545b8fa77cab38fea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75f3a5cf61cb28b2b39fd37969009358') in 0.0100915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx
+  artifactKey: Guid(4a2371edfce86e946a1d4718611f07ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Models/Cosmic_Retro_Computer_7.fbx using Guid(4a2371edfce86e946a1d4718611f07ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cc342f2673325f0fe13ae99bbb30260') in 0.0162714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b_emission.png
+  artifactKey: Guid(00a3fab9006f532439ee375137265cc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b_emission.png using Guid(00a3fab9006f532439ee375137265cc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7abb4f9a1607e44b50b5da47d19d7129') in 0.0137715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.obj
+  artifactKey: Guid(517fc45f6b0824049914bccb23f4982f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_R.obj using Guid(517fc45f6b0824049914bccb23f4982f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b392ee3fad88b81b337f27ef7f4a41fb') in 0.0168976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_brick.mtl
+  artifactKey: Guid(23735c4b38ee3a24591f449e2d0bb6ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_1_brick.mtl using Guid(23735c4b38ee3a24591f449e2d0bb6ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9652c743caed1c80e9c6e574c55667eb') in 0.0093946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/Equipment_assets/Suppressor_b_prefab.prefab
+  artifactKey: Guid(c720069b6f176304b92c9663a0317df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/Equipment_assets/Suppressor_b_prefab.prefab using Guid(c720069b6f176304b92c9663a0317df8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cbc39774872b0f93ec9bc7fca726eed') in 0.0136427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/sce5/Materials
+  artifactKey: Guid(f6e494f13a3588541aeceeccd70c0a5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/sce5/Materials using Guid(f6e494f13a3588541aeceeccd70c0a5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96adba404293391e4bb8882d1e180b73') in 0.0091035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/box_1.fbx
+  artifactKey: Guid(cd0ca9835129d4645a4e57c5cd5fa187) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/box_1.fbx using Guid(cd0ca9835129d4645a4e57c5cd5fa187) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0aa5a7c11455c227067498d5c41c11b') in 0.0175501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_window_1.glb
+  artifactKey: Guid(8eecd8b015579074aa8c3b5b63045b3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_window_1.glb using Guid(8eecd8b015579074aa8c3b5b63045b3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac2fb33e227c7e6ec5b4ccb7947a9be4') in 0.0092436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8/Up_Tex.png
+  artifactKey: Guid(58a9b7b6b89b47e48a9fb6017d34fe54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_8/Up_Tex.png using Guid(58a9b7b6b89b47e48a9fb6017d34fe54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '211079144ae8c0c6cf50758881b7ec30') in 0.017533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.obj
+  artifactKey: Guid(afd852d2ff70d46489baaa50ca82c05a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_concrete_metal.obj using Guid(afd852d2ff70d46489baaa50ca82c05a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46423d9ae67d90423056e905960c0bea') in 0.0225637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_1/Front_Tex.png
+  artifactKey: Guid(7a3837d7139c94344972fa9fc9a474e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_1/Front_Tex.png using Guid(7a3837d7139c94344972fa9fc9a474e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d707a21bcd8e0a223425a783563da07') in 0.0161312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/rocket_launcher/Materials/rocket_launcher.mat
+  artifactKey: Guid(448c2a57698559747a65ae7d2e01a772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/rocket_launcher/Materials/rocket_launcher.mat using Guid(448c2a57698559747a65ae7d2e01a772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '845e2d7164341012633c48b98493a105') in 0.0139255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_3/Down_Tex.png
+  artifactKey: Guid(f5c10e8155f7ef2429f4ecfed1e81a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_3/Down_Tex.png using Guid(f5c10e8155f7ef2429f4ecfed1e81a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bf25206b9d64429d4eadfa302b8d82a') in 0.0160174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/magnums_holder.png
+  artifactKey: Guid(d3d0d4be8651c574c912e492d001e2b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/magnums_holder.png using Guid(d3d0d4be8651c574c912e492d001e2b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b67fc8f05429a0cfd96d2c9eaa8416f') in 0.0155489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_1.fbx
+  artifactKey: Guid(e519ff32358e35a499349d0b68a68503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/ground_1.fbx using Guid(e519ff32358e35a499349d0b68a68503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff02e74c8cee2b361f70fb47aa01cf15') in 0.0183813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Materials/Lock_b.mat
+  artifactKey: Guid(757d3fc364fc6294e975f84b0d9ecf64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Materials/Lock_b.mat using Guid(757d3fc364fc6294e975f84b0d9ecf64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d9c9a12518c4c5bc38c74b156114f29') in 0.0141827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(269ab088c34a3094099f41d0dd52ac71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab using Guid(269ab088c34a3094099f41d0dd52ac71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed38e3b75c517f222ea1c3f0e6ee0762') in 0.0107131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StylizedMaterials4K_PBR/Textures/Dirt/Materials
+  artifactKey: Guid(1dbdd701375940b4e8be1ca5c8dd8e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StylizedMaterials4K_PBR/Textures/Dirt/Materials using Guid(1dbdd701375940b4e8be1ca5c8dd8e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01d2c9420e58f7bef8da8ec0ea30d460') in 0.0103582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/car.dae
+  artifactKey: Guid(2fc5581beefdae5438d8e596a8c02df3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/car.dae using Guid(2fc5581beefdae5438d8e596a8c02df3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d448439224b35f53965e8adfe2d38ff') in 0.0199967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8/Front_Tex.png
+  artifactKey: Guid(3f9dd857e107eea4dbc8fab7ebd80a13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_8/Front_Tex.png using Guid(3f9dd857e107eea4dbc8fab7ebd80a13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37594c92cb98de83c6be4adfa0a67ceb') in 0.0151534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/revolver.png
+  artifactKey: Guid(c13d4e2d528b202468163929fe046271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/revolver.png using Guid(c13d4e2d528b202468163929fe046271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '733462cb135aaadbfeccd25e33cec22f') in 0.0133728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/Materials/cam_2.mat
+  artifactKey: Guid(a244333a252caa542889ece3fd429ab3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_e/Materials/cam_2.mat using Guid(a244333a252caa542889ece3fd429ab3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd81c86bd9a7c065e515181fca31979e8') in 0.0117656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle
+  artifactKey: Guid(174ad5bd721c7b248bdec343878c8228) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle using Guid(174ad5bd721c7b248bdec343878c8228) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68f36130f9f5ee93669b7405b71b936c') in 0.0185721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_2.fbx
+  artifactKey: Guid(3a2181db5fc1b69459ee78c261e67a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_2.fbx using Guid(3a2181db5fc1b69459ee78c261e67a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a860968e629c5193d5a287d4d33e19c') in 0.0199978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fb6819eb9a95bc2bde30fd42e5df60b') in 0.015371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_c/Materials/Cam_1.mat
+  artifactKey: Guid(fc0058242bbeea448951beb09dc8f149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_c/Materials/Cam_1.mat using Guid(fc0058242bbeea448951beb09dc8f149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94a46643de75d15acf9a750031ae77d5') in 0.0139895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher/grenade_launcher_a.png
+  artifactKey: Guid(4483b10c0e329e34f8ba4698067cd1de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher/grenade_launcher_a.png using Guid(4483b10c0e329e34f8ba4698067cd1de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '576446d1f10994a28c9d41da95db2e23') in 0.0204278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4
+  artifactKey: Guid(9b1e073ef723e5c4cbbb2022bfc4d089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_4 using Guid(9b1e073ef723e5c4cbbb2022bfc4d089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01774172af1065a034b0baeed2bfb44b') in 0.0108398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/Auge_b.mat
+  artifactKey: Guid(a0c06bfb463548d41a44c0d34fc8a84f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/Auge_b.mat using Guid(a0c06bfb463548d41a44c0d34fc8a84f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '464b3c79f72c301c55d77b272be8c3e3') in 0.0131584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Blast_set/Blast_set.mat
+  artifactKey: Guid(05e85e11baf517c4097c8347112caa11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Blast_set/Blast_set.mat using Guid(05e85e11baf517c4097c8347112caa11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b826565bd617448695476f55d1ffa749') in 0.0148373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
   Time since last request: 0.000014 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope.mat
+  artifactKey: Guid(965bc7f9eea35be4981c60549e7ba5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope.mat using Guid(965bc7f9eea35be4981c60549e7ba5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '791e6395f975d7f5559dfa8e64e90f05') in 0.0134324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/12,7 × 99.fbx
+  artifactKey: Guid(485d808c6082d754f83573295235e5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/12,7 × 99.fbx using Guid(485d808c6082d754f83573295235e5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56862a50ea9861878a0724c56cc7de79') in 0.0204502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Pistol9_a.mat
+  artifactKey: Guid(8118be295f941e14e9d3bb97928442e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Pistol9/Pistol9_a.mat using Guid(8118be295f941e14e9d3bb97928442e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f349760bdf0abb20504daf113e740c2e') in 0.0125936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd68aaa90e20f69ce40b95e68d79cdd6') in 0.0237389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_b/laser_b_emission.png
+  artifactKey: Guid(6d0531f3f78600c4592a088fe75eea8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_b/laser_b_emission.png using Guid(6d0531f3f78600c4592a088fe75eea8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f08827f238f21e8bcfbaf2f3c9a2589d') in 0.0164185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope_tex_emission.png
+  artifactKey: Guid(ccdcc954f4a14b54d999c04e2adf830e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope_tex_emission.png using Guid(ccdcc954f4a14b54d999c04e2adf830e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02f9d416c5da55b773dd5c568096297b') in 0.0728451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 2.png
+  artifactKey: Guid(48e2c5a9d8eae9d4fbc19460202b37bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/3. Samples/img 2.png using Guid(48e2c5a9d8eae9d4fbc19460202b37bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eaf0d88b9f266928f4b17342978493f') in 0.0157677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Add/Asset
+  artifactKey: Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset using Guid(547c9d67387c03b4b8fde36af34ccb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80a7fa1473c3fb518c487ad0fc90e644') in 0.0107855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx
+  artifactKey: Guid(12d39b35a7b00654fb77dafe998adb53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_concrete_metal.fbx using Guid(12d39b35a7b00654fb77dafe998adb53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dcebea4b1652b376f2e6e025ae16a2a') in 0.0188376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.obj
+  artifactKey: Guid(4ebca9677861e994a9da2d3ee07700cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wooden_spike_barricade.obj using Guid(4ebca9677861e994a9da2d3ee07700cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '635ca6fa4c8ebfbbae78816209aad416') in 0.023466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/machinegun_b.png
+  artifactKey: Guid(029d7dd9110da714d9f26edc64e9b8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/machinegun_b.png using Guid(029d7dd9110da714d9f26edc64e9b8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8892060f74452b314aa62e3fbf8ff93f') in 0.0158554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Add/Materials/Soldier_head_specular.mat
+  artifactKey: Guid(748b5fec8b48a05489917e3ca1da7a77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Materials/Soldier_head_specular.mat using Guid(748b5fec8b48a05489917e3ca1da7a77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6064d26c8870ce96b056af2c1cf5331a') in 0.0129059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Mkb16/Mkb16.mat
+  artifactKey: Guid(0f65976505b1d3548acb082f9c4cf1f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Mkb16/Mkb16.mat using Guid(0f65976505b1d3548acb082f9c4cf1f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09e26282fe865698f87e5d47ba81a418') in 0.0135768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 13.png
+  artifactKey: Guid(57f3580e7eb01f34ca9195ecd56f07a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/4. Samples/img 13.png using Guid(57f3580e7eb01f34ca9195ecd56f07a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9a05ee935b393c279d86593f56d7203') in 0.0151646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/pumpgun_a/pumpgun_a.fbx
+  artifactKey: Guid(f8d7f4f03bd7b434b8f47b4d829deb7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/pumpgun_a/pumpgun_a.fbx using Guid(f8d7f4f03bd7b434b8f47b4d829deb7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07ff3555c9ab56d44040ed3d69eb3480') in 0.0279675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc2328f5e446621d470db43bb134cac6') in 0.020052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_wall.glb
+  artifactKey: Guid(6d09f84fc38cca84da1aed2d9cde7160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_wall.glb using Guid(6d09f84fc38cca84da1aed2d9cde7160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c33b3b41c3d5b10f1c63ed774bdf4fee') in 0.0111972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbddcbb9e32f3d3972f33f3ffd1ac2df') in 0.0143678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7d970a11aaaa04f4db1fc1d66f7a561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Scenes/Show_scene/Lightmap-1_comp_dir.png using Guid(7d970a11aaaa04f4db1fc1d66f7a561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a88dbceaea6b75e12024a62b77298556') in 0.0240434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/README.rtf
+  artifactKey: Guid(6bc59be9776f6af4fa723f294f80f2b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/README.rtf using Guid(6bc59be9776f6af4fa723f294f80f2b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdb49f5b3580369bb010327c89e8a7dc') in 0.0116019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Script/AmmoShopButton.cs
+  artifactKey: Guid(648bc26059b552942b5635b3c596259c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/AmmoShopButton.cs using Guid(648bc26059b552942b5635b3c596259c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd35160cb54df4dc606fc744739f5c240') in 0.0129889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Russian_sniper/Russian_sniper.fbx
+  artifactKey: Guid(940fdf892d907034fb694a9b20734576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Russian_sniper/Russian_sniper.fbx using Guid(940fdf892d907034fb694a9b20734576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca4dceab90393ce8ea59be574e3d09be') in 0.0275138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/bullet_shells_assets/magnum_prefab.prefab
+  artifactKey: Guid(5df70ab01958d7f48957c3c19d5c1516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/bullet_shells_assets/magnum_prefab.prefab using Guid(5df70ab01958d7f48957c3c19d5c1516) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2562bdf910a594687b82e4e641752130') in 0.0207537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_L.fbx
+  artifactKey: Guid(7ab0a16f6052a9d4080cb7fa7e2a5a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_L.fbx using Guid(7ab0a16f6052a9d4080cb7fa7e2a5a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc5a8134b33f36137f20f481d587b05d') in 0.0202954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_7/Up_Tex.png
+  artifactKey: Guid(3ae5e39d7931ec74f8e9f1781aaf1e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_7/Up_Tex.png using Guid(3ae5e39d7931ec74f8e9f1781aaf1e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23bc29866dea4d59a6f7234c7d3be8a7') in 0.01572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Russian_sniper/Russian_sniper_cam.renderTexture
+  artifactKey: Guid(69ed900a10b12cd438fd2eec0f76303d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Russian_sniper/Russian_sniper_cam.renderTexture using Guid(69ed900a10b12cd438fd2eec0f76303d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dff7e920600e289e0d5ee1622bb7389e') in 0.0170932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1.dae
+  artifactKey: Guid(818d0b11bae021749ac620aa1c1d5197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1.dae using Guid(818d0b11bae021749ac620aa1c1d5197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bc323fd6b3d00317541352a5e5ae240') in 0.0168968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials
+  artifactKey: Guid(1495d456fb5ae32488c2ae5e447ee4ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials using Guid(1495d456fb5ae32488c2ae5e447ee4ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a21317010ef466186baf7472f79b4b5') in 0.0114002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLYGON weapons/Assets_official/revolver_prefab.prefab
+  artifactKey: Guid(10a375ecf720bb8448ec9d19a4fd6741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/revolver_prefab.prefab using Guid(10a375ecf720bb8448ec9d19a4fd6741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36a8c2960c17518c05c181b5b5220a07') in 0.0211354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_c/suppressor_c.fbx
+  artifactKey: Guid(ec97341a2f9e79641aa547937a9ced92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_c/suppressor_c.fbx using Guid(ec97341a2f9e79641aa547937a9ced92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a38eb24854af30501fa3c84bcfcc03c') in 0.01652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_1.fbx
+  artifactKey: Guid(eb2571a3461d18846ba991ca1ba396bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_1.fbx using Guid(eb2571a3461d18846ba991ca1ba396bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52bd82ff14528ab148ddd50052b512cc') in 0.0176339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.fbx
+  artifactKey: Guid(51c7308889c10534bb603ff2b243171f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.fbx using Guid(51c7308889c10534bb603ff2b243171f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3aea902a7660a897f4ba60d474949ce3') in 0.0174638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/Materials/machinegun_a.mat
+  artifactKey: Guid(71340a208b6015a4faa45265d2fa7dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/Materials/machinegun_a.mat using Guid(71340a208b6015a4faa45265d2fa7dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2a41a24c10e03d8114ee123f622e4f2') in 0.0133426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2/Up_Tex.png
+  artifactKey: Guid(ce2c5305fe145864f9a6d953f6d091e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Up_Tex.png using Guid(ce2c5305fe145864f9a6d953f6d091e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bdde3cdf4a626f05c4c510f5105c21f') in 0.0152567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_spiked.glb
+  artifactKey: Guid(cfb5fb12b27add044aebb68a7447cb69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_spiked.glb using Guid(cfb5fb12b27add044aebb68a7447cb69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd37c35014a6414084790c4c75496620b') in 0.0098851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/RP9/RP9_b.png
+  artifactKey: Guid(a96a95e39e746624381eee7ac9dbbc4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/RP9/RP9_b.png using Guid(a96a95e39e746624381eee7ac9dbbc4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbbac1e7983b66b0fdbc7eeb3deb5931') in 0.0123111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Nsp/Nsp.png
+  artifactKey: Guid(9b411591cfffbed4dba0b37d11114d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Nsp/Nsp.png using Guid(9b411591cfffbed4dba0b37d11114d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '715e45530f452ba84dc2fb7a7a33ecc4') in 0.0129516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2614715c256bc9dce878edbd11c433a') in 0.0240973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun
+  artifactKey: Guid(719f0783e2ec78643a4ac367da7fa2a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun using Guid(719f0783e2ec78643a4ac367da7fa2a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d48fdfaf841a16e171b50f124b73f4d') in 0.0105419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/sharpened_stick.obj
+  artifactKey: Guid(b36ba6b0a4841654b8539637dd46c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/FREE/obj/sharpened_stick.obj using Guid(b36ba6b0a4841654b8539637dd46c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4655f29446ee4b6b1762c25aaedeb1f') in 0.0154277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_column.dae
+  artifactKey: Guid(96631c1780a6d304ab732355abc40f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_column.dae using Guid(96631c1780a6d304ab732355abc40f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9be89db43fa5a8610f56ec6a476d3f75') in 0.01507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/Lock_prefab.prefab
+  artifactKey: Guid(b6ddb5cedd75ac741966c5f8e57b696f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/Lock_prefab.prefab using Guid(b6ddb5cedd75ac741966c5f8e57b696f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1340090defbd6afd9d8673f6b3ec3b2') in 0.0195265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[FREE] Into The Wild/1. Read Me.txt
+  artifactKey: Guid(d1afabe311ab9bf48802395e83d24b29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[FREE] Into The Wild/1. Read Me.txt using Guid(d1afabe311ab9bf48802395e83d24b29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c51a66f262c2c600f5d15a0027ef9ee') in 0.0148517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_column.mtl
+  artifactKey: Guid(7b833a593f23a8745857a62461355afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_column.mtl using Guid(7b833a593f23a8745857a62461355afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '244b46e7486fe7529ced25779b714c04') in 0.0092168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/scorp6/scorp6.fbx
+  artifactKey: Guid(ba44d1392666959468376382818755c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/scorp6/scorp6.fbx using Guid(ba44d1392666959468376382818755c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a8bb3e851999d3050b7c33b0e767d31') in 0.0233103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Dot_green.mat
+  artifactKey: Guid(247587cea8c27f944a8705e92088a738) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Dot_green.mat using Guid(247587cea8c27f944a8705e92088a738) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6510df37840e4576c5e2c6ab0b6ba7b3') in 0.0129903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher
+  artifactKey: Guid(b91d4470ff2160740bbe60262c82ea7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/grenade_launcher using Guid(b91d4470ff2160740bbe60262c82ea7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7eaf29b52e8ea0c0b78687e8db83d42') in 0.0108413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ColorSkies/Skies/Sky_1.mat
+  artifactKey: Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Skies/Sky_1.mat using Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ca32f2f238288bf98960d68b83d9451') in 0.0275551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4/Up_Tex.png
+  artifactKey: Guid(a8416f33edf509944a163c8fe94d24fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ColorSkies/Textures/Skybox_4/Up_Tex.png using Guid(a8416f33edf509944a163c8fe94d24fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d4f3ff98c03d1cb7637635372ea523c') in 0.0159202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_a/scope_a.png
+  artifactKey: Guid(393e82ec647606047bfbf7a9d0a7cfd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Scope_a/scope_a.png using Guid(393e82ec647606047bfbf7a9d0a7cfd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '649232b186f0601d94ef405751e655b3') in 0.0158586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_hole.fbx
+  artifactKey: Guid(a840563af0080b74dad4a4abbca35f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_hole.fbx using Guid(a840563af0080b74dad4a4abbca35f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67147281832d39d719381206b126fb79') in 0.0228089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE
+  artifactKey: Guid(c52cfab860e9e704782258dc5bbde77a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE using Guid(c52cfab860e9e704782258dc5bbde77a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '068e626c4db7d73654d3537ce8a46265') in 0.0104176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cosmic_Retro_Computer_1_FREE/Prefabs
+  artifactKey: Guid(144cd576363b96d46aa6de043906e522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cosmic_Retro_Computer_1_FREE/Prefabs using Guid(144cd576363b96d46aa6de043906e522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f13d322f266fe0087107c2c3131a293') in 0.0100727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Lock.fbx
+  artifactKey: Guid(1e2f6fcc2d82dd54091f5e9a3989672b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Lock.fbx using Guid(1e2f6fcc2d82dd54091f5e9a3989672b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1271ebad48ba912c5e8c476c04adf895') in 0.0272535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
   path: Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png
   artifactKey: Guid(73792e4787969994bb4c97e418591c41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png using Guid(73792e4787969994bb4c97e418591c41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35c5a9fdaa09c3a518be90c724c28ca2') in 0.0135149 seconds
+Start importing Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png using Guid(73792e4787969994bb4c97e418591c41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '939f9af31145c0d2aa772649f4839b4c') in 0.0128639 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b67efb200dc2f0f7fc0729bdbd7fca5') in 0.0093939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Script/ArmorShopButton.cs
+  artifactKey: Guid(35a9b0b47a7c1b049af4663e560fdebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/ArmorShopButton.cs using Guid(35a9b0b47a7c1b049af4663e560fdebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88d96493abe4acf706a484baad7c13ce') in 0.0103392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLYGON weapons/Assets_official/bullet_shells_assets/12,7 × 99_prefab.prefab
+  artifactKey: Guid(46987e56b43ba3a4e95ca266a6ef248c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/POLYGON weapons/Assets_official/bullet_shells_assets/12,7 × 99_prefab.prefab using Guid(46987e56b43ba3a4e95ca266a6ef248c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e654bbaf991e1568a0e0108482aa568b') in 0.0171887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

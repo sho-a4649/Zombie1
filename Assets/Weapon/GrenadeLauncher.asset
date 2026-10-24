@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: GrenadeLauncher
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: GL
-  damage: 0
-  fireRate: 0
-  maxAmmo: 0
-  reloadTime: 0
-  aimSpread: 0
-  hipSpread: 0
-  shootSpread: 0
-  range: 0
+  damage: 120
+  fireRate: 0.8
+  maxAmmo: 6
+  reloadTime: 4
+  aimSpread: 10
+  hipSpread: 10
+  shootSpread: 1
+  range: 15
   ammoType: 3
-  price: 5000
+  price: 4500
   isShotgun: 0
   pelletCount: 8
   isRocketLauncher: 0
-  projectilePrefab: {fileID: 0}
-  projectileSpeed: 0
-  explosionRadius: 0
-  explosionDamage: 0
+  projectilePrefab: {fileID: 462273263738318112, guid: 234d9935733c1564aa998419ef9f1816, type: 3}
+  projectileSpeed: 20
+  explosionRadius: 4
+  explosionDamage: 120
+  isGrenadeLauncher: 1
   shootSound: {fileID: 0}

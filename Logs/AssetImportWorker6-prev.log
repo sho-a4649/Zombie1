@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26300) Professional' Language: 'ja' Physical Memory: 32486 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-22T02:27:19.5109323Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student" at "2026-10-23T00:48:56.3997097Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-22T02:27:19Z
+Date: 2026-10-23T00:48:56Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Unity/Zombie/Zombie1
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-50425
+64532
 -licensingIpc
 LicenseClient-student
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Unity/Zombie/Zombie1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [244564]  Target information:
+Player connection [280072]  Target information:
 
-Player connection [244564]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 1237082036 [EditorId] 1237082036 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [280072]  * "[IP] 10.219.32.101 [Port] 0 [Flags] 2 [Guid] 464112759 [EditorId] 464112759 [Version] 1048832 [Id] WindowsEditor(7,KIC-GAME-B-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [244564] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [244564] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [280072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [280072] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -100,12 +100,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001255 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.001230 seconds.
+- Loaded All Assemblies, in  0.298 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -113,35 +113,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.444 seconds
-Domain Reload Profiling: 785ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.277 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (105ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (444ms)
+	FinalizeReload (278ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
+		SetupLoadedEditorAssemblies (244ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -156,17 +156,17 @@ Begin MonoManager ReloadAssembly
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-student"
 [Licensing::IpcConnector] LicenseClient-student channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-22T02:27:21.2719082Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12" at "2026-10-23T00:48:57.975228Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              e2d33e0fc25e410f93bff28b9e531510
-  Correlation Id:          5e0dff90417f8873b82cc9ae9992bf30
-  External correlation Id: 5862000219154041937
+  Session Id:              b5a3e49719674e86a94fbf2d8b6825ab
+  Correlation Id:          e98f252d67ab2b7666a0a2267fd9cf0d
+  External correlation Id: 6443573023552141702
   Machine Id:              BxkKmU+zEgoMR5lg/hcjBDGvBeg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.55s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-22T02:27:22.8266949Z"
-[Licensing::Module] Licensing Background thread has ended after 3.32s
-[Licensing::Module] Licensing is initialized (took 1.75s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-student-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-student-6000.3.12-notifications" at "2026-10-23T00:48:59.3428508Z"
+[Licensing::Module] Licensing Background thread has ended after 2.94s
+[Licensing::Module] Licensing is initialized (took 1.64s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: E4-X4M8-VCNJ-QEXC-2ZJK-XXXX
@@ -178,8 +178,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.270 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.158 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -189,9 +189,9 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.545 seconds
-Domain Reload Profiling: 2813ms
-	BeginReloadAssembly (1869ms)
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 2658ms
+	BeginReloadAssembly (1766ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
@@ -200,173 +200,38 @@ Domain Reload Profiling: 2813ms
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (239ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (106ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (546ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (502ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
+		SetupLoadedEditorAssemblies (366ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6271 unused Assets / (4.4 MB). Loaded Objects now: 7086.
-Memory consumption went from 153.8 MB to 149.4 MB.
-Total: 5.002700 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.243500 ms MarkObjects: 3.127400 ms  DeleteObjects: 1.225700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 498659.294747 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/car.obj
-  artifactKey: Guid(1d0a5e0aa52504642991c5e46149330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/car.obj using Guid(1d0a5e0aa52504642991c5e46149330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8862acd45f942040adcaa4fdec3ff6d5') in 0.5919088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_2.obj
-  artifactKey: Guid(e1a9a1ae47ce06c4a8b95141ac6ea5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_2.obj using Guid(e1a9a1ae47ce06c4a8b95141ac6ea5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2944ba6c357d5d5d5d8e64517631f5f') in 0.0773859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_L.obj
-  artifactKey: Guid(d9ee90a3722f5774fae7de5c033b4cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_road_1_L.obj using Guid(d9ee90a3722f5774fae7de5c033b4cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '105ebac2050f70fc8b8ff97a17b86d57') in 0.0913537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_planks.obj
-  artifactKey: Guid(b2fe8e2746b946140be8ec1182d740c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/ground_planks.obj using Guid(b2fe8e2746b946140be8ec1182d740c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ca9097f33d0e25c1cd37bff0fe47b5') in 0.0224818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_3.obj
-  artifactKey: Guid(1f054a1e6557b71449e519b1d8a1dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/metal_board_3.obj using Guid(1f054a1e6557b71449e519b1d8a1dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aedea8fa2ea45d60c7c30deddeb6dcba') in 0.0220289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.191622 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/car.fbx
-  artifactKey: Guid(b504365959eb1274e90ef07206842504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/car.fbx using Guid(b504365959eb1274e90ef07206842504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0560c4604d8432953b6433c8ef06ed66') in 0.3390446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1.fbx
-  artifactKey: Guid(cec6d40866d77c2498275c0711acb989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1.fbx using Guid(cec6d40866d77c2498275c0711acb989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcd0d260026329d4f46d86062472893a') in 0.0210998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_brick.fbx
-  artifactKey: Guid(b01659fed25174147a0650999b9b0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx (Unity Rotated)/wall_1_brick.fbx using Guid(b01659fed25174147a0650999b9b0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e39b1bd464c8c0e2ccd76764b629e1') in 0.137992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.919947 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/car.fbx
-  artifactKey: Guid(5998ca3a479fd4948a7aaaab789b8571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/car.fbx using Guid(5998ca3a479fd4948a7aaaab789b8571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9149429c2b7c017ff1d6096886ea41') in 0.2075927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_L.fbx
-  artifactKey: Guid(7ab0a16f6052a9d4080cb7fa7e2a5a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/ground_road_2_L.fbx using Guid(7ab0a16f6052a9d4080cb7fa7e2a5a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63bd77c544dc0fdc43b5b8cb56dca732') in 0.0176667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_2.fbx
-  artifactKey: Guid(124d2f40679fe6243bd8242047f6b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/metal_board_2.fbx using Guid(124d2f40679fe6243bd8242047f6b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cedc7e6b5cedda4c4989bb9bc085ee79') in 0.0183329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/tire.fbx
-  artifactKey: Guid(fa415ae4a76491d4d97ff38136f96b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/fbx/tire.fbx using Guid(fa415ae4a76491d4d97ff38136f96b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dada69f242c9921cd348058d5832508b') in 0.01994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.014536 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/car.dae
-  artifactKey: Guid(2fc5581beefdae5438d8e596a8c02df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/car.dae using Guid(2fc5581beefdae5438d8e596a8c02df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b8b7b57ddfc01f07aaacb4ae4235d9a') in 0.2655584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_window_1.dae
-  artifactKey: Guid(ec73cba74a0648a4c916ed2bb33912f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/wall_1_window_1.dae using Guid(ec73cba74a0648a4c916ed2bb33912f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bef5303b8ae1d60bf0ee07ce7f0b0c5') in 0.0621743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/tire.dae
-  artifactKey: Guid(6e2b61d186d2bba48bb1dec3aeebcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/tire.dae using Guid(6e2b61d186d2bba48bb1dec3aeebcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c49210618ac4f7090c80455d1b48f7f') in 0.0459683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_L.dae
-  artifactKey: Guid(25562140fa412f2499a9c5a24ce34368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/dae/ground_road_1_L.dae using Guid(25562140fa412f2499a9c5a24ce34368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22d123a10bcdb52f3450c5cc82b65b90') in 0.0464826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.310319 seconds.
-  path: Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_spiked.obj
-  artifactKey: Guid(98063d7d3d634ae44ab58330736c2608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Add/Asset/[AR] Post-Apocalyptic - Starter Pack/3. Models/obj/wall_spiked.obj using Guid(98063d7d3d634ae44ab58330736c2608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37c8d1acf39f5276b36080b4392ea5d2') in 0.1869519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+Unloading 6271 unused Assets / (3.5 MB). Loaded Objects now: 7089.
+Memory consumption went from 154.5 MB to 151.0 MB.
+Total: 5.058400 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.229500 ms MarkObjects: 3.221600 ms  DeleteObjects: 1.211600 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

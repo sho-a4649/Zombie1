@@ -125,7 +125,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -466,6 +465,7 @@
 "Assets/Script/GameClearManager.cs"
 "Assets/Script/GameOverManager.cs"
 "Assets/Script/GameStats.cs"
+"Assets/Script/GrenateProjectile.cs"
 "Assets/Script/HealShopButton.cs"
 "Assets/Script/MoneyPickup.cs"
 "Assets/Script/MouseLook.cs"
@@ -484,6 +484,7 @@
 "Assets/Script/UIMamager.cs"
 "Assets/Script/WaveManager.cs"
 "Assets/Script/WeaponData.cs"
+"Assets/Script/WeaponHolderFollow.cs"
 "Assets/Script/WeaponManager.cs"
 "Assets/Script/WeaponObject.cs"
 "Assets/Script/ZombieAI.cs"

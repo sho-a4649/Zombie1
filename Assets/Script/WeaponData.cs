@@ -29,5 +29,7 @@ public class WeaponData : ScriptableObject
     public float explosionRadius;
     public float explosionDamage;
 
+    public bool isGrenadeLauncher;
+
     public AudioClip shootSound;
 }

@@ -108,6 +108,10 @@ public class PlayerShoot : MonoBehaviour
         {
             FireRocket();
         }
+        else if (currentWeapon.isGrenadeLauncher)
+        {
+            FireGrenade();
+        }
         else if (currentWeapon.isShotgun)
         {
             FireShotgun();
@@ -321,7 +325,7 @@ public class PlayerShoot : MonoBehaviour
     {
         Debug.Log("Rocket Fire");
 
-        GameObject rocket = Instantiate(currentWeapon.projectilePrefab, firePoint.position, firePoint.rotation);
+        GameObject rocket = Instantiate(currentWeapon.projectilePrefab, firePoint.position, firePoint.rotation * Quaternion.Euler(-90f, 0f, 0f));
 
         Rigidbody rb = rocket.GetComponent<Rigidbody>();
 
@@ -334,5 +338,16 @@ public class PlayerShoot : MonoBehaviour
         rocketScript.damage = currentWeapon.explosionDamage;
 
         rocketScript.radius = currentWeapon.explosionRadius;
+
+        //rocketScript.explosionEffect = currentWeapon.explosionEffect;
+    }
+
+    void FireGrenade()
+    {
+        GameObject grenade = Instantiate(currentWeapon.projectilePrefab, firePoint.position, firePoint.rotation);
+
+        Rigidbody rb = grenade.GetComponent<Rigidbody>();
+
+        rb.linearVelocity = firePoint.forward * currentWeapon.projectileSpeed;
     }
 }
